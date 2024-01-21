@@ -655,9 +655,20 @@ main {
   scroll-snap-type: inline mandatory;
 }
 
+.testimonials-list::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(180deg, var(--text-gradient-yellow) 0%, var(--text-gradient-yellow) 99%);
+  box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+  border-radius: 100px;
+  scrollbar-width: auto;
+}
+
 .testimonials-item {
   min-width: 100%;
   scroll-snap-align: center;
+}
+
+.testimonials-item date {
+  color: var(--vegas-gold);
 }
 
 .testimonials-avatar-box {
@@ -928,6 +939,16 @@ main {
   color: var(--light-gray);
   font-weight: var(--fw-300);
   line-height: 1.6;
+}
+
+.timeline-text a {
+  color: cyan;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 
 
@@ -1639,6 +1660,7 @@ textarea.form-input::-webkit-resizer {
     line-clamp: 2;
     -webkit-line-clamp: 2;
   }
+
 
   /* testimonials modal */
 
