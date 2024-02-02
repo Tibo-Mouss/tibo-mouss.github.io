@@ -943,11 +943,16 @@ main {
 
 .timeline-text a {
   color: cyan;
-  -webkit-touch-callout: none; /* iOS Safari */
-  -webkit-user-select: none; /* Safari */
-  -khtml-user-select: none; /* Konqueror HTML */
-  -moz-user-select: none; /* Old versions of Firefox */
-  -ms-user-select: none; /* Internet Explorer/Edge */
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
   user-select: none;
 }
 
@@ -2239,4 +2244,217 @@ textarea.form-input::-webkit-resizer {
 
 .sopra_projects td {
   padding-bottom: 50px;
+}
+
+.sopra_projects img {
+  object-fit: cover;
+  width: 100%;
+  height: 250px;
+}
+
+
+
+
+/* SLIDER */
+
+.mySlides {
+  display: none;
+}
+
+.w3-tooltip,
+.w3-display-container {
+  position: relative
+}
+
+.w3-tooltip .w3-text {
+  display: none
+}
+
+.w3-tooltip:hover .w3-text {
+  display: inline-block
+}
+
+.w3-display-container:hover .w3-display-hover {
+  display: block
+}
+
+.w3-display-container:hover span.w3-display-hover {
+  display: inline-block
+}
+
+.w3-display-hover {
+  display: none
+}
+
+.w3-btn,
+.w3-button {
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap
+}
+
+.w3-btn,
+.w3-button {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none
+}
+
+.w3-disabled,
+.w3-btn:disabled,
+.w3-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.3
+}
+
+.w3-disabled *,
+:disabled * {
+  pointer-events: none
+}
+
+.w3-dropdown-hover:hover>.w3-button:first-child,
+.w3-dropdown-click:hover>.w3-button:first-child {
+  background-color: #ccc;
+  color: #000
+}
+
+.w3-bar-block .w3-dropdown-hover .w3-button,
+.w3-bar-block .w3-dropdown-click .w3-button {
+  width: 100%;
+  text-align: left;
+  padding: 8px 16px
+}
+
+.w3-bar .w3-button {
+  white-space: normal
+}
+
+.w3-dropdown-hover.w3-mobile,
+.w3-dropdown-hover.w3-mobile .w3-btn,
+.w3-dropdown-hover.w3-mobile .w3-button,
+.w3-dropdown-click.w3-mobile,
+.w3-dropdown-click.w3-mobile .w3-btn,
+.w3-dropdown-click.w3-mobile .w3-button {
+  width: 100%
+}
+
+.w3-button:hover {
+  color: #000 !important;
+  background-color: #ccc !important
+}
+
+
+.w3-display-left {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(0%, -50%);
+  -ms-transform: translate(-0%, -50%)
+}
+
+.w3-display-right {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%)
+}
+
+.w3-black,
+.w3-hover-black:hover {
+  color: #fff !important;
+  background-color: #000 !important
+}
+
+.w3-display-middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.w3-tiny {
+  font-size: 10px !important
+}
+
+.w3-small {
+  font-size: 12px !important
+}
+
+.w3-medium {
+  font-size: 15px !important
+}
+
+.w3-large {
+  font-size: 18px !important
+}
+
+.w3-container:after,
+.w3-container:before,
+.w3-panel:after,
+.w3-panel:before,
+.w3-row:after,
+.w3-row:before,
+.w3-row-padding:after,
+.w3-row-padding:before,
+.w3-cell-row:before,
+.w3-cell-row:after,
+.w3-clear:after,
+.w3-clear:before,
+.w3-bar:before,
+.w3-bar:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+.w3-container,
+.w3-panel {
+  padding: 0.01em 16px
+}
+
+.w3-panel {
+  margin-top: 16px;
+  margin-bottom: 16px
+}
+
+.w3-padding-16 {
+  padding-top: 16px !important;
+  padding-bottom: 16px !important
+}
+
+.w3-padding-24 {
+  padding-top: 24px !important;
+  padding-bottom: 24px !important
+}
+
+
+.w3-animate-fading {
+  animation: fading 10s infinite
+}
+
+@keyframes fading {
+  0% {
+    opacity: 0
+  }
+
+  50% {
+    opacity: 1
+  }
+
+  100% {
+    opacity: 0
+  }
 }
