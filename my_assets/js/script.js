@@ -162,3 +162,35 @@ for (let i = 0; i < navigationLinks.length; i++) {
     }
   });
 }
+
+
+
+// ---- Default landing page -----
+
+// Function to parse query parameters from the URL
+function getQueryParam(paramName) {
+  const urlSearchParams = new URLSearchParams(window.location.search);
+  return urlSearchParams.get(paramName);
+}
+
+const landingPage = getQueryParam('landing');
+
+var is_page_found = false
+if (landingPage) {
+  for (let i = 0; i < pages.length; i++) {
+    if (landingPage === pages[i].dataset.page) {
+      pages[i].classList.add("active");
+      navigationLinks[i].classList.add("active");
+      window.scrollTo(0, 0);
+    } else {
+      pages[i].classList.remove("active");
+      navigationLinks[i].classList.remove("active");
+    }
+  }
+}
+// Of no page with name is found it redirects to the default landing page
+if (!is_page_found) {
+  pages[0].classList.add("active");
+  navigationLinks[0].classList.add("active");
+  window.scrollTo(0, 0);
+}
