@@ -182,6 +182,7 @@ if (landingPage) {
       pages[i].classList.add("active");
       navigationLinks[i].classList.add("active");
       window.scrollTo(0, 0);
+      is_page_found = true;
     } else {
       pages[i].classList.remove("active");
       navigationLinks[i].classList.remove("active");
