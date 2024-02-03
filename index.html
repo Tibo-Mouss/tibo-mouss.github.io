@@ -221,12 +221,10 @@
         <section class="about-text">
           <p>
             Hey ! <br> <br>
-            I'm Thibault Mousset, a fresh engineering school's graduate who's passionate about participating in projects
+            I'm Thibault Mousset, a Software Development Engineer who's passionate about participating in projects
             and
             learning new things !
             <br>
-
-
           </p>
         </section>
 
@@ -341,8 +339,6 @@
             <div class="modal-content">
 
               <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 June, 2021</time>
 
               <div data-modal-text>
                 <p>
@@ -466,7 +462,9 @@
 
               <div class="info-content" style="display: flex; justify-content: space-between;">
                 <h4 class="h4 timeline-item-title">Quality Assurance at Feezless</h4>
-                <p class="title">Internship</p>
+                <div style="display: flex; justify-content: space-between;">
+                  <p class="title">Internship</p>
+                </div>
               </div>
 
               <span>2021 (3 months)</span>
@@ -538,13 +536,26 @@
                 </figure>
 
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>Student Gaming Network</h4>
-                <date>Now - 2023</date>
+                <time>Now - 2023</time>
 
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    National Esport Competition admin, Caster tools developper, content creator. <br>
+                    National Esport Competition admin, Caster tools developper & content creator. <br>
                     The SGN is the federation of French student esport associations. <br>
                     We organise a number of national tournaments and actively promote student esports.
+                    <br> <br>
+                    A big project I've been the conceptor of is the creation of a valorant caster dynamic overlay to
+                    display additionnal in game stats. <br>
+                    <a class="testimonials-link"
+                      href="https://github.com/Tibo-Mouss/Overwolf_Valorant_Caster_Overlay/tree/main" target="_blank">
+                      &nbsp; > More about the overlay can be found here < </a>
+                        The main problem in this project is the way to collect the in game data. At the moment, we
+                        tested memory reading and internal apis, but we consider using Image recognition instead as the
+                        previous methods are not reliable.
+
+                        <br> <br>
+                        <a class="testimonials-link" href="https://sgnw.fr/" target="_blank">
+                          &nbsp; > Association's website < </a>
                   </p>
                 </div>
 
@@ -559,7 +570,7 @@
                 </figure>
 
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>TVn7 Video Production</h4>
-                <date>2023-2022</date>
+                <time>2023 - 2022</time>
 
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
@@ -567,7 +578,24 @@
                     the school & students of my enginerring school in Toulouse.
                     <br>
                     TVn7 is one of the biggest french student video association.
-                  </p>
+                    <br> <br>
+
+                    I filmed live events, made event recap videos, but principally made comedy videos. Here's a sneak
+                    peek at some projects I did :
+                    <br> <br>
+                  <div itemscope itemtype="https://schema.org/VideoObject">
+                    <meta itemprop="name" content="TVn7 Example Videos" />
+                    <meta itemprop="description" content="TVn7 Example Videos" />
+                    <meta itemprop="uploadDate" content="2024-02-02T15:07:01.000Z" />
+                    <meta itemprop="thumbnailUrl" content="https://s2.dmcdn.net/v/Ve_ga1blG45Q8Z7cw/x180" />
+                    <meta itemprop="embedUrl" content="https://geo.dailymotion.com/player/xou82.html?playlist=x84d4q" />
+                    <script src="https://geo.dailymotion.com/player/xou82.js" data-playlist="x84d4q"></script>
+                  </div>
+                  <br>
+                  <a class="testimonials-link" href="https://www.tvn7.fr/" target="_blank"> &nbsp; > Association's
+                    website < </a>
+
+                      </p>
                 </div>
 
               </div>
@@ -582,14 +610,15 @@
                 </figure>
 
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>Net' Entraide</h4>
-                <date>2018-2016</date>
+                <time>2018 - 2016</time>
 
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    Treasurer in 2017. We provided tech lessons for elderly people. <br>
+                    Treasurer in 2017. We provided tech lessons for elderly people each Saturday. <br>
                     The association ceased to exist in 2022.
                     <br> <br>
-                    <a href="https://net-entraide.org/" target=”_blank”> >> Link << </a>
+                    <a class="testimonials-link" href="https://net-entraide.org/" target=”_blank”> > Association's
+                      website < </a>
                   </p>
                 </div>
 
@@ -1195,16 +1224,18 @@
                   &ensp; I worked for Airbus in two different projects at Sopra Steria : <br> <br>
                 <ul>
                   <li>
-                    <h4>• AeroExcellence :</h3>
-                      &ensp; &ensp; This is a site for airbus subcontractors to get certifications from Airbus.
+                    <h4>• AeroExcellence : (Python)</h3>
+                      &ensp; &ensp; This is a site for airbus subcontractors to get certifications from Airbus.<br>
+                      I worked on the django backend on tasks like exporting the database in csv files for OEMs.
                   </li>
 
                   <br>
 
                   <li>
-                    <h4>• W@y's mobile app :</h3>
+                    <h4>• W@y's mobile app : (Kotlin)</h3>
                       &ensp; &ensp; This is an internal Airbus application designed to manage the supply and delivery of
-                      aircraft parts.
+                      aircraft parts. <br>
+                      In charge of the interactive map and users role display screens.
                   </li>
                 </ul>
                 </p>
@@ -1213,12 +1244,11 @@
 
 
             <tr>
-
               <td>
                 <h2>Omniverse - Paris Air Show</h2>
                 <p>
                   &ensp; The project consisted in simulating a drone factory line in Nvidia's new 3D Engine, called
-                  Omniverse. <br> <br>
+                  Omniverse. (Python) <br> <br>
                   &ensp; I was in charge of coding the movements of the multiple operating robots (moving/assembly of
                   spare parts ...)
                 </p>
@@ -1235,8 +1265,6 @@
                   </figure>
                 </a>
               </td>
-
-
             </tr>
 
 
@@ -1285,7 +1313,8 @@
                   &ensp; I tested the capabilities and limitations of a tool similar to Github Copilot for possible
                   implementation in the company.
                   <br> <br>
-                  &ensp; I also developped an Intellij test Extension to test the tool in real conditions. It had the
+                  &ensp; I also developped an Intellij test Extension in Kotlin to test the tool in real conditions. It
+                  had the
                   following features :
                   <br>
                 <ul>

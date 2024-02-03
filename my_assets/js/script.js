@@ -40,7 +40,6 @@ const testimonialsModalFunc = function () {
 
 // add click event to all modal items
 for (let i = 0; i < testimonialsItem.length; i++) {
-
   testimonialsItem[i].addEventListener("click", function () {
 
     modalImg.src = this.querySelector("[data-testimonials-avatar]").src;
@@ -49,14 +48,21 @@ for (let i = 0; i < testimonialsItem.length; i++) {
     modalText.innerHTML = this.querySelector("[data-testimonials-text]").innerHTML;
 
     testimonialsModalFunc();
-
   });
+}
 
+function clearModalTestimonial() {
+    modalImg.src = "";
+    modalImg.alt = "";
+    modalTitle.innerHTML = "";
+    modalText.innerHTML = "";
+
+    testimonialsModalFunc();
 }
 
 // add click event to modal close button
-modalCloseBtn.addEventListener("click", testimonialsModalFunc);
-overlay.addEventListener("click", testimonialsModalFunc);
+modalCloseBtn.addEventListener("click", clearModalTestimonial);
+overlay.addEventListener("click", clearModalTestimonial);
 
 
 
@@ -212,12 +218,12 @@ function plusDivs(n) {
 function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
+  if (n > x.length) { slideIndex = 1 }
+  if (n < 1) { slideIndex = x.length }
   for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
+    x[i].style.display = "none";
   }
-  x[slideIndex-1].style.display = "block";  
+  x[slideIndex - 1].style.display = "block";
 }
 
 // make it slides automatically
@@ -234,3 +240,5 @@ function showDivs(n) {
 //   x[slideIndex-1].style.display = "block";
 //   setTimeout(carousel, 5000); // Change image every 5 seconds
 // }
+
+

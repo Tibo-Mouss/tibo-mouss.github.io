@@ -667,8 +667,10 @@ main {
   scroll-snap-align: center;
 }
 
-.testimonials-item date {
+.testimonials-item time {
   color: var(--vegas-gold);
+  font-weight: var(--fw-300);
+  margin-bottom: 10px;
 }
 
 .testimonials-avatar-box {
@@ -695,6 +697,22 @@ main {
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+
+.testimonials-link {
+  color: cyan;
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
 }
 
 
