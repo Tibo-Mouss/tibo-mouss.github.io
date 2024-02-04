@@ -2275,6 +2275,15 @@ textarea.form-input::-webkit-resizer {
 }
 
 
+/** 
+  Article Game Dev TV
+*/
+
+.gamedev_tv p {
+  color: var(--white-2);
+  font-size: var(--fs-7);
+}
+
 
 
 /* SLIDER */
