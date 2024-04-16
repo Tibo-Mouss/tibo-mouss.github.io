@@ -594,6 +594,7 @@ main {
   border-radius: 14px;
   box-shadow: var(--shadow-2);
   z-index: 1;
+  transition: all .2s ease-in-out; 
 }
 
 .service-item::before {
@@ -603,6 +604,10 @@ main {
   background: var(--bg-gradient-jet);
   border-radius: inherit;
   z-index: -1;
+}
+
+.service-item:hover {
+  transform: scale(1.05);
 }
 
 .service-icon-box {
@@ -959,7 +964,7 @@ main {
   line-height: 1.6;
 }
 
-.timeline-text a {
+.timeline-list a {
   color: cyan;
   -webkit-touch-callout: none;
   /* iOS Safari */
@@ -2246,6 +2251,45 @@ textarea.form-input::-webkit-resizer {
 }
 
 
+/**
+	 * Page Associations
+	 */
+
+
+.associations > section > table {
+  border: 2px solid var(--border_color);
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+  box-shadow: 0 0 0.5em var(--border_color);
+}
+
+.associations p {
+  color: var(--white-2);
+  font-size: var(--fs-7);
+}
+
+.associations h2 {
+  color: var(--light-gray-70);
+  font-size: var(--fs-1);
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+.association-logo {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.associations .scrollable-div {
+  height: 300px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+
 
 /**
 	 * Article Sopra Steria
@@ -2272,6 +2316,15 @@ textarea.form-input::-webkit-resizer {
   object-fit: cover;
   width: 100%;
   height: 250px;
+}
+
+/** 
+  Article Multiplayer Game
+*/
+
+.multiplayer_game p {
+  color: var(--white-2);
+  font-size: var(--fs-7);
 }
 
 

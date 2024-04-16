@@ -208,22 +208,40 @@ if (!is_page_found) {
 // FOR IMAGE SLIDES
 
 
-var slideIndex = 1;
-showDivs(slideIndex);
+//  Pour rajouter un slider faut:
+//    Ajouter l'élément dans cette liste
+//    Ajouter le code html de slider et changer 3 trucs :
+//      Le code 
+// var slideIndex = 1;
+var slideIndex_dict = {
+  "SLIDER_portfolio_sopra_steria": 1,
+  "SLIDER_asso_IA": 1
+};
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
+for (let [key, value] of Object.entries(slideIndex_dict)) {
+  showDivs(value, key, 2);
 }
 
-function showDivs(n) {
+function plusDivs(n, slider_name, slider_images_nb) {
+  console.log("-- Before:");
+  console.log(slideIndex_dict);
+  showDivs(slideIndex_dict[slider_name] += n, slider_name, slider_images_nb);
+  console.log(slideIndex_dict);
+  console.log("After: --");
+}
+
+function showDivs(n, slider_name, slider_images_nb) {
+  console.log(slider_name);
   var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) { slideIndex = 1 }
-  if (n < 1) { slideIndex = x.length }
-  for (i = 0; i < x.length; i++) {
+  var x = document.getElementsByClassName(slider_name);
+  if (n > slider_images_nb) { slideIndex_dict[slider_name] = 1 }
+  if (n < 1) { slideIndex_dict[slider_name] = slider_images_nb }
+  for (i = 0; i < slider_images_nb; i++) {
+    console.log(x);
+    console.log(i);
     x[i].style.display = "none";
   }
-  x[slideIndex - 1].style.display = "block";
+  x[slideIndex_dict[slider_name] - 1].style.display = "block";
 }
 
 // make it slides automatically

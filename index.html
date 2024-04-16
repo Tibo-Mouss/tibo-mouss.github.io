@@ -103,7 +103,7 @@
             <div class="contact-info">
               <p class="contact-title">Age</p>
 
-              <time datetime="2000-12-02">23 Years old</time>
+              <time datetime="2000-12-02">24 Years old</time>
             </div>
 
           </li>
@@ -195,9 +195,9 @@
             <button class="navbar-link" data-nav-link="portfolio">Portfolio</button>
           </li>
 
-          <!-- <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li> -->
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link="associations">Associations</button>
+          </li>
 
           <!-- <li class="navbar-item">
             <button class="navbar-link" data-nav-link="contact">Contact</button>
@@ -242,17 +242,42 @@
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./my_assets/images/icons/associations_icon.png" alt="mobile app icon" width="40">
+                <a data-nav-link="associations">
+                  <img src="./my_assets/images/icons/associations_icon.png" alt="Association icon" width="40">
+                </a>
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Associations</h4>
+                <a data-nav-link="associations">
+                  <h4 class="h4 service-item-title">Associations</h4>
 
-                <p class="service-item-text">
-                  I have been and continue to be actively involved in a number of associations.
-                  <br>
-                  It allows me to get experience in a lot of different domains.
-                </p>
+                  <p class="service-item-text">
+                    I have been and continue to be actively involved in a number of associations.
+                    <br>
+                    It allows me to get experience in a lot of different domains.
+                  </p>
+                </a>
+              </div>
+              </a>
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <a data-nav-link="resume">
+                  <img src="./assets/images/icon-dev.svg" alt="Software development icon" width="40">
+                </a>
+              </div>
+
+              <div class="service-content-box">
+                <a data-nav-link="resume">
+                  <h4 class="h4 service-item-title">Software development</h4>
+
+                  <p class="service-item-text">
+                    C#, C++, python ... I've used around 20 programming languages. <br> <br>
+                    I can easily adapt myself to new coding projects environments.
+                  </p>
+                </a>
               </div>
 
             </li>
@@ -260,33 +285,19 @@
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Software development icon" width="40">
+                <a data-nav-link="portfolio">
+                  <img src="./assets/images/icon-design.svg" alt="design icon" width="40">
+                </a>
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Software development</h4>
+                <a data-nav-link="portfolio">
+                  <h4 class="h4 service-item-title">Game Development</h4>
 
-                <p class="service-item-text">
-                  C#, C++, python ... I've used around 20 programming languages. <br> <br>
-                  I can easily adapt myself to new coding projects environments.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Game Development</h4>
-
-                <p class="service-item-text">
-                  I have learned and used Unity, Unreal Engine & others throughout different projects, all by myself.
-                </p>
+                  <p class="service-item-text">
+                    I have learned and used Unity, Unreal Engine & others throughout different projects, all by myself.
+                  </p>
+                </a>
               </div>
 
             </li>
@@ -296,15 +307,19 @@
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+                <a data-nav-link="associations">
+                  <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+                </a>
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Content Creation</h4>
+                <a data-nav-link="associations">
+                  <h4 class="h4 service-item-title">Content Creation</h4>
 
-                <p class="service-item-text">
-                  I make videos, streams, podcasts, things that I enjoy personaly and hope others will too.
-                </p>
+                  <p class="service-item-text">
+                    I make videos, streams, podcasts, things that I enjoy personaly and hope others will too.
+                  </p>
+                </a>
               </div>
 
             </li>
@@ -661,9 +676,10 @@
               <!-- <span>2020 — 2018</span> -->
 
               <p class="timeline-text">
-                I'm the most proficient in Unity. I've learned UE with GameDevTV courses and started with Pygames,
-                Stencyl and Intersect Engine.
+                I'm the most proficient in Unity and learned everything by myself. I've followed GameDevTV courses to
+                learn UE and started with Pygames, Stencyl and Intersect Engine.
               </p>
+              <a data-nav-link="gamedev_tv"> &nbsp; > GameDev TV Certificates < </a>
 
             </li>
 
@@ -687,7 +703,7 @@
               <!-- <span>2020 — 2018</span> -->
 
               <p class="timeline-text">
-                I've participated by writing / directing / acting / editing to around 50 clips. I use Premier pro &
+                Written / directed / acted in / edited around 50 clips. I use Premier pro &
                 After Effects to edit. <br>
                 I operate a Twitch channel since 2017.
               </p>
@@ -1027,7 +1043,417 @@
       </article>
 
 
+      <!--
+        - #PORTFOLIO
+      -->
 
+      <article class="associations" data-page="associations">
+        <header>
+          <h2 class="h2 article-title">Associations</h2>
+        </header>
+
+
+        <div class="association-logo">
+          <a href="https://sgnw.fr/" target="_blank">
+            <figure class="project-img">
+              <div class="project-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+              <img src="my_assets/images/sgn_thin.png" style="width:100%; border-radius: 5%;" loading="lazy">
+            </figure>
+          </a>
+        </div>
+
+        <section class="sgn_section">
+          <table style="--border_color: darkorange;">
+
+            <tr>
+              <td colspan="2">
+                <p style="text-align: center; font-size: var(--fs-4);">
+                  The SGN (Student Gaming Network) is the federation of French student esports associations. <br>
+                  We organize national tournaments and actively promote student esports.
+                </p>
+              </td>
+            </tr>
+
+            <tr style="height: 30px;"></tr>
+
+            <tr>
+
+              <td>
+                <table>
+                  <tr>
+
+                    <td style="vertical-align: top;">
+
+                      <h2>Gamer's Assembly 2024 :</h2>
+
+                      <p>
+                        &ensp; I was present at the 2024 Gamer's Assembly edition, as <b>Communication manager</b> for
+                        my association.
+                        <br> <br>
+                        &ensp; I created assets for the streams, relayed stream events on social media,
+                        recorded/edited
+                        interviews of players :
+                      </p>
+
+                    </td>
+
+                    <td class="custom-article-item  active" style="width: 30%; margin-left: 10px;">
+                      <a href="https://www.gamers-assembly.net/" target="_blank">
+                        <figure class="project-img">
+                          <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                          </div>
+                          <img src="my_assets/images/associations/ga_2024.jpg" style="width:100%; border-radius: 5%;"
+                            loading="lazy">
+                        </figure>
+                      </a>
+                    </td>
+
+                  </tr>
+                </table>
+              </td>
+
+            </tr>
+
+            <tr>
+              <td>
+                <div itemscope itemtype="https://schema.org/VideoObject" style="margin: 10px;">
+                  <meta itemprop="name" content="Interview Melon - GA 2024" />
+                  <meta itemprop="description" content="Interview Melon - GA 2024" />
+                  <meta itemprop="uploadDate" content="2024-04-15T13:09:57.000Z" />
+                  <meta itemprop="thumbnailUrl" content="https://s2.dmcdn.net/v/W7kci1c7IScrYIXsy/x180" />
+                  <meta itemprop="duration" content="P119S" />
+                  <meta itemprop="embedUrl"
+                    content="https://geo.dailymotion.com/player/xou82.html?video=kKG7rfhg4uu9OfAt9G4" />
+                  <script src="https://geo.dailymotion.com/player/xou82.js" data-video="kKG7rfhg4uu9OfAt9G4"></script>
+                </div>
+              </td>
+            </tr>
+
+
+            <tr>
+
+              <td>
+                <table>
+                  <tr>
+
+                    <td style="vertical-align: top;">
+
+                      <h2>Grosse Ligue 2024 :</h2>
+
+                      <p>
+                        &ensp; The Grosse Ligue is a National student Competition, in partnership with Riot and
+                        University Esports.
+                        <br> <br>
+                        &ensp; I helped there as an admin, and produced one interview of finalists :
+                      </p>
+
+                      <div class="scrollable-div" style="width: fit-content; margin-left: auto; margin-right: auto;">
+                        <blockquote class="twitter-tweet">
+                          <p lang="fr" dir="ltr">Après leur performance impeccable en demi-finale, ils viennent,
+                            toujours
+                            accompagnés de leur Bouée, s&#39;abattre tel un tsunami sur leur adversaire.🌊 <br><br>⚔️La
+                            finale
+                            ne leur fait pas peur !⚔️<br><br>🎙️Retrouvez Jaguars dans Bouée en interview avant la
+                            Grande Finale
+                            ce dimanche 🔥 <a href="https://t.co/NMHNsoD9ye">pic.twitter.com/NMHNsoD9ye</a></p>&mdash;
+                          UNIVERSITY Esports France 🇫🇷 (@University_FR) <a
+                            href="https://twitter.com/University_FR/status/1762541186495950898?ref_src=twsrc%5Etfw">February
+                            27, 2024</a>
+                        </blockquote>
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                      </div>
+
+                    </td>
+
+                    <td class="custom-article-item  active" style="width: 25%; margin-top: auto; margin-bottom: auto;">
+                      <a href="https://universityesports.fr/competition" target="_blank">
+                        <figure class="project-img">
+                          <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                          </div>
+                          <img src="my_assets/images/associations/logo_gl.png" style="width:100%; border-radius: 5%;"
+                            loading="lazy">
+                        </figure>
+                      </a>
+                    </td>
+
+                  </tr>
+                </table>
+              </td>
+
+            </tr>
+
+            <tr>
+
+            </tr>
+
+
+          </table>
+        </section>
+
+
+        <br> <br> <br>
+
+        <div class="association-logo">
+          <a href="https://www.tvn7.fr/" target="_blank">
+            <figure class="project-img">
+              <div class="project-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+              <img src="my_assets/images/associations/tvn7.png" style="width:100%; border-radius: 5%;" loading="lazy">
+            </figure>
+          </a>
+        </div>
+
+        <section class="TVn7">
+          <table style="--border_color: black;">
+            <tr>
+              <td>
+                <p style="text-align: center; font-size: var(--fs-4);">
+                  TVn7 is the video association of my engineering school and is also one of the biggest student video
+                  associations in France. <br> <br>
+
+                  I wrote, directed, shot, edited around 40 clips for events, private companies, the school &
+                  students of my engineering school in Toulouse.
+                </p>
+              </td>
+            </tr>
+
+            <tr style="height: 30px;"></tr>
+
+
+            <tr>
+              <td>
+                <table>
+                  <tr>
+                    <td style="vertical-align: top;">
+
+                      <h2>Inter Agros 2022 & 2023</h2>
+
+                      <p>
+                        &ensp; The Inter Agros events are student sports events that occur each year throughout an
+                        extended weekend and bring together around 2,000 people. <br> <br>
+                        &ensp; I was there with the TVn7 crew (~ 15) to produce daily content shown each night for the
+                        participants. <br> <br>
+                        &ensp; You can access all the created content here on the right ⏩ ⏩
+                      </p>
+
+                    </td>
+
+                    <td class="custom-article-item  active" style="width: 30%; margin-left: 10px;">
+                      <div class="w3-content w3-display-container">
+                        <div class="w3-display-container mySlides SLIDER_asso_IA">
+                          <a href="https://interagros2022.tvn7.fr/" target="_blank">
+                            <img src="./my_assets/images/associations/IAB.jpeg" style="width:100%; height: 200px;"
+                              loading="lazy">
+                          </a>
+                          <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+                            Bordeaux 2022
+                          </div>
+                        </div>
+
+                        <div class="w3-display-container mySlides SLIDER_asso_IA">
+                          <a href="https://interagros2023.tvn7.fr/" target="_blank">
+                            <img src="my_assets/images/associations/IAN.jpeg" style="width:100%; height: 200px;"
+                              loading="lazy">
+                          </a>
+                          <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                            Nancy 2023
+                          </div>
+                        </div>
+
+                        <button class="w3-button w3-display-left w3-black"
+                          onclick="plusDivs(-1, 'SLIDER_asso_IA', 2)">&#10094;</button>
+                        <button class="w3-button w3-display-right w3-black"
+                          onclick="plusDivs(1, 'SLIDER_asso_IA', 2)">&#10095;</button>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <table>
+                  <tr>
+
+                    <td>
+                      <iframe width="400" height="250"
+                        src="https://www.youtube.com/embed/6RMXgSm6EFY?si=Dm3Jz-eSflrQhx2l" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </td>
+
+                    <td style="width: 10px;"></td>
+
+                    <td>
+
+                      <h2 style="text-align: center;">Graduation Prom</h2>
+
+                      <p>
+                        &ensp; I was tasked to film the graduation prom of older students to make an after-movie. <br>
+                        <br>
+                        &ensp; It's quite rewarding to take part in those projects as it's a way to freeze a strong
+                        memory in time for the graduates.
+                      </p>
+
+                    </td>
+
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+
+            <tr>
+              <td>
+                <table>
+                  <tr>
+                    <td style="vertical-align: top; width: max-content;">
+                      <h2 style="text-align: center;">JTs</h2>
+
+                      <p>
+                        &ensp; Most of my work at TVn7 consisted of creating comedy clips for the students.
+
+                        <br> <br>
+
+                        &ensp; I love imagining and writing those and being able to produce them from start to
+                        finish with the other members of TVn7.
+                      </p>
+                    </td>
+
+                    <td>
+                      <iframe width="400" height="225"
+                        src="https://www.youtube.com/embed/XsQXU6C1SfE?si=gmN_6zC605eRiaxb" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </section>
+
+        <br> <br> <br>
+
+
+
+
+        <div class="association-logo">
+          <a href="https://fr.wikipedia.org/wiki/Net%27_Entraide" target="_blank">
+            <figure class="project-img">
+              <div class="project-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+              <img src="my_assets/images/associations/net_entraide.jpg" style="width:100%; border-radius: 5%;"
+                loading="lazy">
+            </figure>
+          </a>
+        </div>
+
+        <section class="Net'Entraide">
+          <table style="--border_color: purple;">
+
+            <tr>
+              <td>
+                <p style="text-align: center; font-size: var(--fs-4);">
+                  Net'Entraide is a local association (~ 10 persons) that aims at teaching tech to elderly people.
+                  The association ceased to exist in 2022.
+                </p>
+              </td>
+            </tr>
+
+
+            <tr style="height: 30px;"></tr>
+
+            <tr>
+              <td>
+                <table>
+                  <tr>
+
+                    <td>
+                      <p>
+                        &ensp; Every Saturday we used to get together to talk about a specific subject, bringing
+                        awareness on
+                        do's and don'ts on websites, and how to optimize mailboxes, ... <br> <br>
+                        &ensp; I became the treasurer in 2018.
+                      </p>
+                    </td>
+
+                    <td style="width: 10px;"></td>
+
+                    <td class="custom-article-item  active" style="width: 50%;">
+                      <a href="https://net-entraide.org/" target="_blank">
+                        <figure class="project-img">
+                          <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                          </div>
+                          <img src="my_assets/images/associations/net_entraide_AG.jpg"
+                            style="width:100%; border-radius: 5%;" loading="lazy">
+                        </figure>
+                      </a>
+                    </td>
+
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <tr style="height: 20px;"></tr>
+
+            <tr>
+
+              <td>
+                <table>
+                  <tr>
+                    <td class="custom-article-item  active" style="width: 30%">
+                      <a href="https://laval-virtual.com/" target="_blank">
+                        <figure class="project-img">
+                          <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                          </div>
+                          <img src="my_assets/images/associations/logo_laval_virtual.png"
+                            style="width:100%; border-radius: 5%;" loading="lazy">
+                        </figure>
+                      </a>
+                    </td>
+
+                    <td style="width: 10px;"></td>
+
+                    <td style="vertical-align: top;">
+
+                      <h2>Laval Virtual 2017 & 2018</h2>
+
+                      <p>
+                        <br>
+                        &ensp; We had the opportunity to have a booth at the Laval Virtual Show every year back then,
+                        thanks
+                        to the generosity of the organizing staff. <br> <br>
+                        &ensp; We would animate livestreams about tech and bring awareness on what was the aim of our
+                        association.
+                      </p>
+
+                    </td>
+                  </tr>
+                </table>
+              </td>
+
+            </tr>
+
+
+
+
+
+          </table>
+        </section>
+      </article>
 
 
       <!--
@@ -1286,14 +1712,16 @@
                   </figure>
                 </a>
               </td>
+
               <td style="width: 5%;"></td>
+
               <td>
                 <h2>Airbus Projects</h2>
                 <p>
                   &ensp; I worked for Airbus in two different projects at Sopra Steria : <br> <br>
                 <ul>
                   <li>
-                    <h4>• AeroExcellence : (Python)</h3>
+                    <h4>• AeroExcellence : (Python, Django)</h3>
                       &ensp; &ensp; This is a site for airbus subcontractors to get certifications from Airbus.<br>
                       I worked on the django backend on tasks like exporting the database in csv files for OEMs.
                   </li>
@@ -1301,7 +1729,7 @@
                   <br>
 
                   <li>
-                    <h4>• W@y's mobile app : (Kotlin)</h3>
+                    <h4>• W@y's mobile app : (Kotlin, Android)</h3>
                       &ensp; &ensp; This is an internal Airbus application designed to manage the supply and delivery of
                       aircraft parts. <br>
                       In charge of the interactive map and users role display screens.
@@ -1341,7 +1769,7 @@
             <tr>
               <td class="custom-article-item  active" style="width: 25%; margin: 20px;">
                 <div class="w3-content w3-display-container">
-                  <div class="w3-display-container mySlides">
+                  <div class="w3-display-container mySlides SLIDER_portfolio_sopra_steria">
                     <a href="https://github.com/fauxpilot/fauxpilot" target="_blank">
                       <img src="./my_assets/images/portfolio/Sopra_setria/fauxpilot.png" style="width:100%"
                         loading="lazy">
@@ -1351,7 +1779,7 @@
                     </div>
                   </div>
 
-                  <div class="w3-display-container mySlides">
+                  <div class="w3-display-container mySlides SLIDER_portfolio_sopra_steria">
                     <a href="https://github.com/fauxpilot/fauxpilot" target="_blank">
                       <img src="my_assets/images/portfolio/Sopra_setria/fauxpilot_examples.png" style="width:100%"
                         loading="lazy">
@@ -1361,7 +1789,7 @@
                     </div>
                   </div>
 
-                  <div class="w3-display-container mySlides">
+                  <div class="w3-display-container mySlides SLIDER_portfolio_sopra_steria">
                     <a href="https://github.com/fauxpilot/fauxpilot" target="_blank">
                       <img src="my_assets/images/portfolio/Sopra_setria/intellij_extension_logo.png" style="width:100%"
                         loading="lazy">
@@ -1371,8 +1799,10 @@
                     </div>
                   </div>
 
-                  <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
-                  <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+                  <button class="w3-button w3-display-left w3-black"
+                    onclick="plusDivs(-1, 'SLIDER_portfolio_sopra_steria', 3)">&#10094;</button>
+                  <button class="w3-button w3-display-right w3-black"
+                    onclick="plusDivs(1, 'SLIDER_portfolio_sopra_steria', 3)">&#10095;</button>
                 </div>
               </td>
               <td style="width: 5%;"></td>
@@ -1404,16 +1834,18 @@
 
 
       <!--
-        - ARTICLE # Story Game
+        - ARTICLE # Multiplayer Game
       -->
 
-      <article class="story_game" data-page="story_game">
+      <article class="multiplayer_game" data-page="multiplayer_game">
 
         <header>
-          <h2 class="h2 article-title">Story Focus Game Design</h2>
+          <h2 class="h2 article-title">Multiplayer Game</h2>
         </header>
 
-        TODO
+        <p>
+
+        </p>
 
       </article>
 
