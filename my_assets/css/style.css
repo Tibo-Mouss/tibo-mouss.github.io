@@ -2273,7 +2273,6 @@ textarea.form-input::-webkit-resizer {
 .associations h2 {
   color: var(--light-gray-70);
   font-size: var(--fs-1);
-  text-transform: uppercase;
   margin-bottom: 2px;
 }
 
