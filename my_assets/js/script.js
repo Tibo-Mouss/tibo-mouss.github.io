@@ -74,7 +74,7 @@ const filterBtn = document.querySelectorAll("[data-filter-btn]");
 
 select.addEventListener("click", function () { elementToggleFunc(this); });
 
-// add event in all select items
+// Onclick event on list of items (Phone mode) in Portfolio tab
 for (let i = 0; i < selectItems.length; i++) {
   selectItems[i].addEventListener("click", function () {
 
@@ -105,14 +105,14 @@ const filterFunc = function (selectedValue) {
 
 }
 
-// add event in all filter button items for large screen
+// Onclick event on filter buttons (Desktop mode) in Portfolio tab
 let lastClickedBtn = filterBtn[0];
 
 for (let i = 0; i < filterBtn.length; i++) {
 
   filterBtn[i].addEventListener("click", function () {
 
-    let selectedValue = this.innerText.toLowerCase();
+    let selectedValue = this.dataset.filterBtn.toLowerCase();
     selectValue.innerText = this.innerText;
     filterFunc(selectedValue);
 

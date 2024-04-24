@@ -6,6 +6,7 @@ var french_translations = {
 
 
     "engineer_software_dev": "Ingénieur en développement logiciel",
+    "Translations": "Traductions : ",
     "Location": "Lieu",
     "Age": "Age",
     "Gender": "Genre",
@@ -114,6 +115,13 @@ var french_translations = {
     "Spanish_level": " - B2 Expérimenté",
     "German": "🇩🇪 &nbsp; Allemand",
     "German_level": " - B1 Intermédiaire",
+
+
+    // All Projects
+    "All_Projects": "Tout",
+    "Personal": "Personnel",
+    "Engineering_School": "Ecole d'Ingénieur",
+    "Work": "Travail"
 };
 
 var translations = {
