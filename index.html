@@ -48,7 +48,7 @@
         <div class="info-content">
           <h1 class="name" title="Thibault Mousset" data-t>Thibault Mousset</h1>
 
-          <p class="title">Engineer in Software Development</p>
+          <p class="title" trad="engineer_software_dev">Engineer in Software Development</p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
@@ -86,7 +86,7 @@
             </div>
 
             <div class="contact-info">
-              <p class="contact-title">Location</p>
+              <p class="contact-title" trad="Location">Location</p>
 
               <address>France</address>
             </div>
@@ -101,9 +101,9 @@
             </div>
 
             <div class="contact-info">
-              <p class="contact-title">Age</p>
+              <p class="contact-title" trad="Age">Age</p>
 
-              <time datetime="2000-12-02">24 Years old</time>
+              <time datetime="2000-12-02">24</time>
             </div>
 
           </li>
@@ -116,15 +116,15 @@
             </div>
 
             <div class="contact-info">
-              <p class="contact-title">Gender</p>
+              <p class="contact-title" trad="Gender">Gender</p>
 
-              <gender>Male</gender>
+              <gender trad="gender_value">Male</gender>
             </div>
 
           </li>
 
 
-          <li class="contact-credit">
+          <li class="contact-credit" trad="credits_sadee">
             Credits to <a href="https://github.com/codewithsadee" target="_blank">&nbsp; Sadee &nbsp;</a> for the
             template
           </li>
@@ -184,19 +184,19 @@
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link="about">About</button>
+            <button class="navbar-link  active" data-nav-link="about" trad="about_me">About</button>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link="resume">Resume</button>
+            <button class="navbar-link" data-nav-link="resume" trad="Resume">Resume</button>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link="portfolio">Portfolio</button>
+            <button class="navbar-link" data-nav-link="portfolio" trad="Portfolio">Portfolio</button>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link="associations">Associations</button>
+            <button class="navbar-link" data-nav-link="associations" trad="Associations">Associations</button>
           </li>
 
           <!-- <li class="navbar-item">
@@ -215,11 +215,11 @@
       <article class="about  active" data-page="about">
 
         <header>
-          <h2 class="h2 article-title">About me</h2>
+          <h2 class="h2 article-title" trad="about_me">About me</h2>
         </header>
 
         <section class="about-text">
-          <p>
+          <p trad="about_me_description">
             Hey ! <br> <br>
             I'm Thibault Mousset, a Software Development Engineer who's passionate about participating in projects
             and
@@ -235,7 +235,7 @@
 
         <section class="service">
 
-          <h3 class="h3 service-title">What i'm doing</h3>
+          <h3 class="h3 service-title" trad="what_im_doing">What i'm doing</h3>
 
           <ul class="service-list">
 
@@ -249,9 +249,9 @@
 
               <div class="service-content-box">
                 <a data-nav-link="associations">
-                  <h4 class="h4 service-item-title">Associations</h4>
+                  <h4 class="h4 service-item-title" trad="Associations">Associations</h4>
 
-                  <p class="service-item-text">
+                  <p class="service-item-text" trad="associations_involvement">
                     I have been and continue to be actively involved in a number of associations.
                     <br>
                     It allows me to get experience in a lot of different domains.
@@ -271,9 +271,9 @@
 
               <div class="service-content-box">
                 <a data-nav-link="resume">
-                  <h4 class="h4 service-item-title">Software development</h4>
+                  <h4 class="h4 service-item-title" trad="Software_development">Software development</h4>
 
-                  <p class="service-item-text">
+                  <p class="service-item-text" trad="Software_development_description">
                     C#, C++, python ... I've used around 20 programming languages. <br> <br>
                     I can easily adapt myself to new coding projects environments.
                   </p>
@@ -292,9 +292,9 @@
 
               <div class="service-content-box">
                 <a data-nav-link="portfolio">
-                  <h4 class="h4 service-item-title">Game Development</h4>
+                  <h4 class="h4 service-item-title" trad="game_development">Game Development</h4>
 
-                  <p class="service-item-text">
+                  <p class="service-item-text" trad="game_development_description">
                     I have learned and used Unity, Unreal Engine & others throughout different projects, all by myself.
                   </p>
                 </a>
@@ -314,9 +314,9 @@
 
               <div class="service-content-box">
                 <a data-nav-link="associations">
-                  <h4 class="h4 service-item-title">Content Creation</h4>
+                  <h4 class="h4 service-item-title" trad="Content_creation">Content Creation</h4>
 
-                  <p class="service-item-text">
+                  <p class="service-item-text" trad="Content_creation_description">
                     I make videos, streams, podcasts, things that I enjoy personaly and hope others will too.
                   </p>
                 </a>
@@ -435,7 +435,7 @@
       <article class="resume" data-page="resume">
 
         <header>
-          <h2 class="h2 article-title">Resume</h2>
+          <h2 class="h2 article-title" trad="Resume">Resume</h2>
         </header>
 
         <section class="timeline">
@@ -445,7 +445,7 @@
               <ion-icon name="briefcase-outline"></ion-icon>
             </div>
 
-            <h3 class="h3">Experience</h3>
+            <h3 class="h3" trad="Experience">Experience</h3>
           </div>
 
           <ol class="timeline-list">
@@ -453,22 +453,24 @@
             <li class="timeline-item">
 
               <div class="info-content" style="display: flex; justify-content: space-between;">
-                <h4 class="h4 timeline-item-title">Software developer at Sopra Steria</h4>
+                <h4 class="h4 timeline-item-title" trad="Software_developer_Sopra_Steria">Software developer at Sopra
+                  Steria</h4>
                 <div style="display: flex; justify-content: space-between;">
-                  <p class="title" style="margin-right: 10px;">Permanent Contract</p>
-                  <p class="title">Internship</p>
+                  <p class="title" style="margin-right: 10px;" trad="Permanent_Contract">Permanent Contract</p>
+                  <p class="title" trad="Internship">Internship</p>
                 </div>
               </div>
 
 
-              <span>Present - 2023</span>
+              <span trad="dates_sopra_work">April 2024 - Sept. 2023</span>
 
-              <p class="timeline-text">
-                • Development of Android app for Airbus <br>
-                • Drone Production line Simulation in Omniverse for the 2023 Paris Air show <br>
-                • Jetbrains editor Extension for Fauxpilot
+              <p class="timeline-text" trad="sopra_work_description">
+                • A website to assess GIFAS related companies | Django <br>
+                • Internal app for Airbus | Android <br>
+                • Drone Production line Simulation for the 2023 Paris Air show | Omniverse <br>
+                • Jetbrains editor Extension for Fauxpilot | Kotlin <br>
                 <a data-nav-link="sopra_steria">
-                  &nbsp; > Click to see detailed projects < &nbsp; </a>
+                  &nbsp; > Click here to see projects details < &nbsp; </a>
               </p>
 
             </li>
@@ -476,15 +478,15 @@
             <li class="timeline-item">
 
               <div class="info-content" style="display: flex; justify-content: space-between;">
-                <h4 class="h4 timeline-item-title">Quality Assurance at Feezless</h4>
+                <h4 class="h4 timeline-item-title" trad="feezless_quality_assurance">Quality Assurance at Feezless</h4>
                 <div style="display: flex; justify-content: space-between;">
-                  <p class="title">Internship</p>
+                  <p class="title" trad="Internship">Internship</p>
                 </div>
               </div>
 
-              <span>2021 (3 months)</span>
+              <span trad="dates_feezless_work">2021 (3 months)</span>
 
-              <p class="timeline-text">
+              <p class="timeline-text" trad="feezless_work_description">
                 I hunted down bugs on their website.
               </p>
 
@@ -501,30 +503,30 @@
               <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <h3 class="h3">Education</h3>
+            <h3 class="h3" trad="Education">Education</h3>
           </div>
 
           <ol class="timeline-list">
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">ENSEEIHT Engineering school [ Toulouse ]</h4>
+              <h4 class="h4 timeline-item-title" trad="ENSEEIHT_school">ENSEEIHT Engineering school [ Toulouse ]</h4>
 
               <span>2023 — 2020</span>
 
-              <p class="timeline-text">
-                Software develoment specialty. Class representative
+              <p class="timeline-text" trad="n7_description">
+                Software develoment specialty. Class representative 3 years
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Janson de Sailly - Preparatory Class [ Paris ]</h4>
+              <h4 class="h4 timeline-item-title" trad="janson_de_sailly">Janson de Sailly - Preparatory Class </h4>
 
               <span>2020 — 2018</span>
 
-              <p class="timeline-text">
+              <p class="timeline-text" trad="janson_description">
                 Math, Physics and Engineering
               </p>
 
@@ -539,7 +541,7 @@
         -->
         <section class="testimonials">
 
-          <h3 class="h3 testimonials-title">Associations</h3>
+          <h3 class="h3 testimonials-title" trad="Associations">Associations</h3>
 
           <ul class="testimonials-list has-scrollbar">
 
@@ -554,24 +556,32 @@
                 <time>Now - 2023</time>
 
                 <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    National Esport Competition admin, Caster tools developper & content creator. <br>
-                    The SGN is the federation of French student esport associations. <br>
-                    We organise a number of national tournaments and actively promote student esports.
-                    <br> <br>
-                    A big project I've been the conceptor of is the creation of a valorant caster dynamic overlay to
-                    display additionnal in game stats. <br>
-                    <a class="testimonials-link"
-                      href="https://github.com/Tibo-Mouss/Overwolf_Valorant_Caster_Overlay/tree/main" target="_blank">
-                      &nbsp; > More about the overlay can be found here < </a>
-                        The main problem in this project is the way to collect the in game data. At the moment, we
-                        tested memory reading and internal apis, but we consider using Image recognition instead as the
-                        previous methods are not reliable.
-
-                        <br> <br>
-                        <a class="testimonials-link" href="https://sgnw.fr/" target="_blank">
-                          &nbsp; > Association's website < </a>
+                  <p trad="SGN_resume_description">
+                    <i>National Esports Competition admin, Caster tools developer & content creator. </i><br> <br>
+                    The SGN is the federation of French student esports associations. <br>
+                    We several national tournaments and actively promote student esports.
                   </p>
+
+                  <br>
+
+                  <table style="width: 100%;">
+                    <tr>
+                      <td>
+                        <button class="button_style_1" role="button"
+                          onclick="goToPage('associations', 'sgn_asso'); clearModalTestimonial()"
+                          trad="More_about_what_i_do">
+                          More about what I do there
+                        </button>
+                      </td>
+                      <td>
+                        <button class="button_style_1" role="button">
+                          <a href="https://sgnw.fr/" target="_blank" style="color: #fff;" trad="Association_website">
+                            Association's website
+                          </a>
+                        </button>
+                      </td>
+                    </tr>
+                  </table>
                 </div>
 
               </div>
@@ -588,16 +598,17 @@
                 <time>2023 - 2022</time>
 
                 <div class="testimonials-text" data-testimonials-text>
-                  <p>
+                  <p trad="tvn7_resume_rescription">
                     I wrote, directed, shot and edited around 40 clips for events, private companies,
                     the school & students of my enginerring school in Toulouse.
-                    <br>
+                    <br> <br>
                     TVn7 is one of the biggest french student video association.
                     <br> <br>
 
                     I filmed live events, made event recap videos, but principally made comedy videos. Here's a sneak
                     peek at some projects I did :
-                    <br> <br>
+                  </p>
+                  <br> <br>
                   <div itemscope itemtype="https://schema.org/VideoObject">
                     <meta itemprop="name" content="TVn7 Example Videos" />
                     <meta itemprop="description" content="TVn7 Example Videos" />
@@ -606,11 +617,31 @@
                     <meta itemprop="embedUrl" content="https://geo.dailymotion.com/player/xou82.html?playlist=x84d4q" />
                     <script src="https://geo.dailymotion.com/player/xou82.js" data-playlist="x84d4q"></script>
                   </div>
-                  <br>
-                  <a class="testimonials-link" href="https://www.tvn7.fr/" target="_blank"> &nbsp; > Association's
-                    website < </a>
 
-                      </p>
+                  <br>
+
+
+
+                  <table style="width: 100%;">
+                    <tr>
+                      <td>
+                        <button class="button_style_1" role="button"
+                          onclick="goToPage('associations', 'tvn7_asso'); clearModalTestimonial()"
+                          trad="More_about_what_i_do">
+                          More about what I do there
+                        </button>
+                      </td>
+                      <td>
+                        <button class="button_style_1" role="button">
+                          <a href="https://www.tvn7.fr/" target="_blank" style="color: #fff;"
+                            trad="Association_website">
+                            Association's website
+                          </a>
+                        </button>
+                      </td>
+                    </tr>
+                  </table>
+
                 </div>
 
               </div>
@@ -628,13 +659,34 @@
                 <time>2018 - 2016</time>
 
                 <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Treasurer in 2017. We provided tech lessons for elderly people each Saturday. <br>
+                  <p trad="net_entraide_resume_description">
+                    <i>Treasurer in 2017. </i>
+                    <br><br>
+                    We provided tech lessons for elderly people each Saturday. <br>
                     The association ceased to exist in 2022.
-                    <br> <br>
-                    <a class="testimonials-link" href="https://net-entraide.org/" target=”_blank”> > Association's
-                      website < </a>
                   </p>
+
+                  <br>
+
+                  <table style="width: 100%;">
+                    <tr>
+                      <td>
+                        <button class="button_style_1" role="button"
+                          onclick="goToPage('associations', 'net_entraide_asso'); clearModalTestimonial()"
+                          trad="More_about_what_i_do">
+                          More about what I do there
+                        </button>
+                      </td>
+                      <td>
+                        <button class="button_style_1" role="button">
+                          <a href="https://net-entraide.org/" target="_blank" style="color: #fff;"
+                            trad="Association_website">
+                            Association's website
+                          </a>
+                        </button>
+                      </td>
+                    </tr>
+                  </table>
                 </div>
 
               </div>
@@ -651,18 +703,18 @@
               <ion-icon name="hammer-outline"></ion-icon>
             </div>
 
-            <h3 class="h3">Skills</h3>
+            <h3 class="h3" trad="Skills">Skills</h3>
           </div>
 
           <ol class="timeline-list">
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Programming</h4>
+              <h4 class="h4 timeline-item-title" trad="Programming">Programming</h4>
 
               <!-- <span>2023 — 2020</span> -->
 
-              <p class="timeline-text">
+              <p class="timeline-text" trad="Programming_description">
                 I've used around 20 programming languages (Python, C#, C++, Java, HTML, TypeScript, ...) during my
                 studies and personnal projects. I'm most proficient in C#.
               </p>
@@ -671,15 +723,17 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Game Engines</h4>
+              <h4 class="h4 timeline-item-title" trad="Game_Engines">Game Engines</h4>
 
               <!-- <span>2020 — 2018</span> -->
 
-              <p class="timeline-text">
-                I'm the most proficient in Unity and learned everything by myself. I've followed GameDevTV courses to
+              <p class="timeline-text" trad="Game_Engines_description">
+                I'm the most proficient in Unity and learned everything by myself.
+                <br>
+                I've followed GameDevTV courses to
                 learn UE and started with Pygames, Stencyl and Intersect Engine.
               </p>
-              <a data-nav-link="gamedev_tv"> &nbsp; > GameDev TV Certificates < </a>
+              <a data-nav-link="gamedev_tv" trad="GameDev_TV_Certificates"> &nbsp; > GameDev TV Certificates < </a>
 
             </li>
 
@@ -689,7 +743,7 @@
 
               <!-- <span>2020 — 2018</span> -->
 
-              <p class="timeline-text timeline-text-flex">
+              <p class="timeline-text timeline-text-flex" trad="Android_Studio_description">
                 Learned at my Engineering school, used in <a data-nav-link="sopra_steria">
                   &nbsp;Sopra Steria Projects</a>.
               </p>
@@ -698,13 +752,13 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Content Creation</h4>
+              <h4 class="h4 timeline-item-title" trad="Content_Creation">Content Creation</h4>
 
               <!-- <span>2020 — 2018</span> -->
 
-              <p class="timeline-text">
-                Written / directed / acted in / edited around 50 clips. I use Premier pro &
-                After Effects to edit. <br>
+              <p class="timeline-text" trad="Content_Creation_description">
+                I participated in the writing / directing / shooting / editing of about a hundred clips (humorous,
+                recaps, interviews ...)  <b>[Premiere pro, After Effects]</b> <br>
                 I operate a Twitch channel since 2017.
               </p>
 
@@ -716,15 +770,15 @@
 
         <section class="skill">
 
-          <h3 class="h3 skills-title">Languages</h3>
+          <h3 class="h3 skills-title" trad="Languages">Languages</h3>
 
           <ul class="skills-list content-card">
 
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">🇫🇷 &nbsp; French</h5>
-                <data value="100"> - Mother tongue</data>
+                <h5 class="h5" trad="French">🇫🇷 &nbsp; French</h5>
+                <data value="100" trad="French_level"> - Mother tongue</data>
               </div>
 
               <div class="skill-progress-bg">
@@ -736,8 +790,8 @@
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">🇬🇧 &nbsp; English</h5>
-                <data value="85"> - Fluent</data>
+                <h5 class="h5" trad="English">🇬🇧 &nbsp; English</h5>
+                <data value="85" trad="English_level"> - Fluent</data>
               </div>
 
               <div class="skill-progress-bg">
@@ -749,7 +803,7 @@
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">🇧🇷 &nbsp; Portuguese</h5>
+                <h5 class="h5" trad="Portuguese">🇧🇷 &nbsp; Portuguese</h5>
                 <data value="60"> - B2 Proficiency (2.5 years lived in Brazil)</data>
               </div>
 
@@ -762,8 +816,8 @@
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">🇪🇸 &nbsp; Spanish</h5>
-                <data value="50"> - B2 Proficiency</data>
+                <h5 class="h5" trad="Spanish">🇪🇸 &nbsp; Spanish</h5>
+                <data value="50" trad="Spanish_level"> - B2 Proficiency</data>
               </div>
 
               <div class="skill-progress-bg">
@@ -776,8 +830,8 @@
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">🇩🇪 &nbsp; German</h5>
-                <data value="35"> - B1 Intermediate</data>
+                <h5 class="h5" trad="German">🇩🇪 &nbsp; German</h5>
+                <data value="35" trad="German_level"> - B1 Intermediate</data>
               </div>
 
               <div class="skill-progress-bg">
@@ -1053,7 +1107,7 @@
         </header>
 
 
-        <div class="association-logo">
+        <div class="association-logo" id="sgn_asso">
           <a href="https://sgnw.fr/" target="_blank">
             <figure class="project-img">
               <div class="project-item-icon-box">
@@ -1217,7 +1271,8 @@
                         &ensp; I started casting games in early 2023 with a Sopra Steria internal tournament and
                         continue to accept the opportunities that I am presented with. <br> <br>
 
-                        &ensp; I've been able to <b style="color: darkorange;">cast/observe</b> games of tournaments like the <b style="color: darkorange;">Valorant Open Tour France</b>
+                        &ensp; I've been able to <b style="color: darkorange;">cast/observe</b> games of tournaments
+                        like the <b style="color: darkorange;">Valorant Open Tour France</b>
                         and <b style="color: darkorange;">Grosse Ligue</b>.
                       </p>
 
@@ -1236,7 +1291,7 @@
 
         <br> <br> <br>
 
-        <div class="association-logo">
+        <div class="association-logo" id="tvn7_asso">
           <a href="https://www.tvn7.fr/" target="_blank">
             <figure class="project-img">
               <div class="project-item-icon-box">
@@ -1385,7 +1440,7 @@
 
 
 
-        <div class="association-logo">
+        <div class="association-logo" id="net_entraide_asso">
           <a href="https://fr.wikipedia.org/wiki/Net%27_Entraide" target="_blank">
             <figure class="project-img">
               <div class="project-item-icon-box">
@@ -1925,6 +1980,7 @@
     - custom js link
   -->
   <script src="./my_assets/js/script.js"></script>
+  <script src="./my_assets/js/translations.js"></script>
 
   <!--
     - ionicon link

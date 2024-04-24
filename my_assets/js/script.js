@@ -153,21 +153,39 @@ const pages = document.querySelectorAll("[data-page]");
 
 // add event to all nav link
 for (let i = 0; i < navigationLinks.length; i++) {
-  navigationLinks[i].addEventListener("click", function () {
-    const targetPage = this.dataset.navLink; // Get the value from the data-nav-link attribute
+  addClickNavigation(navigationLinks[i]);
+}
 
-    for (let i = 0; i < pages.length; i++) {
-      if (targetPage === pages[i].dataset.page) {
-        pages[i].classList.add("active");
-        navigationLinks[i].classList.add("active");
-        window.scrollTo(0, 0);
-      } else {
-        pages[i].classList.remove("active");
-        navigationLinks[i].classList.remove("active");
-      }
+function goToPage(targetPage, scrollTo = "") {
+  for (let i = 0; i < pages.length; i++) {
+    if (targetPage === pages[i].dataset.page) {
+      pages[i].classList.add("active");
+      navigationLinks[i].classList.add("active");
+      window.scrollTo(0, 0);
+    } else {
+      pages[i].classList.remove("active");
+      navigationLinks[i].classList.remove("active");
     }
+  }
+
+  if (scrollTo != "") {
+    const textElement = document.getElementById(scrollTo);
+
+    textElement.scrollIntoView({behavior: "smooth"});
+  }
+}
+
+function addClickNavigation(navigationLink) {
+  navigationLink.addEventListener("click", function () {
+    const targetPage = this.dataset.navLink; // Get the value from the data-nav-link attribute
+    goToPage(targetPage);
   });
 }
+
+
+
+
+
 
 
 
@@ -223,22 +241,15 @@ for (let [key, value] of Object.entries(slideIndex_dict)) {
 }
 
 function plusDivs(n, slider_name, slider_images_nb) {
-  console.log("-- Before:");
-  console.log(slideIndex_dict);
   showDivs(slideIndex_dict[slider_name] += n, slider_name, slider_images_nb);
-  console.log(slideIndex_dict);
-  console.log("After: --");
 }
 
 function showDivs(n, slider_name, slider_images_nb) {
-  console.log(slider_name);
   var i;
   var x = document.getElementsByClassName(slider_name);
   if (n > slider_images_nb) { slideIndex_dict[slider_name] = 1 }
   if (n < 1) { slideIndex_dict[slider_name] = slider_images_nb }
   for (i = 0; i < slider_images_nb; i++) {
-    console.log(x);
-    console.log(i);
     x[i].style.display = "none";
   }
   x[slideIndex_dict[slider_name] - 1].style.display = "block";
