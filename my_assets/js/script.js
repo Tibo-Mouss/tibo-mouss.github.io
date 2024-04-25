@@ -150,6 +150,7 @@ for (let i = 0; i < formInputs.length; i++) {
 // page navigation variables
 const navigationLinks = document.querySelectorAll("[data-nav-link]");
 const pages = document.querySelectorAll("[data-page]");
+var current_page = "about";
 
 // add event to all nav link
 for (let i = 0; i < navigationLinks.length; i++) {
@@ -162,6 +163,8 @@ function goToPage(targetPage, scrollTo = "") {
       pages[i].classList.add("active");
       navigationLinks[i].classList.add("active");
       window.scrollTo(0, 0);
+      current_page = targetPage;
+      // history.pushState({}, null, getFullURL());
     } else {
       pages[i].classList.remove("active");
       navigationLinks[i].classList.remove("active");
@@ -207,6 +210,7 @@ if (landingPage) {
       navigationLinks[i].classList.add("active");
       window.scrollTo(0, 0);
       is_page_found = true;
+      current_page = landingPage;
     } else {
       pages[i].classList.remove("active");
       navigationLinks[i].classList.remove("active");
@@ -218,6 +222,7 @@ if (!is_page_found) {
   pages[0].classList.add("active");
   navigationLinks[0].classList.add("active");
   window.scrollTo(0, 0);
+  current_page = "about";
 }
 
 

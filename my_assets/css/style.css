@@ -2230,6 +2230,27 @@ textarea.form-input::-webkit-resizer {
 
 /**   --------------------- SHITTY CSS HERE LOL  ----------------------------*/
 
+/* Language Icons */
+.language_icon {
+  width: 40px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  /* border: black solid 2px; */
+  box-shadow: 0 0 0.5em darkslategrey;
+  transition: all .2s ease-in-out; 
+}
+
+.td_language_icon {
+  text-align: center;
+  margin: auto;
+}
+
+.language_icon:hover {
+  transform: scale(1.08);
+}
+
+
 /**
 	 * All articles
 	 */
