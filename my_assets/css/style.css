@@ -2250,6 +2250,26 @@ textarea.form-input::-webkit-resizer {
   transform: scale(1.08);
 }
 
+/**
+  * Resume custom css
+  */
+
+.code_language_img {
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+  -webkit-filter: drop-shadow(1px 1px 1.5px darkorange);
+  filter: drop-shadow(1px 1px 1.5px darkorange);
+
+  border-radius: 10px;
+}
+
+.code_language_table {
+  width: 100%;
+  table-layout: fixed;
+}
+
 
 /**
 	 * All articles

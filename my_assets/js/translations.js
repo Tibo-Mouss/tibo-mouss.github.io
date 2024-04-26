@@ -85,20 +85,23 @@ var french_translations = {
     "Skills": "Compétences",
     "Programming": "Programmation",
     "Programming_description": `
-        J'ai utilisé une vingtaine de langages de programmation (Python, C#, C++, Java, HTML, TypeScript, ...)
+        &ensp; J'ai utilisé une vingtaine de langages de programmation
+        (Python, C#, C++, Java, HTML, TypeScript, ...)
         au cours de mes études et projets personnels.
         <br>
         Ma préférence revient au C#`,
     "Game_Engines": "Moteurs de Jeux",
-    "Game_Engines_description": `Apprentissage en autodidacte et
+    "Game_Engines_description": `&ensp; Apprentissage en autodidacte et
         préférence pour Unity. <br>
         J'ai entre autres suivi les cours de GameDevTV pour apprendre UE et ai
         commencé avec Pygames, Stencyl et Intersect Engine.`,
     "GameDev_TV_Certificates": " &nbsp; > Certifications GameDev TV  < ",
-    "Android_Studio_description": `Étudié dans mon école d'Ingénieur, utilisé dans mes
+    "Android_Studio_description": `&ensp; Étudié dans mon école d'Ingénieur,
+        utilisé dans mes
         <a onclick="goToPage('sopra_steria')"> &nbsp; Projets à Sopra Steria </a>.`,
     "Content_Creation": "Création de Contenu",
-    "Content_Creation_description": `J'ai participé à l'écriture / réalisation /
+    "Content_Creation_description": `
+        &ensp; J'ai participé à l'écriture / réalisation /
         tournage / montage d'une centaine de clips (humourstiques, récaps, interviews ...)
         <b>[Premiere pro, After Effects]</b>
         <br>
@@ -262,6 +265,9 @@ var french_translations = {
         • Un bouton pour activer / désactiver l'extension`,
     "FauxPilot_description_item3": `&ensp; &ensp;
         • Une section Paramètres`,
+    "Fauxpilot_logo": "Logo FauxPilot",
+    "Intellij_added_features": "Fonctionnalités ajoutées à Intellij",
+    "My_Intellij_Extension_logo": "Mon logo d'extension",
 
     
     // GameDev TV PAge
