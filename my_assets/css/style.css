@@ -2377,6 +2377,16 @@ textarea.form-input::-webkit-resizer {
 }
 
 
+/** 
+  Article Linguaskill
+*/
+
+.linguaskill p {
+  color: var(--white-2);
+  font-size: var(--fs-7);
+}
+
+
 
 /* SLIDER */
 

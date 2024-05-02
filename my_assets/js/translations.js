@@ -107,6 +107,11 @@ var french_translations = {
         <br>
         J'ai une chaîne Twitch depuis 2017.`,
 
+    "Certifications": "Certifications",
+    "UE_certification_title": "Unreal Engine C++ et Maîtrise Multijoueur",
+    "Linguaskill_Certificate": "> Certificat Linguaskill <",
+    "Linguaskill_certif_title": "Linguaskill (Anglais C1+)",
+
     "Languages": "Langues",
     "French": "🇫🇷 &nbsp; Français",
     "French_level": " - Langue maternelle",
@@ -277,6 +282,9 @@ var french_translations = {
         <br>
         &ensp; J'ai codé en C++
         et Blueprints, et découvert les bases de la programmation multijoueur.`,
+
+    //Linguaskill page
+    "linguaskill_page_description": "Test Linguaskill, de Cambridge :",
 };
 
 
