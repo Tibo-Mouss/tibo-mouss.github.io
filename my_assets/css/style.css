@@ -1564,8 +1564,20 @@ textarea.form-input::-webkit-resizer {
     border-radius: 30px;
   }
 
-  .avatar-box img {
+  .avatar-box:hover > .my_avatar_img {
+    width: 0px;
+  }
+
+  .avatar-box:hover > .my_avatar_gif {
     width: 120px;
+  }
+
+  .my_avatar_img {
+    width: 120px;
+  }
+
+  .my_avatar_gif {
+    width: 0px;
   }
 
   .info-content .name {
@@ -2164,8 +2176,20 @@ textarea.form-input::-webkit-resizer {
     flex-direction: column;
   }
 
-  .avatar-box img {
+  .avatar-box:hover > .my_avatar_img {
+    width: 0px;
+  }
+
+  .avatar-box:hover > .my_avatar_gif {
     width: 150px;
+  }
+
+  .my_avatar_img {
+    width: 150px;
+  }
+
+  .my_avatar_gif {
+    width: 0px;
   }
 
   .info-content .name {
