@@ -172,7 +172,9 @@ var french_translations = {
         d'un tournoi interne de Sopra Steria et je continue à accepter les
         opportunités qui se présentent à moi.
         <br> <br>
-        &ensp; J'ai pu commenter/obs durant le
+        &ensp; J'ai pu commenter/obs durant les
+        <b style="color: darkorange;">VCL (Up & Down)</b>,
+        <b style="color: darkorange;">ValoCup by mGa</b>,
         <b style="color: darkorange;">Valorant Open Tour France</b> et 
         <b style="color: darkorange;">La Grosse Ligue</b>.`,
     "TVn7_asso_description": `
