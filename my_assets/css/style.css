@@ -2353,6 +2353,26 @@ textarea.form-input::-webkit-resizer {
 }
 
 
+  
+.tournaments_logo_img { /* Display tournaments logos */
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto;
+
+  -webkit-filter: drop-shadow(1px 1px 1.5px darkorange);
+  filter: drop-shadow(1px 1px 1.5px darkorange);
+
+  border-radius: 10px;
+}
+
+.tournaments_logo_table {
+  width: 100%;
+  table-layout: auto;
+}
+
+
+
+
 
 /**
 	 * Article Sopra Steria
