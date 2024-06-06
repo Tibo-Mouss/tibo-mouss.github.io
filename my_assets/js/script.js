@@ -276,3 +276,14 @@ function showDivs(n, slider_name, slider_images_nb) {
 // }
 
 
+
+
+// Makes the item redirect (in another page) to another link when clicked
+function redirectBlank(link) {
+  window.open(link, "_blank");
+}
+
+// Makes the item redirect (in same page) to another link when clicked
+function redirect(link) {
+  location.href=link;
+}

@@ -145,6 +145,11 @@ var french_translations = {
 
 
     // Associations page
+    "associations_intro": `<br> J'adore participer à des associations
+        <br> <br>
+        Cela me permet de connaître d'autres personnes et de développer
+        des compétences que l'on n'aurait pas normalement si l'on suivait
+        un parcours conventionnel.`,
     "sgn_asso_description": `Le SGN (Student Gaming Network) est la
         fédération des associations étudiantes françaises d'esports.
         <br>
@@ -229,7 +234,7 @@ var french_translations = {
         et nous faisions de la <b style="color: #c112c1;">sensibilisation</b>
         sur l'intérêt de notre association sur ce stand.`,
 
-    
+
     // Sopra steria page
     "Airbus_Projects": "Projets Airbus",
     "Airbus_projects_intro": `
@@ -276,8 +281,31 @@ var french_translations = {
     "Intellij_added_features": "Fonctionnalités ajoutées à Intellij",
     "My_Intellij_Extension_logo": "Mon logo d'extension",
 
-    
-    // GameDev TV PAge
+
+    // PDMO
+    "pdmo_intro": `&ensp; Pokemon Donjon Mystère Online est un fan-game
+        basé sur la série Pokemon Donjon Mystère de Nintendo™. <br>
+        &ensp; Je suis tombé sur ce projet par hasard et j'ai demandé à participer
+        à son développement.
+    `,
+    "pdmo_intersect_engine" : `&ensp; Le jeu est basé sur le moteur Intersect engine.
+        <br> <br>
+        &ensp; Il s'agit d'un moteur de jeu multijoueur en 2D spécialisé
+        dans les déplacements top down en grille carrée.
+        Mon travail consistait à ajouter de nouvelles fonctionnalités au
+        moteur open-source.`,
+    "Main_Contribution" : "Contribution principale",
+    "pdmo_main_contribution" : `&ensp; Ma plus grande mission a été d'implémenter les contrôles
+        manette dans le jeu qui ne sont pas natifs. <br> <br>
+        J'ai dû : <br>
+        &ensp; • Analyser le code du moteur open-source <br>
+        &ensp; • Trouver des bibliothèques C# qui prennent en charge le plus grand nombre
+        possible de manettes de jeu. <br>
+        &ensp; • Sonder la communauté pour trouver la meilleure config par défaut <br>
+        &ensp; • Mettre en place d'une IU intuitive pour modifier les combinaisons de touches`,
+
+
+    // GameDev TV Page
     "GameDev_TV_page_description": `
         &ensp; Pendant l'été 2022, j'ai passé 2 mois à apprendre Unreal
         Engine en suivant des formations certifiantes sur le site GameDev.tv.
