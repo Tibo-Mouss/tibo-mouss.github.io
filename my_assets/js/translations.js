@@ -1,4 +1,5 @@
 var french_translations = {
+    "": "TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO",
     "about_me": "À propos",
     "Resume": "CV",
     "Portfolio": "Portfolio",
@@ -288,15 +289,15 @@ var french_translations = {
         &ensp; Je suis tombé sur ce projet par hasard et j'ai demandé à participer
         à son développement.
     `,
-    "pdmo_intersect_engine" : `&ensp; Le jeu est basé sur le moteur Intersect engine.
+    "pdmo_intersect_engine": `&ensp; Le jeu est basé sur le moteur Intersect engine.
         <br> <br>
         &ensp; Il s'agit d'un moteur de jeu multijoueur en 2D spécialisé
         dans les déplacements top down en grille carrée.
         Mon travail consistait à ajouter de nouvelles fonctionnalités au
         moteur open-source.`,
-    "Main_Contribution" : "Contribution principale",
-    "pdmo_main_contribution" : `&ensp; Ma plus grande mission a été d'implémenter les contrôles
-        manette dans le jeu qui ne sont pas natifs. <br> <br>
+    "Main_Contribution": "Contribution principale",
+    "pdmo_main_contribution": `&ensp; Ma plus grande mission a été d'implémenter les contrôles
+        manette qui ne sont pas natifs. <br> <br>
         J'ai dû : <br>
         &ensp; • Analyser le code du moteur open-source <br>
         &ensp; • Trouver des bibliothèques C# qui prennent en charge le plus grand nombre
@@ -315,13 +316,57 @@ var french_translations = {
 
     //Linguaskill page
     "linguaskill_page_description": "Test Linguaskill, de Cambridge :",
+
+
+    // Multiplayer game
+    "multiplayer_game_intro": `&ensp; Durant l'été 2022, après avoir appris
+        les bases de la programmation multijoueur via GameDev.TV,
+        j'ai construit le même
+        prototype de jeu multijoueur en 2D dans Unreal Engine et Unity.`,
+    "multiplayer_game_rules_explanation": `Il y a deux équipes :
+        <b style="color: orange;">Les Survivants</b>, qui doivent
+        imiter les mouvements du bot et
+        accomplir des objectifs, et <b style="color: orange;">Les Chasseurs</b>,
+        qui tentent de démasquer les Survivants.`,
+    "Challenges_UE" : `Défis d'Unreal Engine (1 Mois)`,
+    "Challenges_UE_description": `
+        &ensp; • On peut produire des jeux 2D sur UE avec Paper2D
+        mais le moteur n'est pas fait pour. (Problèmes de pathfinding, ...) <br>
+        &ensp; • Mise en place d'un système de lobby et d'invitation
+        ? (NAT Punchthrough) <br>
+        J'ai implémenté le SDK Steam et les Epic Online
+        Services (EOS) mais les deux sont payants. Je n'ai réussi qu'en ouvrant
+        les ports de ma box. <br>
+        &ensp; • Hot Reload inconsistant.`,
+    "lobby_screenshot_description": `Capture d'écran du lobby, avec
+        2 joueurs, et une console custom en haut à gauche.`,
+    "Challenges_Unity": `Défis avec Unity (1.5 Mois)`,
+    "Challenges_Unity_description": `
+        &ensp; • Debug d'erreurs de code du multijoueur →
+        Déploiement de consoles clientes à l'écran <br>
+        &ensp; • Transmission des informations d'une scène à l'autre. <br>
+        &ensp; • Très peu de documentation sur Unity Relay était disponible
+        à l'époque.`,
+    "What_did_I_learn": "Qu'ai-je appris au final ?",
+    "multiplayer_game_sum_up_learnings": `
+        &ensp; • Les <b class="underline">bases de la programmation en ligne</b>
+        (Modèles Client/Serveur hébergé)
+        <span class="right_side">
+            &ensp; <b class="underline">La Réplication</b> (Quel client possède quel objet ?) •
+        </span>
+        &ensp; • Aperçu des <b class="underline">outils Steam et Epic</b>
+            pour développeurs. (Steam SDK & EOS)
+        <span class="right_side">
+            &ensp; Ne jamais faire confiance au client •
+        </span>`,
+        
 };
 
 
 
 var translations = {
     "FR": french_translations,
-    "EN": {}, // Set empty at the start, is completed at startup of website
+    "EN": {}, // Set empty at the start, is filled at startup of website
 };
 
 const trad_url_param = getQueryParam('lang');
