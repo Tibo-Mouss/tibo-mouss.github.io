@@ -180,6 +180,7 @@ var french_translations = {
         <br> <br>
         &ensp; J'ai pu commenter/obs durant les
         <b style="color: darkorange;">VCL (Up & Down)</b>,
+        <b style="color: darkorange;">Game Changers Qualif.</b>,
         <b style="color: darkorange;">ValoCup by mGa</b>,
         <b style="color: darkorange;">Valorant Open Tour France</b> et 
         <b style="color: darkorange;">La Grosse Ligue</b>.`,
