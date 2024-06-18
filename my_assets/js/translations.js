@@ -238,6 +238,20 @@ var french_translations = {
 
 
     // Sopra steria page
+    "sopra_steria_intro": `&ensp; 
+        J'ai travaillé chez Sopra Steria de mars 2023 à mai 2024.
+        J'y ai effectué mon stage de fin d'études et ai décroché mon premier CDI.
+    `,
+
+    "avril_2023" : "Avril 2023",
+    "fauxpilot_timeline": "<b>Fauxpilot</b> <br> Extension Jetbrains (Kotlin)",
+    "may_2023" : "Mai 2023",
+    "omniverse_timeline": "<b>Omniverse</b> <br> Moteur 3D (Python)",
+    "july_2023": "Juillet 2023",
+    "airbus_way_timeline": "<b>Airbus W@y</b> <br> Backend Mobile (Kotlin)",
+    "sept_2023": "Sept. 2023",
+    "aero_excellence_timeline" : "<b>Aéro Excellence</b> <br> Django backend (Python)",
+
     "Airbus_Projects": "Projets Airbus",
     "Airbus_projects_intro": `
         &ensp; J'ai travaillé pour Airbus dans le cadre de deux projets
