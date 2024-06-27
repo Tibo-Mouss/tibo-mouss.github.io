@@ -146,9 +146,10 @@ var french_translations = {
 
 
     // Associations page
-    "associations_intro": `<br> J'adore participer à des associations
+    "associations_intro": `<br>
+        &ensp; J'adore participer à des associations
         <br> <br>
-        Cela me permet de connaître d'autres personnes et de développer
+        &ensp; Cela me permet de connaître d'autres personnes et de développer
         des compétences que l'on n'aurait pas normalement si l'on suivait
         un parcours conventionnel.`,
     "sgn_asso_description": `Le SGN (Student Gaming Network) est la
