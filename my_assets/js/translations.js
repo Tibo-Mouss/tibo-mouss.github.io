@@ -182,9 +182,8 @@ var french_translations = {
         &ensp; J'ai pu commenter/obs durant les
         <b style="color: darkorange;">VCL (Up & Down)</b>,
         <b style="color: darkorange;">Game Changers Qualif.</b>,
-        <b style="color: darkorange;">ValoCup by mGa</b>,
-        <b style="color: darkorange;">Valorant Open Tour France</b> et 
-        <b style="color: darkorange;">La Grosse Ligue</b>.`,
+        <b style="color: darkorange;">Valorant Open Tour France</b>, 
+        <b style="color: darkorange;">La Grosse Ligue</b>...`,
     "TVn7_asso_description": `
         TVn7 est l'association vidéo de mon école d'ingénieur et également
         l'une des plus grandes associations vidéo étudiantes en France.
