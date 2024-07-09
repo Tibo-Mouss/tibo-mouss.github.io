@@ -237,6 +237,36 @@ var french_translations = {
         sur l'intérêt de notre association sur ce stand.`,
 
 
+    //Valorant Overlay page
+    "Dynamic_Overlay": "Overlay Dynamique",
+    "point_of_valorant_dynamic_overlay": `
+        Quel est l'intérêt d'un overlay Dynamique pour Valorant ?`,
+    "point_of_valorant_dynamic_overlay_desc": ` &ensp; 
+        Lorsque vous diffusez une compétition de Valorant,
+        vous ne pouvez pas montrer tout ce qui se passe pendant
+        chaque round. L'objectif de l'ajout d'un overlay sur
+        le jeu est d'aider le public des tournois à comprendre
+        les actions qui se déroulent pendant chaque round.
+    `,
+    "Sans_Overlay": "Sans Overlay",
+    "Avec_Overlay": "Avec Overlay",
+    "biggest_challenge_overlay": ` &ensp; 
+        Le plus grand défi a été de trouver les
+        informations sur la partie en cours, nous avons testé :
+    `,
+    "External_APIs": "&ensp; &ensp; • APIs Externes (Communauté & Officielle Riot)",
+    "Internal_APIs": "&ensp; &ensp; • APIs Internes",
+    "Memory_Reading": "&ensp; &ensp; • Lecture de mémoire (Overwolf)",
+    "Image_anylisis": `&ensp; &ensp; • Analyse d'image 
+        (Reconnaissance de char. & Comparaison d'images)`,
+    "How_it_is_displayed": "Comment affiche-t-on l'overlay ?",
+    "How_it_is_displayed_desc": ` &ensp; Les informations recueillies sont envoyées
+        au format json à une page web hébergée localement qui crée l'overlay.
+        Grâce au framework d'app Overwolf, la page web peut
+        être superposée au jeu. 
+    `,
+    "public_github_repo": "Repo Github Publique",
+
     // Sopra steria page
     "sopra_steria_intro": `&ensp; 
         J'ai travaillé chez Sopra Steria de mars 2023 à mai 2024.
