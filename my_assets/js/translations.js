@@ -152,8 +152,9 @@ var french_translations = {
         &ensp; Cela me permet de connaître d'autres personnes et de développer
         des compétences que l'on n'aurait pas normalement si l'on suivait
         un parcours conventionnel.`,
-    "sgn_asso_description": `Le SGN (Student Gaming Network) est la
-        fédération des associations étudiantes françaises d'esports.
+    "sgn_asso_description": `Le <b style="color: darkorange;">SGN</b>
+        (Student Gaming Network) est la <b style="color: darkorange;">
+        fédération des associations étudiantes françaises d'esports. </b>
         <br>
         Nous organisons des tournois nationaux et promouvons activement
         l'esport étudiant.`,
@@ -184,9 +185,18 @@ var french_translations = {
         <b style="color: darkorange;">Game Changers Qualif.</b>,
         <b style="color: darkorange;">Valorant Open Tour France</b>, 
         <b style="color: darkorange;">La Grosse Ligue</b>...`,
+    "Oserv_asso_description": `<b style="color: red;">Oserv</b>
+        est une <b style="color: red;">structure Esport associative </b>
+        basée à Toulouse, créée en 2015.
+        <br> <br>
+        Je fais parti de leur <b style="color: red;">WebTV</b>,
+        en étant commentateur / Obs des compétitions auxquelles
+        leurs joueurs participent.
+    `,
     "TVn7_asso_description": `
-        TVn7 est l'association vidéo de mon école d'ingénieur et également
-        l'une des plus grandes associations vidéo étudiantes en France.
+        <b style="color: darkorange;">TVn7</b> est l'association
+        vidéo de mon école d'ingénieur et également <b style="color: darkorange;">
+        l'une des plus grandes associations vidéo étudiantes en France. </b>
         <br> <br>
         J'ai participé à l'écriture / réalisation / tournage / montage
         d'<b style="color: darkorange;">une centaine de clips</b>
@@ -216,8 +226,9 @@ var french_translations = {
         &ensp; J'adore les imaginer, les écrire et pouvoir les produire du début
         à la fin avec les autres membres de TVn7.`,
     "Net_Entraide_asso_description": `
-        Net'Entraide est une association locale
-        (~ 10 personnes) de Laval qui vise à enseigner la technologie aux personnes âgées.
+        <b style="color: #c112c1;">Net'Entraide</b> est une association locale
+        (~ 10 personnes) de Laval qui vise à <b style="color: #c112c1;">
+        enseigner la technologie aux personnes âgées</b>.
         <br>
         L'association a cessé d'exister en 2022.`,
     "net_entraide_asso_routine": `
