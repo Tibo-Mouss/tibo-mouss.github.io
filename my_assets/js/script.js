@@ -2,6 +2,7 @@
 
 
 
+
 // element toggle function
 const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
 
@@ -287,3 +288,11 @@ function redirectBlank(link) {
 function redirect(link) {
   location.href=link;
 }
+
+
+
+const myTopic = "L6mPhiwl8zSmjaV5WviYgxo7j9jm7ax5KaGiDVwt82qC7SiBeSZoL6VGcjRk94yY";
+fetch('https://ntfy.sh/'+myTopic, {
+  method: 'POST',
+  body: 'Someone entered your website :)'
+})
