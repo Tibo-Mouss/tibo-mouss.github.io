@@ -367,10 +367,20 @@ function getUserIP() {
         .catch(error => console.error('Error fetching IP:', error));
 }
 
+const referredUser = getQueryParam('ref');
+const referredUserText = "";
+if (referredUser) {
+  referredUserText = `It's a referred user ! : ${referredUser} \n`
+}
+
 getUserIP().then(ip => {
   fetch('https://ntfy.sh/'+myTopic, {
     method: 'POST',
-    body: `IP : ${ip}  \n\n ${JSON.stringify(getUserInfo(), null, 2)}`
+    body: `${referredUserText} IP : ${ip}  \n\n ${JSON.stringify(getUserInfo(), null, 2)}`,
+    headers: {
+        'Title': 'Nouvelle conexion au portfolio',
+        'Tags': 'loudspeaker'
+    }
   })
 });
 
