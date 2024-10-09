@@ -368,7 +368,7 @@ function getUserIP() {
 }
 
 const referredUser = getQueryParam('ref');
-const referredUserText = "";
+var referredUserText = "";
 if (referredUser) {
   referredUserText = `It's a referred user ! : ${referredUser} \n`
 }
