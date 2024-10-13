@@ -963,6 +963,11 @@ main {
   line-height: 1.6;
 }
 
+.timeline-text b {
+  font-weight: 700;
+  color: rgb(172, 116, 224);
+}
+
 .timeline-list a {
   color: cyan;
   -webkit-touch-callout: none;

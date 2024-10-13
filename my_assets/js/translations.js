@@ -37,14 +37,18 @@ var french_translations = {
 
     //CV PAGE
     "Experience": "Expérience",
-    "Software_developer_Sopra_Steria": "Développeur logiciel à Sopra Steria",
+    "Software_developer_Sopra_Steria": "Développeur logiciel chez Sopra Steria",
     "Permanent_Contract": "CDI",
     "Internship": "Stage",
+    "Software_developer_justwatch": "Développeur logiciel chez Justwatch",
+    "dates_justwatch_work": "Auj. - Sept. 2024",
+    "justwatch_work_description": `
+        • En cours :)`,
     "dates_sopra_work": "Avril 2024 - Sept. 2023",
     "sopra_work_description": `
-        • Site Web d'évaluation d'entreprises pour le GIFAS | Django <br>
-        • App interne pour Airbus | Android <br>
-        • Simulation d'une ligne de production de drone pour le Paris Air show 2023 | Omniverse<br>
+        • Responsable Dev. Backend de site pour <b>Airbus</b> | Django <br>
+        • Développeur Backend d'App <b>Airbus</b> | Android <br>
+        • Simulation d'une ligne de production de drone pour le <b>Paris Air show 2023</b> | Omniverse<br>
         • Extension Jetbrains pour FauxPilot | Kotlin <br>
         <a data-nav-link="sopra_steria">
         &nbsp; > Cliquez ici pour voir les projets en détail < &nbsp; </a>`,
