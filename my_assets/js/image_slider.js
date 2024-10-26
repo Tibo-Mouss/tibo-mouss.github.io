@@ -57,3 +57,28 @@ slider_right_transparent.addEventListener('mouseout', function () {
     right_slider_image_text.style.marginLeft = '65%';
     right_slider_image_text.style.marginRight = '35%';
 });
+
+
+
+
+
+
+// NEWS SLIDER 
+
+
+
+let currentSlide = 0;
+const slides = document.querySelectorAll('.news-slide');
+
+function showSlide(index) {
+slides.forEach((slide, i) => {
+    slide.classList.toggle('active', i === index);
+});
+}
+
+function nextSlide() {
+currentSlide = (currentSlide + 1) % slides.length;
+showSlide(currentSlide);
+}
+
+setInterval(nextSlide, 6000);
