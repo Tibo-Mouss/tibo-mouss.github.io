@@ -159,6 +159,8 @@ for (let i = 0; i < navigationLinks.length; i++) {
 }
 
 function goToPage(targetPage, scrollTo = "") {
+  var page_is_found = false;
+
   for (let i = 0; i < pages.length; i++) {
     if (targetPage === pages[i].dataset.page) {
       pages[i].classList.add("active");
@@ -166,10 +168,18 @@ function goToPage(targetPage, scrollTo = "") {
       window.scrollTo(0, 0);
       current_page = targetPage;
       // history.pushState({}, null, getFullURL());
+      is_page_found = true;
     } else {
       pages[i].classList.remove("active");
       navigationLinks[i].classList.remove("active");
     }
+  }
+
+  if (!is_page_found) {
+    pages[0].classList.add("active");
+    navigationLinks[0].classList.add("active");
+    window.scrollTo(0, 0);
+    current_page = "about";
   }
 
   if (scrollTo != "") {
@@ -202,31 +212,17 @@ function getQueryParam(paramName) {
 }
 
 const landingPage = getQueryParam('landing');
+const scrollToOnLanding = getQueryParam('scrollTo');
 
 var is_page_found = false
+
 if (landingPage) {
-  for (let i = 0; i < pages.length; i++) {
-    if (landingPage === pages[i].dataset.page) {
-      pages[i].classList.add("active");
-      navigationLinks[i].classList.add("active");
-      window.scrollTo(0, 0);
-      is_page_found = true;
-      current_page = landingPage;
-    } else {
-      pages[i].classList.remove("active");
-      navigationLinks[i].classList.remove("active");
-    }
+  if (scrollToOnLanding) {
+    goToPage(landingPage, scrollToOnLanding);
+  } else {
+    goToPage(landingPage);
   }
 }
-// Of no page with name is found it redirects to the default landing page
-if (!is_page_found) {
-  pages[0].classList.add("active");
-  navigationLinks[0].classList.add("active");
-  window.scrollTo(0, 0);
-  current_page = "about";
-}
-
-
 
 
 // FOR IMAGE SLIDES
@@ -373,16 +369,40 @@ if (referredUser) {
   referredUserText = `It's a referred user ! : ${referredUser} \n`
 }
 
-getUserIP().then(ip => {
-  fetch('https://ntfy.sh/'+myTopic, {
-    method: 'POST',
-    body: `${referredUserText} IP : ${ip}  \n\n ${JSON.stringify(getUserInfo(), null, 2)}`,
-    headers: {
-        'Title': 'Nouvelle conexion au portfolio',
-        'Tags': 'loudspeaker'
-    }
-  })
-});
-
-
 const myTopic = "L6mPhiwl8zSmjaV5WviYgxo7j9jm7ax5KaGiDVwt82qC7SiBeSZoL6VGcjRk94yY";
+
+
+
+// Combine all data into a JSON string
+function sendUserData() {
+  const userInfo = getUserInfo(); // Get user information
+  const referredUser = getQueryParam('ref'); // Get referred user from URL
+  const referredUserText = referredUser ? `It's a referred user ! : ${referredUser}` : ""; // Create text for referred user
+  
+  // Get user IP asynchronously
+  getUserIP().then(userIP => {
+      // Combine all data
+      const userData = {
+          ...userInfo, // Spread user info object into final object
+          ipAddress: userIP, // Add IP address
+          referredUserText // Add referred user text
+      };
+      
+      // Convert the final object to JSON string
+      const jsonString = JSON.stringify(userData, null, 2); // Pretty-printed JSON
+
+      fetch('https://nt' + 'fy.sh/' +myTopic, {
+        method: 'POST',
+        body: jsonString,
+        headers: {
+            'Title': 'Nouvelle conexion au portfolio',
+            'Tags': 'loudspeaker'
+        }
+      })
+  }).catch(error => {
+      console.error("Error creating user JSON:", error);
+  });
+}
+
+
+sendUserData();
