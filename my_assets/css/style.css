@@ -2966,3 +2966,10 @@ News Section in About page
   cursor: default;
   opacity: .24;
 }
+
+
+#mobile_only_text {
+  text-align: center;
+  margin-top: 50%;
+  color: aqua;
+}
