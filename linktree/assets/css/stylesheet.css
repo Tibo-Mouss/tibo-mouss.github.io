@@ -53,7 +53,8 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  height: 150%;
+  background-size: cover;
+  height: 100%;
   width: 100%;
 }
 
@@ -138,7 +139,7 @@ body {
 }
 
 .bg-twitter {
-  background: linear-gradient(to right, #000000, #ffffff);
+  background: linear-gradient(to right, #17101d, #744ef1);
 }
 
 .bg-session {
@@ -146,7 +147,11 @@ body {
 }
 
 .bg-amino {
-  background: linear-gradient(to right, #1b17f5, #1ff7f7);
+  background: linear-gradient(to right, #1b17f5, #269df1);
+}
+
+.bg-steam {
+  background: linear-gradient(to right, #3d3afd, #0c0221);
 }
 
 .bg-discord  {
@@ -166,7 +171,7 @@ body {
 }
 
 .bg-twitter {
-  background: linear-gradient(to right, #000000, #ffffff);
+  background: linear-gradient(to right, #17101d, #744ef1);
 }
 
 .bg-stack {
