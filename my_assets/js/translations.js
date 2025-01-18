@@ -34,8 +34,8 @@ var french_translations = {
     "Content_creation_description": `Je fais des vidéos, streams, podcasts,
         des choses qui me plaisent et que j'espère plairont à d'autres.`,
 
-    "Latest_News" : "Dernières News",
-    "News_Title_1" : "Le tournoi Valorose c'est fini !",
+    "Latest_News": "Dernières News",
+    "News_Title_1": "Le tournoi Valorose c'est fini !",
     "News_Description_1": "On a aidé à rassembler 5200€ pour la recherche contre le cancer !",
     "News_Title_2": "Nouvelle aventure chez Justwatch 😊",
     "News_Description_2": "J'ai rejoint leur équipe backend en Septembre 2024.",
@@ -143,6 +143,7 @@ var french_translations = {
     "Engineering_School": "Ecole d'Ingénieur",
     "Work": "Travail",
 
+    "Discord_bot_gl_title": "Bot Discord de Tournois",
     "Valorant_Stream_Overlay": "Overlay Dynamique Valorant",
     "Sopra_Steria_Projects": "Projets Sopra Steria",
     "Ray_Tracing_Engine": "Moteur 3D Ray Tracing",
@@ -258,6 +259,45 @@ var french_translations = {
         et nous faisions de la <b style="color: #c112c1;">sensibilisation</b>
         sur l'intérêt de notre association sur ce stand.`,
 
+    // Bot GL Discord :
+    "introduction_bot_gl": `
+        &ensp; Pour la Grosse Ligue 2024-2025, une Compétition en partenariat
+            avec Riot Games, nous avions besoin de gérer les questions des joueurs
+            avec un système de tickets. <br>
+        &ensp; J'ai codé un <b style="color: darkorange;">Bot Discord</b>
+            en <b style="color: darkorange;">Python</b> auto-hébergé pour ça.
+    `,
+    "ticket_creation": "Création de Ticket",
+    "ticket_creation_form": "Formulaire de Création",
+    "inside_a_ticket": "Dans un ticket",
+    "the_players_view": "La vue du joueur",
+    "the_players_view_description": `
+        &ensp; Les joueurs peuvent ouvrir différent types de tickets et un 
+        thread privé est créé.
+        <br> <br>
+        &ensp; Les Admins peuvent ensuite rejoindre ce thread et discuter avec le joueur.
+    `,
+    "ticket_stats": "Statistiques",
+    "admin_view": "Vue Admin",
+    "the_admins_view_title": "La Vue Admin",
+    "admins_view_description": `
+        &ensp; Les admins voient tous les tickets créés et peuvent rejoindre les threads.
+        <br>
+        <br>
+        &ensp; Tous les tickets résolus sont enregistrés sur un channel à part au 
+        cas où.
+    `,
+    "archived_tickets": "Tickets archivés",
+    "advantages_custom_discord_bot_title": "Les avantages d'un Bot Personnalisé",
+    "advantages_custom_discord_1": "&ensp; &ensp; • Adaptabilité aux besoins",
+    "advantages_custom_discord_2": "&ensp; &ensp; • Données personnelles protégées",
+    "advantages_custom_discord_3": "&ensp; &ensp; • Pas de coûts supplémentaires",
+    "downside_bot_gl": `
+        &ensp; Le seul inconvénient est qu'il doit être sans failles
+        avant d'être utilisé, afin de tenir compte de toutes les façons possibles
+        dont les joueurs essaieront de le casser 😄
+    `,
+
 
     //Valorant Overlay page
     "Dynamic_Overlay": "Overlay Dynamique",
@@ -295,14 +335,14 @@ var french_translations = {
         J'y ai effectué mon stage de fin d'études et ai décroché mon premier CDI.
     `,
 
-    "avril_2023" : "Avril 2023",
+    "avril_2023": "Avril 2023",
     "fauxpilot_timeline": "<b>Fauxpilot</b> <br> Extension Jetbrains (Kotlin)",
-    "may_2023" : "Mai 2023",
+    "may_2023": "Mai 2023",
     "omniverse_timeline": "<b>Omniverse</b> <br> Moteur 3D (Python)",
     "july_2023": "Juillet 2023",
     "airbus_way_timeline": "<b>Airbus W@y</b> <br> Backend Mobile (Kotlin)",
     "sept_2023": "Sept. 2023",
-    "aero_excellence_timeline" : "<b>Aéro Excellence</b> <br> Django backend (Python)",
+    "aero_excellence_timeline": "<b>Aéro Excellence</b> <br> Django backend (Python)",
 
     "Airbus_Projects": "Projets Airbus",
     "Airbus_projects_intro": `
@@ -395,7 +435,7 @@ var french_translations = {
         imiter les mouvements du bot et
         accomplir des objectifs, et <b style="color: orange;">Les Chasseurs</b>,
         qui tentent de démasquer les Survivants.`,
-    "Challenges_UE" : `Défis d'Unreal Engine (1 Mois)`,
+    "Challenges_UE": `Défis d'Unreal Engine (1 Mois)`,
     "Challenges_UE_description": `
         &ensp; • On peut produire des jeux 2D sur UE avec Paper2D
         mais le moteur n'est pas fait pour. (Problèmes de pathfinding, ...) <br>
@@ -426,7 +466,7 @@ var french_translations = {
         <span class="right_side">
             &ensp; Ne jamais faire confiance au client •
         </span>`,
-        
+
 };
 
 

@@ -235,7 +235,9 @@ if (landingPage) {
 // var slideIndex = 1;
 var slideIndex_dict = {
   "SLIDER_portfolio_sopra_steria": 1,
-  "SLIDER_asso_IA": 1
+  "SLIDER_asso_IA": 1,
+  "slider_bot_gl1": 1,
+  "slider_bot_gl2": 1,
 };
 
 for (let [key, value] of Object.entries(slideIndex_dict)) {
