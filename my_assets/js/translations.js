@@ -297,6 +297,15 @@ var french_translations = {
         avant d'être utilisé, afin de tenir compte de toutes les façons possibles
         dont les joueurs essaieront de le casser 😄
     `,
+    "nerd_discord_bot_details": "Détails de techos",
+    "nerd_discord_bot_details_1" : ` &ensp; &ensp; • J'ai implémenté une base de donnée
+     locale en utilisant la librairie shelve de python. 
+     C'est facile et rapide pour ce genre de projet.`,
+    "nerd_discord_bot_details_2" : ` &ensp; &ensp; • Le bot ne peut être utilisé 
+    uniquement sur une liste de serveur spécifiée. (Pas d'utilisation abusive/non monitorée)`,
+    "nerd_discord_bot_details_3" : ` &ensp; &ensp; • J'ai utiliser la 
+    librairie discord.py pour l'implémentation du bot.`,
+    "nerd_discord_bot_details_4" : ` &ensp; &ensp; • Le bot est hébergé sur un vps avec pm2`,
 
 
     //Valorant Overlay page
