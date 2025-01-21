@@ -50,7 +50,9 @@ var french_translations = {
     "Software_developer_justwatch": "Développeur logiciel chez Justwatch",
     "dates_justwatch_work": "Auj. - Sept. 2024",
     "justwatch_work_description": `
-        • En cours :)`,
+        • Développeur Backend | Golang <br>
+        • Migrations de Bases de données | Scylla / PostgresQL / Redis
+    `,
     "dates_sopra_work": "Avril 2024 - Sept. 2023",
     "sopra_work_description": `
         • Responsable Dev. Backend de site pour <b>Airbus</b> | Django <br>
