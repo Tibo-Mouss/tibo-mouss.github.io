@@ -186,6 +186,10 @@ var french_translations = {
         <br> <br>
         &ensp; J'ai aidé en tant qu'<b style="color: darkorange;">Admin</b>
         de la compétition et a produit une interview de finalistes :`,
+    "associations_bot_discord_gl_description": `
+        &ensp; J'ai créé un <b style="color: darkorange;">Bot Discord de Tickets</b> 
+        pour la compétition, clique sur l'image pour plus de détails :
+    `,
     "casting_observing_description": `
         &ensp; J'ai transformé ma passion pour les jeux comme Counter-Strike
         / Valorant en <b style="color: darkorange;">création de contenu</b>.
