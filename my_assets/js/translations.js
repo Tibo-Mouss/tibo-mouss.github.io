@@ -187,6 +187,10 @@ var french_translations = {
         <br> <br>
         &ensp; J'ai aidé en tant qu'<b style="color: darkorange;">Admin</b>
         de la compétition et a produit une interview de finalistes :`,
+    "associations_bot_discord_gl_description": `
+        &ensp; J'ai créé un <b style="color: darkorange;">Bot Discord de Tickets</b> 
+        pour la compétition, clique sur l'image pour plus de détails :
+    `,
     "casting_observing_description": `
         &ensp; J'ai transformé ma passion pour les jeux comme Counter-Strike
         / Valorant en <b style="color: darkorange;">création de contenu</b>.
@@ -300,6 +304,15 @@ var french_translations = {
         avant d'être utilisé, afin de tenir compte de toutes les façons possibles
         dont les joueurs essaieront de le casser 😄
     `,
+    "nerd_discord_bot_details": "Détails de techos",
+    "nerd_discord_bot_details_1" : ` &ensp; &ensp; • J'ai implémenté une base de donnée
+     locale en utilisant la librairie shelve de python. 
+     C'est facile et rapide pour ce genre de projet.`,
+    "nerd_discord_bot_details_2" : ` &ensp; &ensp; • Le bot ne peut être utilisé 
+    uniquement sur une liste de serveur spécifiée. (Pas d'utilisation abusive/non monitorée)`,
+    "nerd_discord_bot_details_3" : ` &ensp; &ensp; • J'ai utiliser la 
+    librairie discord.py pour l'implémentation du bot.`,
+    "nerd_discord_bot_details_4" : ` &ensp; &ensp; • Le bot est hébergé sur un vps avec pm2`,
 
 
     //Valorant Overlay page
