@@ -957,16 +957,38 @@ main {
   box-shadow: 0 0 0 4px var(--jet);
 }
 
+.timeline-text li:before {
+  content: "•";
+  padding-right: 5px;
+  color: var(--light-gray);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+}
+
+.timeline-item li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2px;
+}
+
 .timeline-text {
   color: var(--light-gray);
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
 
+.timeline-text p {
+  color: var(--light-gray);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+  margin-right: 10px;
+}
+
 .timeline-text b {
   font-weight: 700;
   color: rgb(172, 116, 224);
 }
+
 
 .timeline-list a {
   color: cyan;

@@ -49,16 +49,14 @@ var french_translations = {
     "Internship": "Stage",
     "Software_developer_justwatch": "Développeur logiciel chez Justwatch",
     "dates_justwatch_work": "Auj. - Sept. 2024",
-    "justwatch_work_description": `
-        • En cours :)`,
+    "justwatch_work_description_backend": "Développeur Backend",
+    "justwatch_work_description_db": "Gestion/Migrations de bases de données",
     "dates_sopra_work": "Avril 2024 - Sept. 2023",
-    "sopra_work_description": `
-        • Responsable Dev. Backend de site pour <b>Airbus</b> | Django <br>
-        • Développeur Backend d'App <b>Airbus</b> | Android <br>
-        • Simulation d'une ligne de production de drone pour le <b>Paris Air show 2023</b> | Omniverse<br>
-        • Extension Jetbrains pour FauxPilot | Kotlin <br>
-        <a data-nav-link="sopra_steria">
-        &nbsp; > Cliquez ici pour voir les projets en détail < &nbsp; </a>`,
+    "sopra_work_description_aero": "<b>Responsable Dev. Backend</b> de site pour <b>Airbus</b>",
+    "sopra_work_description_app_airbus": "Développeur Mobile pour <b>Airbus</b>",
+    "sopra_work_description_omniverse": "Simulation d'une ligne de production de drone pour le <b>Paris Air show 2023</b>",
+    "sopra_work_description_fauxpilot": "<b>Extension Jetbrains</b> pour FauxPilot",
+    "sopra_work_description_redirection": "&nbsp; > Cliquez ici pour voir les projets en détail < &nbsp;",
     "feezless_quality_assurance": "Assurance qualité chez Feezless",
     "dates_feezless_work": "2021 (3 mois)",
     "feezless_work_description": "J'ai cherché les bugs sur leur site.",
@@ -69,6 +67,11 @@ var french_translations = {
     "janson_de_sailly": "Janson de Sailly - Classes préparatoires [ Paris ]",
     "janson_description": "Maths, Physique et Ingénierie",
 
+    "Oserv_resume_description": `
+        <i>Créateur de contenu et organisateur de tournois. </i><br> <br>
+        Oserv Esports est le 1er club esport Toulousain.
+    `,
+    "Association_website": "Site de l'organisation",
     "SGN_resume_description": `
         <i>Administrateur de Compétition Nationale Esport, développeur d'outils de streaming
             et créateur de contenu. </i> <br> <br>

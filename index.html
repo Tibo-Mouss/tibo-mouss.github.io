@@ -542,6 +542,8 @@
             <h3 class="h3" trad="Experience">Experience</h3>
           </div>
 
+          <!-- BADGES FOUND HERE : https://github.com/Ileriayo/markdown-badges -->
+
           <ol class="timeline-list">
 
             <li class="timeline-item">
@@ -557,10 +559,24 @@
 
               <span trad="dates_justwatch_work">Now - Sept. 2024</span>
 
-              <p class="timeline-text" trad="justwatch_work_description">
-                • Golang Backend Developer
-                • Databases Migrations
-              </p>
+              <ul class="timeline-text">
+                <li>
+                  <p trad="justwatch_work_description_backend">Backend Developer</p>
+                  <div style="display: flex; align-items: center;">
+                    <img src="my_assets/images/code_badges/GO.svg" style="height: 1.5em;"/> 
+                    <img src="my_assets/images/code_badges/APOLLOGRAPHQL.svg" style="height: 1.5em; margin-left: 10px;"/> 
+                  </div>
+                </li> 
+
+                <li>
+                  <p trad="justwatch_work_description_db">Databases Migrations/Management</p>
+                  <div style="display: flex; align-items: center;">
+                    <img src="my_assets/images/code_badges/POSTGRES.svg" style="height: 1.5em;"/> 
+                    <img src="my_assets/images/code_badges/CASSANDRA.svg" style="height: 1.5em; margin-left: 10px;"/> 
+                    <img src="my_assets/images/code_badges/REDIS.svg" style="height: 1.5em; margin-left: 10px;"/> 
+                  </div>
+                </li>
+              </ul>
 
             </li>
 
@@ -578,14 +594,40 @@
 
               <span trad="dates_sopra_work">April 2024 - Sept. 2023</span>
 
-              <p class="timeline-text" trad="sopra_work_description">
-                • <b>Head Backend Development</b> for <b>Airbus</b> website | Django (Python) <br>
-                • <b>Backend App Developer</b> for <b>Airbus</b> | Android (Kotlin) <br>
-                • Drone Production line Simulation for the <b>2023 Paris Air show</b> | Omniverse (Python)<br>
-                • Jetbrains editor Extension for Fauxpilot | Kotlin <br>
-                <a data-nav-link="sopra_steria">
-                  &nbsp; > Click here to see projects details < &nbsp; </a>
-              </p>
+              <ul class="timeline-text">
+                <li> 
+                  <p trad="sopra_work_description_aero"><b>Head Backend Developper</b> for <b>Airbus</b> website </p>
+                  <div style="display: flex; align-items: center;">
+                    <img src="my_assets/images/code_badges/PYTHON.svg" style="height: 1.5em;"/> 
+                    <img src="my_assets/images/code_badges/POSTGRES.svg" style="height: 1.5em; margin-left: 10px;"/> 
+                    <img src="my_assets/images/code_badges/DJANGO.svg" style="height: 1.5em; margin-left: 10px;"/> 
+                  </div>
+                </li>
+                
+                <li>
+                  <p trad="sopra_work_description_app_airbus"><b>Mobile Developer</b> for <b>Airbus</b></p>
+                  <div style="display: flex; align-items: center;">
+                    <img src="my_assets/images/code_badges/KOTLIN.svg" style="height: 1.5em;"/> 
+                    <img src="my_assets/images/code_badges/ANDROID STUDIO.svg" style="height: 1.5em; margin-left: 10px;"/> 
+                  </div>
+                </li>
+
+                <li>
+                  <p trad="sopra_work_description_omniverse"> Drone Production line Simulation for the <b>2023 Paris Air show</b></p>
+                  <img src="my_assets/images/code_badges/PYTHON.svg" style="height: 1.5em;"/> 
+                </li>
+                  
+                <li>
+                  <p trad="sopra_work_description_fauxpilot"><b>Jetbrains Extension</b> for Fauxpilot</p>
+                  <div style="display: flex; align-items: center;">
+                    <img src="my_assets/images/code_badges/KOTLIN.svg" style="height: 1.5em;"/> 
+                    <img src="my_assets/images/code_badges/JAVA.svg" style="height: 1.5em; margin-left: 10px;"/> 
+                  </div>
+                </li>
+                <a trad="sopra_work_description_redirection" data-nav-link="sopra_steria" style="cursor: pointer;">
+                  &nbsp; > Click here to see projects details < &nbsp; 
+                </a>
+              </ul>
 
             </li>
 
@@ -663,6 +705,47 @@
               <div class="content-card" data-testimonials-item>
 
                 <figure class="testimonials-avatar-box">
+                  <img src="./my_assets/images/associations/oserv - smaller.png" alt="SGN" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Oserv Esport</h4>
+                <time>Now - 2024</time>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p trad="Oserv_resume_description">
+                    <i>Content creator and Tournament organizer. </i><br> <br>
+                    Oserv Esports is an Esport Org. <br>
+                  </p>
+
+                  <br>
+
+                  <table style="width: 100%;">
+                    <tr>
+                      <td>
+                        <button class="button_style_1" role="button"
+                          onclick="goToPage('associations', 'oserv_asso'); clearModalTestimonial()"
+                          trad="More_about_what_i_do">
+                          More about what I do there
+                        </button>
+                      </td>
+                      <td>
+                        <button class="button_style_1" role="button" onclick="redirectBlank('https://esport.oserv.fr/')">
+                          <p style="color: #fff;" trad="Org_website">
+                            Org's website
+                          </p>
+                        </button>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
                   <img src="./my_assets/images/sgn.png" alt="SGN" width="60" data-testimonials-avatar>
                 </figure>
 
@@ -671,7 +754,7 @@
 
                 <div class="testimonials-text" data-testimonials-text>
                   <p trad="SGN_resume_description">
-                    <i>National Esports Competition admin, Caster tools developer & content creator. </i><br> <br>
+                    <i>Caster tools developer, content creator and Tournament organizer. </i><br> <br>
                     The SGN is the federation of French student esports associations. <br>
                     We organize several national tournaments and actively promote student esports.
                   </p>
