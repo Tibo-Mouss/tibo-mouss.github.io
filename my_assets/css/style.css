@@ -2456,6 +2456,63 @@ News Section in About page
 }
 
 /**
+  * Article Justwatch
+*/
+
+
+.justwatch h2 {
+  color: var(--light-gray-70);
+  font-size: var(--fs-2);
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+.justwatch p,
+.justwatch li {
+  color: var(--white-2);
+  font-size: var(--fs-7);
+}
+
+
+/**
+  * Article Minecraft Plugin
+*/
+
+
+.minecraft_plugin h2 {
+  color: var(--light-gray-70);
+  font-size: var(--fs-2);
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+.minecraft_plugin p,
+.minecraft_plugin li {
+  color: var(--white-2);
+  font-size: var(--fs-7);
+}
+
+
+/**
+  * Article Youtube Downloader
+*/
+
+.youtube_downloader h2 {
+  color: var(--light-gray-70);
+  font-size: var(--fs-2);
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+.youtube_downloader p,
+.youtube_downloader li {
+  color: var(--white-2);
+  font-size: var(--fs-7);
+}
+
+
+
+/**
   * Article Bot discord
 */
 
