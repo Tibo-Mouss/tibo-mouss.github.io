@@ -51,6 +51,7 @@ var french_translations = {
     "dates_justwatch_work": "Auj. - Sept. 2024",
     "justwatch_work_description_backend": "Développeur Backend",
     "justwatch_work_description_db": "Gestion/Migrations de bases de données",
+    "justwatch_work_description_devops": "Déploiement | Monitoring | CI",
     "dates_sopra_work": "Avril 2024 - Sept. 2023",
     "sopra_work_description_aero": "<b>Responsable Dev. Backend</b> de site pour <b>Airbus</b>",
     "sopra_work_description_app_airbus": "Développeur Mobile pour <b>Airbus</b>",
