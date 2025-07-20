@@ -2703,7 +2703,7 @@ News Section in About page
   text-decoration-thickness: 2px;
 }
 
-.multiplayer_game hr {
+hr {
   width: 60%;
   border: 3px solid rgb(45, 45, 45);
   border-radius: 5px;
