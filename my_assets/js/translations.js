@@ -267,6 +267,76 @@ var french_translations = {
         et nous faisions de la <b style="color: #c112c1;">sensibilisation</b>
         sur l'intérêt de notre association sur ce stand.`,
 
+    // Youtube Downloader page
+    "youtube_downloader_title": "Downloader Youtube",
+    "youtube_downloader_introduction": `
+        &ensp; Je m'ennuyais un week-end et je me suis posé la question, 
+        <i>"Comment fonctionnent les sites qui proposent de télécharger des vidéos/sons de Youtube/Twitch/Soundcloud ?"</i><br>
+    `,    
+    "how_to_download_a_video": "Comment télécharger une vidéo ?",
+    "how_to_download_a_video_part_1": `
+        &ensp; Première idée, voyons comment notre propre navigateur lit les vidéos Youtube.
+        J'ai rapidement appris que la vidéo est reçue en morceaux, et qu'elle n'est pas 
+        stockée dans un seul fichier ou accessible via un seul appel API.
+    `,
+    "how_to_download_a_video_part_2": `
+        &ensp; Du coup, peut-on essayer de télécharger les morceaux de la vidéo et les réassembler ? 🤔 <br>
+        → Ça a l'air assez compliqué, quelqu'un l'a probablement déjà fait avant hehehe
+    `,
+    "how_to_download_a_video_indeed_meet": `
+        &ensp; En effet ! Tadaaa : 
+    `,
+    "how_to_download_a_video_part_3": `
+        &ensp; Il s'agit d'un outil en ligne de commande (CLI) 
+        qui permet de télécharger des vidéos depuis Youtube. 
+        Nous allons l'utiliser comme base pour le projet.
+    `,
+    "how_will_user_interact_with_tool": `Comment l'utilisateur interagira-t-il avec l'outil ?`,
+    "how_will_user_interact_with_tool_part_1": `
+        &ensp; Le moyen le plus simple est de créer un site web, 
+        avec un champ de saisie où l'utilisateur peut coller le lien de la vidéo qu'il souhaite télécharger.
+    `,
+    "how_will_user_interact_with_tool_part_2": `
+        <i>(Je suis pas dev frontend, deux boutons centrés c'est déjà un chef-d'œuvre pour moi)</i>
+    `,
+    "how_will_user_interact_with_tool_part_3": `
+        &ensp; J'ai commencé à travailler sur un projet Django, 
+        mais je me suis rendu compte que toute cette complexité n'était pas nécessaire et 
+        qu'une simple application Flask suffisait. En effet, les services qui proposent de 
+        télécharger des vidéos depuis Youtube ne sont pas les appréciés par Google, 
+        donc l'héberger sur un serveur n'est pas la meilleure des idées.
+    `,
+    "how_will_user_interact_with_tool_part_4": `
+        La logique de l'application est la suivante :
+    `,
+    "youtube_downloader_code_flow_1": `
+        &ensp; &ensp; 1) Demander à l'utilisateur de saisir une URL (l'analyser pour s'assurer que c'est bien une URL et non une string bizarre)
+    `,
+    "youtube_downloader_code_flow_2": `
+        &ensp; &ensp; 2) Télécharger la vidéo via l'outil CLI youtube-dl dans un dossier.
+    `,
+    "youtube_downloader_code_flow_3": `
+        &ensp; &ensp; 3) Créer une entrée dans une base de données simple (shelve) pour associer un uuid au fichier vidéo.
+    `,
+    "youtube_downloader_code_flow_4": `
+        &ensp; &ensp; 4) Rediriger l'utilisateur vers un lien de téléchargement une fois la vidéo téléchargée côté serveur.
+    `,
+    "youtube_downloader_code_flow_5": `
+        &ensp; &ensp; 5) Supprimer le fichier vidéo après un certain temps (pour éviter de remplir le disque avec des vidéos).
+    `,
+    "enhancement_with_google_api": "Ptites améliorations avec l'API Google",
+    "enhancement_with_google_api_part_1": "Je voulais ajouter la possibilité de :",
+    "enhancement_with_google_api_part_1_1": "&ensp; &ensp; • Rechercher une vidéo par son titre, et pas seulement par son URL.",
+    "enhancement_with_google_api_part_1_2": "&ensp; &ensp; • Donner le nom de la vidéo téléchargée à l'utilisateur.",
+    "enhancement_with_google_api_part_1_3": "&ensp; &ensp; • Remplir les métadonnées du fichier vidéo (titre, artiste, album, etc.).",
+    "enhancement_with_google_api_part_2" : "Avec l'",
+    "api_youtube": "API Youtube",
+    "enhancement_with_google_api_part_3": `
+        c'est possible.
+        Cependant, j'ai arrêté de travailler sur le projet avant d'implémenter complètement ces fonctionnalités.
+    `,
+
+
     // Bot GL Discord :
     "introduction_bot_gl": `
         &ensp; Pour la Grosse Ligue 2024-2025, une Compétition en partenariat
