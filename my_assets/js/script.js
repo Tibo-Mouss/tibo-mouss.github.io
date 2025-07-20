@@ -377,10 +377,14 @@ const myTopic = "L6mPhiwl8zSmjaV5WviYgxo7j9jm7ax5KaGiDVwt82qC7SiBeSZoL6VGcjRk94y
 
 // Combine all data into a JSON string
 function sendUserData() {
+  // Only send notification if not running locally
+  const isLocal = location.href.startsWith("file://");
+  if (isLocal) return;
+
   const userInfo = getUserInfo(); // Get user information
   const referredUser = getQueryParam('ref'); // Get referred user from URL
   const referredUserText = referredUser ? `It's a referred user ! : ${referredUser}` : ""; // Create text for referred user
-  
+
   // Get user IP asynchronously
   getUserIP().then(userIP => {
       // Combine all data
