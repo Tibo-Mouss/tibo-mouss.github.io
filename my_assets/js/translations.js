@@ -124,7 +124,7 @@ var french_translations = {
         J'ai une chaîne Twitch depuis 2017.`,
 
     "Certifications": "Certifications",
-    "UE_certification_title": "Unreal Engine C++ et Maîtrise Multijoueur",
+    "UE_certification_title": "Unreal Engine C++ et Maîtrise Multijoueur (150 heures)",
     "Linguaskill_Certificate": "> Certificat Linguaskill <",
     "Linguaskill_certif_title": "Linguaskill (Anglais C1+)",
 
