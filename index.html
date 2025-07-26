@@ -2425,8 +2425,297 @@
           <br>
 
           <p trad="introduction_minecraft_plugin">
-            &ensp; Article under construction.
+            &ensp; How about recreating <b>Dead By Daylight</b> in <b>Minecraft</b> as a <b>plugin</b> ? Sounds like fun let's do it !
           </p>
+          <br>
+          <p>
+            &ensp; This project took me 2 month working on my free time at night and during weekends. 
+          </p>
+
+          <br>
+
+          <h2 trad="how_to_download_a_video"> Game Design </h2>
+
+          <p>
+            &ensp; The first challenge was adapting the game mechanics that are present in Dead By Daylight to Minecraft.
+            We need for that to : 
+          </p>
+          <ul>
+            <li>&ensp; &ensp; •  Have new intuitive mechanics.</li>
+            <li>&ensp; &ensp; •  Have a fun and balanced gameplay. <br>
+              &ensp; &ensp; &ensp; &ensp; (Sounds simple but requires quite a lot of playtesting and asking around)</li>
+            <li>&ensp; &ensp; •  Make the minigame easy to install. <br>
+              &ensp; &ensp; &ensp; &ensp; (In my case there is no installation as it's a server side plugin)</li>
+          </ul>
+          
+          <br>
+
+          <p>
+            &ensp; On rule I tried to follow, was to create new mechanics that incorporate themselves as much as possible 
+            into the Minecraft gameplay. This is crucial to :
+          </p>
+          <ul>
+            <li>&ensp; &ensp; •  Improve responsiveness</li>
+            <li>&ensp; &ensp; •  Make the game more intuitive for regular Minecraft players</li>
+          </ul>
+
+          <br>
+
+          <h3>
+            Example :
+          </h3>
+          <p>
+            I replaced the machines in the original game by noteblocks. <i>Why ?</i>
+          </p> 
+          <ul>
+            <li>&ensp; &ensp; ➔ Noteblocks natively allow the user to right click on it and do not open any menu.</li>
+            <li>&ensp; &ensp; ➔ They produce a sound when right clicked, that you can easily edit using a resource pack. Which is client sided.</li>
+          </ul>
+          <p>
+            &ensp;This means that even if the server lags a bit, the player experience of interacting with the noteblock will be smooth.
+          </p>
+
+          <br>
+
+          <table style="width: 100%;">
+            <tr>
+              <td style="width: 40%; vertical-align: top;">
+                <div style="width: 100%; height: 100px; overflow: hidden; position: relative;">
+                  <img
+                    src="./my_assets/images/portfolio/minecraft_dbd/roadmap.png"
+                    alt="List of ideas for Minecraft DBD plugin"
+                    style="width: 100%; position: absolute; top: 0; left: 0; animation: scrollImage 20s linear infinite;"
+                  >
+                </div>
+                <style>
+                @keyframes scrollImage {
+                  10% { top: 0; }
+                  50% { top: -400px; }
+                  90% { top: 0px; }
+                }
+                </style>
+              </td>
+
+              <td style="width: 10px;"> </td>
+
+              <td style="vertical-align: middle;">
+                <p>
+                  I then started writing all my ideas into a list, and ordered them by priority.
+                </p>
+              </td>
+            </tr>
+          </table>
+
+          // Put image of the list here
+
+
+
+           <br>
+          <hr>
+          <br>
+
+
+          <h2 trad="Programming"> Programming </h2>
+
+          <p>
+            &ensp; I used the paper API with <b>Java</b> to create the plugin, it has a lot of support, noice.
+          </p>
+          <br>
+          <p>
+            &ensp; As always when starting a new project, I do a test project where I try to implement what I see in tutorials.
+            I created test commands, event listeners ... And when I felt comfortable with the API, I started the real project.
+          </p>
+          <br>
+          <p>
+            &ensp; The project architecture is as follows :
+          </p>
+          <ul>
+            <li>&ensp; &ensp; • A main class that initializes the plugin and handles its lifecycle.</li>
+            <li>&ensp; &ensp; • Static classes, that act as managers for specific game mechanics.</li>
+            <li>&ensp; &ensp; &ensp; &ensp; Ex : A TeamManager class to handle all team-related logic. A MachineManager class to handle all machine-related logic, etc ...</li>
+            <li>&ensp; &ensp; • Event Listeners, that listen to player actions and call managers logic accordingly.</li>
+            <li>&ensp; &ensp; • Helpers classes, that provide utility functions and simplify common tasks used in many places.</li>
+          </ul>
+          <br>
+          <img src="my_assets/images/portfolio/minecraft_dbd/code_architecture.png" alt="Minecraft DBD Plugin code architecture" style="width: 100%; max-width: 100%; height: auto; border-radius: 10px;">
+
+          <br>
+          <hr>
+          <br>
+
+          <h2> Hosting </h2>
+
+          <p style="display: inline;">
+            &ensp; I had an old unused laptop, that I converted into a Ubuntu server. I opened one of its port to the world with the service
+          </p>
+          <a style="display: inline;" href="https://playit.gg/"> playit.gg </a>
+          <p>
+            &ensp; That way I control almost everything and it's easily accessible 😎
+          </p>
+
+          <br>
+          <hr>
+          <br>
+
+          <table>
+            <tr>
+              <td class="custom-article-item  active" style="width: 50%; margin: 20px;">
+                <div class="w3-content w3-display-container">
+                  <div class="w3-display-container mySlides slider_minecraft_plugin">
+                    <img src="./my_assets/images/portfolio/minecraft_dbd/hats.png" style="width:100%"
+                      loading="lazy" alt="All the hats you can wear in the game">
+                    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black"
+                      trad="hats_cosmetics">
+                      Hats cosmetics
+                    </div>
+                  </div>
+
+                  <div class="w3-display-container mySlides slider_minecraft_plugin">
+                    <img src="./my_assets/images/portfolio/minecraft_dbd/hunter_appearance_2.png" style="width:100%" loading="lazy"
+                      alt="Hunter appearance">
+                    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black"
+                      trad="hunter_appearance">
+                      Hunter appearance
+                    </div>
+                  </div>
+
+                  <div class="w3-display-container mySlides slider_minecraft_plugin">
+                    <img src="my_assets/images/portfolio/minecraft_dbd/hunter_abilities.png" style="width:100%"
+                      loading="lazy" alt="Hunter abilities">
+                    <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black"
+                      trad="hunter_abilities">
+                      Hunter abilities
+                    </div>
+                  </div>
+
+                  <div class="w3-display-container mySlides slider_minecraft_plugin">
+                    <img src="my_assets/images/portfolio/minecraft_dbd/survivor_abilities.png" style="width:100%"
+                      loading="lazy" alt="Survivor abilities">
+                    <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black"
+                      trad="survivor_abilities">
+                      Survivor abilities
+                    </div>
+                  </div>
+
+                  <div class="w3-display-container mySlides slider_minecraft_plugin">
+                    <img src="my_assets/images/portfolio/minecraft_dbd/hat_on_player.png" style="width:100%"
+                      loading="lazy" alt="Hat on player">
+                    <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black"
+                      trad="hat_on_player">
+                      Cosmetic on a survivor
+                    </div>
+                  </div>
+
+                  <button class="w3-button w3-display-left w3-black"
+                    onclick="plusDivs(-1, 'slider_minecraft_plugin', 5)">&#10094;</button>
+                  <button class="w3-button w3-display-right w3-black"
+                    onclick="plusDivs(1, 'slider_minecraft_plugin', 5)">&#10095;</button>
+                </div>
+              </td>
+              <td style="width: 5%;"></td>
+              <td>
+                <h2> Game Art </h2>
+                <p style="display: inline;">
+                  &ensp; I suck at making pretty things but I still created a dedicated resource pack for the mini game.
+                </p>
+                <i style="display: inline;">
+                  A resource pack is a way to overwrite on the client, the default textures of the game. 
+                </i>
+                <p style="display: inline;">
+                  I just cherry-picked textures of other Resource packs found online (legally of course) into mine. 
+                </p>
+                <br> <br>
+                <p>
+                  This Resource pack is pretty important to distance the players from the original minecraft experience.
+                </p>
+              </td>
+            </tr>
+          </table>
+
+          <br>
+
+          <table style="width: 100%;">
+            <tr>
+              <td>
+                <p>
+                  &ensp; I also scoured across the internet to find maps that would fit. 
+                </p>
+                <p>
+                  &ensp; I want them to be not too big, 
+                  have closed space, a scary atmosphere, and not too much verticality.
+                </p>
+
+                <br>
+
+                <p>
+                  &ensp; This one made by Nevas Buildings was perfect for the job.
+                </p>
+              </td>
+
+              <td style="width: 5%;"></td>
+
+              <td>
+                <div class="w3-content w3-display-container">
+                  <div class="w3-display-container mySlides slider_minecraft_plugin_2">
+                    <a href="https://www.9minecraft.net/halloween-baroque-cathedral-map/" target="_blank">
+                      <img src="./my_assets/images/portfolio/minecraft_dbd/map_1.png" style="width:100%"
+                        loading="lazy" alt="Baroque Cathedral">
+                    </a>
+                    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black"
+                      trad="Baroque_Cathedral">
+                      <a href="https://www.9minecraft.net/halloween-baroque-cathedral-map/" target="_blank">
+                        Baroque Cathedral Map
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="w3-display-container mySlides slider_minecraft_plugin_2">
+                    <a href="https://www.9minecraft.net/halloween-baroque-cathedral-map/" target="_blank">
+                      <img src="./my_assets/images/portfolio/minecraft_dbd/map_2.png" style="width:100%" loading="lazy"
+                        alt="Baroque Cathedral">
+                    </a>
+                    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black"
+                      trad="Baroque_Cathedral">
+                      <a href="https://www.9minecraft.net/halloween-baroque-cathedral-map/" target="_blank">
+                        Baroque Cathedral Map
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="w3-display-container mySlides slider_minecraft_plugin_2">
+                    <a href="https://www.9minecraft.net/halloween-baroque-cathedral-map/" target="_blank">
+                      <img src="my_assets/images/portfolio/minecraft_dbd/map_3.png" style="width:100%"
+                        loading="lazy" alt="Baroque Cathedral">
+                    </a>
+                    <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black"
+                      trad="Baroque_Cathedral">
+                      <a href="https://www.9minecraft.net/halloween-baroque-cathedral-map/" target="_blank">
+                        Baroque Cathedral Map
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="w3-display-container mySlides slider_minecraft_plugin_2">
+                    <a href="https://www.9minecraft.net/halloween-baroque-cathedral-map/" target="_blank">
+                      <img src="my_assets/images/portfolio/minecraft_dbd/map_4.png" style="width:100%"
+                        loading="lazy" alt="Baroque Cathedral">
+                    </a>
+                    <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black"
+                      trad="Baroque_Cathedral">
+                      <a href="https://www.9minecraft.net/halloween-baroque-cathedral-map/" target="_blank">
+                        Baroque Cathedral Map
+                      </a>
+                    </div>
+                  </div>
+
+                  <button class="w3-button w3-display-left w3-black"
+                    onclick="plusDivs(-1, 'slider_minecraft_plugin_2', 4)">&#10094;</button>
+                  <button class="w3-button w3-display-right w3-black"
+                    onclick="plusDivs(1, 'slider_minecraft_plugin_2', 4)">&#10095;</button>
+                </div>
+              </td>
+            </tr>
+          </table>
 
         </section>
 
