@@ -2428,7 +2428,7 @@
             &ensp; How about recreating <b>Dead By Daylight</b> in <b>Minecraft</b> as a <b>plugin</b> ? Sounds like fun let's do it !
           </p>
           <br>
-          <p>
+          <p trad="minecraft_plugin_duration">
             &ensp; This project took me 3 months, working on my free time at night and during weekends. 
           </p>
 
@@ -2436,42 +2436,42 @@
 
           <h2 trad="Game_Design"> Game Design </h2>
 
-          <p>
+          <p trad="game_design_description_1">
             &ensp; The first challenge was adapting the game mechanics that are present in Dead By Daylight to Minecraft.
             We need them to : 
           </p>
           <ul>
-            <li>&ensp; &ensp; •  Be new intuitive mechanics.</li>
-            <li>&ensp; &ensp; •  Have a fun and balanced gameplay. <br>
-              &ensp; &ensp; &ensp; &ensp; (Sounds simple but requires quite a lot of playtesting and asking around)</li>
-            <li>&ensp; &ensp; •  Make the minigame easy to install. <br>
-              &ensp; &ensp; &ensp; &ensp; (In my case there is no installation as it's a server side plugin)</li>
+            <li trad="game_design_description_1_1">&ensp; &ensp; •  Be new intuitive mechanics.</li>
+            <li trad="game_design_description_1_2">&ensp; &ensp; •  Have a fun and balanced gameplay.</li>
+            <li><i trad="game_design_description_1_3">&ensp; &ensp; &ensp; &ensp; (Sounds simple but requires quite a lot of playtesting and asking around)</i></li>
+            <li trad="game_design_description_1_4">&ensp; &ensp; •  Make the minigame easy to install. </li>
+            <li><i trad="game_design_description_1_5">&ensp; &ensp; &ensp; &ensp; (In my case there is no installation as it's a server side plugin)</i></li>
           </ul>
           
           <br>
 
-          <p>
+          <p trad="game_design_description_2">
             &ensp; On rule I tried to follow, was to create new mechanics that incorporate themselves as much as possible 
             into the native Minecraft gameplay. This is crucial to :
           </p>
           <ul>
-            <li>&ensp; &ensp; •  Improve responsiveness</li>
-            <li>&ensp; &ensp; •  Make the game more intuitive for regular Minecraft players</li>
+            <li trad="game_design_description_2_1">&ensp; &ensp; •  Improve responsiveness</li>
+            <li trad="game_design_description_2_2">&ensp; &ensp; •  Make the game more intuitive for regular Minecraft players</li>
           </ul>
 
           <br>
 
-          <h3>
+          <h3 trad="Example">
             Example :
           </h3>
-          <p>
+          <p trad="game_design_example_description">
             I replaced the machines in the original DbD game with noteblocks. <i>Why ?</i>
           </p> 
           <ul>
-            <li>&ensp; &ensp; ➔ Noteblocks natively allow the user to right click on it and do not open any menu.</li>
-            <li>&ensp; &ensp; ➔ They produce a sound when right clicked, that you can easily edit using a resource pack. Which is client sided.</li>
+            <li trad="game_design_example_description_1">&ensp; &ensp; ➔ Noteblocks natively allow the user to right click on it and do not open any menu.</li>
+            <li trad="game_design_example_description_2">&ensp; &ensp; ➔ They produce a sound when right clicked, that you can easily edit using a resource pack. Which is client sided.</li>
           </ul>
-          <p>
+          <p trad="game_design_example_description_3">
             &ensp;This means that even if the server lags a bit, the player experience of interacting with the noteblock will be smooth.
           </p>
 
@@ -2499,7 +2499,7 @@
               <td style="width: 10px;"> </td>
 
               <td style="vertical-align: middle;">
-                <p>
+                <p trad="game_design_roadmap_description">
                   I then started writing all my ideas into a list, and ordered them by priority.
                 </p>
               </td>
@@ -2513,24 +2513,25 @@
 
           <h2 trad="Programming"> Programming </h2>
 
-          <p>
+          <p trad="paper_api_description">
             &ensp; I used the Paper API with <b>Java</b> to create the plugin, it has a lot of support, noice.
           </p>
           <br>
-          <p>
+          <p trad="paper_api_description_2">
             &ensp; As always when starting a new project, I do a test project where I try to implement what I see in tutorials.
             I created test commands, event listeners ... And when I felt comfortable with the API, I started the real project.
           </p>
           <br>
-          <p>
+          <p trad="paper_api_description_3">
             &ensp; The project architecture is as follows :
           </p>
           <ul>
-            <li>&ensp; &ensp; • A main class that initializes the plugin and handles its lifecycle.</li>
-            <li>&ensp; &ensp; • Static classes, that act as managers for specific game mechanics.</li>
-            <li>&ensp; &ensp; &ensp; &ensp; Ex : A TeamManager class to handle all team-related logic. A MachineManager class to handle all machine-related logic, etc ...</li>
-            <li>&ensp; &ensp; • Event Listeners, that listen to player actions and call managers logic accordingly.</li>
-            <li>&ensp; &ensp; • Helpers classes, that provide utility functions and simplify common tasks used in many places.</li>
+            <li trad="paper_api_architecture_1">&ensp; &ensp; • A main class that initializes the plugin and handles its lifecycle.</li>
+            <li trad="paper_api_architecture_2">&ensp; &ensp; • Static classes, that act as managers for specific game mechanics.</li>
+            <li><i trad="paper_api_architecture_3">&ensp; &ensp; &ensp; &ensp; Ex : A TeamManager class to handle all team-related logic. 
+              A MachineManager class to handle all machine-related logic, etc ...</i></li>
+            <li trad="paper_api_architecture_4">&ensp; &ensp; • Event Listeners, that listen to player actions and call managers logic accordingly.</li>
+            <li trad="paper_api_architecture_5">&ensp; &ensp; • Helpers classes, that provide utility functions and simplify common tasks used in many places.</li>
           </ul>
           <br>
           <img src="my_assets/images/portfolio/minecraft_dbd/code_architecture.png" alt="Minecraft DBD Plugin code architecture" style="width: 100%; max-width: 100%; height: auto; border-radius: 10px;">
@@ -2539,13 +2540,13 @@
           <hr>
           <br>
 
-          <h2> Hosting </h2>
+          <h2 trad="Hosting"> Hosting </h2>
 
-          <p style="display: inline;">
+          <p style="display: inline;" trad="hosting_description_1">
             &ensp; I had an old unused laptop, that I converted into a Ubuntu server. I opened one of its port to the world with the service
           </p>
           <a style="display: inline;" href="https://playit.gg/"> playit.gg </a>
-          <p>
+          <p trad="hosting_description_2">
             &ensp; That way I control almost everything and it's easily accessible 😎
           </p>
 
@@ -2561,8 +2562,8 @@
                     <img src="./my_assets/images/portfolio/minecraft_dbd/hats.png" style="width:100%"
                       loading="lazy" alt="All the hats you can wear in the game">
                     <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black"
-                      trad="hats_cosmetics">
-                      Hats cosmetics
+                      trad="head_cosmetics">
+                      Head cosmetics
                     </div>
                   </div>
 
@@ -2610,18 +2611,18 @@
               </td>
               <td style="width: 5%;"></td>
               <td>
-                <h2> Game Art </h2>
-                <p style="display: inline;">
+                <h2 trad="Game_Art"> Game Art </h2>
+                <p style="display: inline;" trad="game_art_description_1">
                   &ensp; I suck at making pretty things but I still created a dedicated resource pack for the mini game.
                 </p>
-                <i style="display: inline;">
+                <i style="display: inline;" trad="game_art_description_2">
                   A resource pack is a way to overwrite on the client, the default textures of the game. 
                 </i>
-                <p style="display: inline;">
+                <p style="display: inline;" trad="game_art_description_3">
                   I just cherry-picked textures of other Resource packs found online (legally of course) into mine. 
                 </p>
                 <br> <br>
-                <p>
+                <p trad="game_art_description_4">
                   This Resource pack is pretty important to distance the players from the original minecraft experience.
                 </p>
               </td>
@@ -2633,17 +2634,17 @@
           <table style="width: 100%;">
             <tr>
               <td>
-                <p>
+                <p trad="map_selection_description_1">
                   &ensp; I also scoured across the internet to find maps that would fit. 
                 </p>
-                <p>
+                <p trad="map_selection_description_2">
                   &ensp; I want them to be not too big, 
                   have closed space, a scary atmosphere, and not too much verticality.
                 </p>
 
                 <br>
 
-                <p>
+                <p trad="map_selection_description_3">
                   &ensp; This one made by Nevas Buildings was perfect for the job.
                 </p>
               </td>
@@ -2657,9 +2658,8 @@
                       <img src="./my_assets/images/portfolio/minecraft_dbd/map_1.png" style="width:100%"
                         loading="lazy" alt="Baroque Cathedral">
                     </a>
-                    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black"
-                      trad="Baroque_Cathedral">
-                      <a href="https://www.9minecraft.net/halloween-baroque-cathedral-map/" target="_blank">
+                    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+                      <a trad="Baroque_Cathedral" href="https://www.9minecraft.net/halloween-baroque-cathedral-map/" target="_blank">
                         Baroque Cathedral Map
                       </a>
                     </div>
@@ -2670,9 +2670,8 @@
                       <img src="./my_assets/images/portfolio/minecraft_dbd/map_2.png" style="width:100%" loading="lazy"
                         alt="Baroque Cathedral">
                     </a>
-                    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black"
-                      trad="Baroque_Cathedral">
-                      <a href="https://www.9minecraft.net/halloween-baroque-cathedral-map/" target="_blank">
+                    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+                      <a trad="Baroque_Cathedral" href="https://www.9minecraft.net/halloween-baroque-cathedral-map/" target="_blank">
                         Baroque Cathedral Map
                       </a>
                     </div>
@@ -2683,9 +2682,8 @@
                       <img src="my_assets/images/portfolio/minecraft_dbd/map_3.png" style="width:100%"
                         loading="lazy" alt="Baroque Cathedral">
                     </a>
-                    <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black"
-                      trad="Baroque_Cathedral">
-                      <a href="https://www.9minecraft.net/halloween-baroque-cathedral-map/" target="_blank">
+                    <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                      <a trad="Baroque_Cathedral" href="https://www.9minecraft.net/halloween-baroque-cathedral-map/" target="_blank">
                         Baroque Cathedral Map
                       </a>
                     </div>
@@ -2696,9 +2694,8 @@
                       <img src="my_assets/images/portfolio/minecraft_dbd/map_4.png" style="width:100%"
                         loading="lazy" alt="Baroque Cathedral">
                     </a>
-                    <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black"
-                      trad="Baroque_Cathedral">
-                      <a href="https://www.9minecraft.net/halloween-baroque-cathedral-map/" target="_blank">
+                    <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                      <a trad="Baroque_Cathedral" href="https://www.9minecraft.net/halloween-baroque-cathedral-map/" target="_blank">
                         Baroque Cathedral Map
                       </a>
                     </div>
