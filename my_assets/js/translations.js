@@ -268,6 +268,118 @@ var french_translations = {
         sur l'intérêt de notre association sur ce stand.`,
 
 
+
+    // Justwatch page
+    "introduction_justwatch": `
+        &ensp; Je travaille actuellement chez <b>JustWatch</b> en tant qu'
+            Ingénieur Logiciel dans l'équipe <b>Backend</b>.
+    `,
+    "Backend_Developer": "Développeur Backend",
+    "justwatch_backend_dev_description_1": `
+        &ensp; J'ai travaillé sur le backend du site en Golang, utilisé par des millions 
+        d'utilisateurs chaque semaine.
+        Nous récupérons des données depuis nos propres bases de données, 
+        une API grpc interne de contenu, ainsi que d'autres APIs et services externes.
+    `,
+    "justwatch_backend_dev_description_2": `
+        &ensp; Ces données sont ensuite servies au frontend web/mobile/tv via une API graphQL.
+    `,
+    "Devops": "Devops",
+    "justwatch_devops_description_1": `
+        &ensp; Nous sommes responsables du déploiement de nos services, 
+        nous devons donc surveiller la santé de nos serveurs et 
+        services, et nous assurer qu'ils fonctionnent correctement.
+    `,
+    "justwatch_devops_description_2": `
+        &ensp; Pour cela, nous utilisons Grafana, Kubernetes, 
+        Google Cloud Monitoring et des outils faits maison.
+    `,
+    "Projects": "Projets",
+    "justwatch_projects_description": `
+        &ensp; Entre les différentes petites tâches quotidiennes, 
+        on m'a confié plusieurs projets plus importants :
+    `,
+    "Justwatch_Repair_TV_Project": "Réparation du contrôle de TV par téléphone",
+    "Justwatch_Repair_TV_Project_description_1": `
+        &ensp; Pendant un certain temps, la possibilité de lancer un film 
+        sur la TV depuis l'application Justwatch sur téléphone 
+        ne fonctionnait plus. J'ai été chargé de réparer cette fonctionnalité.
+    `,
+    "Justwatch_Repair_TV_Project_description_2": `
+        &ensp; J'ai eu quelques explications pour comprendre l'ancien code,
+        puis j'ai tout refactorisé, appris à utiliser des subscriptions 
+        GraphQL, mis en place une nouvelle instance Redis et remis la 
+        fonctionnalité en marche, avec un peu plus de logs pour 
+        mesurer à quel point elle était utilisée.
+    `,
+    "Replaces_all_caches": `
+        Remplacer tous les caches
+    `,
+    "Justwatch_Replaces_all_caches_description_1": `
+        &ensp; On m'a confié la mission de remplacer tous les systèmes de 
+        cache qui utilisaient ScyllaDB par Redis.
+    `,
+    "Justwatch_Replaces_all_caches_description_2": `
+        &ensp; La première étape a été d'identifier tous les dépôts qui 
+        utilisaient ce cache Scylla.
+        J'ai mis en place un dashboard Grafana pour surveiller les 
+        taux de hit/miss/set des caches, afin de voir comment ils 
+        étaient utilisés en production.
+    `,
+    "Justwatch_Replaces_all_caches_description_3": `
+        &ensp; J'ai ensuite commencé, repo par repo, à remplacer le 
+        client de cache, tout en gardant le reste intact. 
+        Ce n'était pas toujours simple car la logique pouvait 
+        parfois être imbriquée à l'intérieur du client.
+    `,
+    "Justwatch_Replaces_all_caches_description_4": `
+        &ensp; Je testais le repo sur l'environnement de préproduction dès 
+        que possible, puis je surveillais de très près lors du 
+        déploiement en production, en comparant les courbes 
+        Grafana de Scylla avec celles de Redis.
+    `,
+    "PR_Canaries" : "PR Canaries",
+    "justwatch_pr_canaries_1" : `
+        &ensp; L'équipe frontend chez Justwatch est en contact étroit avec 
+        l'équipe QA, donc ils effectuent beaucoup de tests.
+        Pour faciliter les tests, ils utilisent des canaries, 
+        qui sont des environnements de production utilisés pour les tests de :
+    `,
+    "justwatch_pr_canaries_2_1": `
+        &ensp; &ensp; • Fonctionnalités dans un environnement de production.
+    `,
+    "justwatch_pr_canaries_2_2": `
+        &ensp; &ensp; • Fonctionnalités sur un nombre contrôlé d'utilisateurs.
+    `,
+    "justwatch_pr_canaries_3": `
+        &ensp; Les PR Canaries sont conçus pour avoir un canary par Pull Request.
+        Désormais, les développeurs Frontend peuvent créer des Canaries 
+        simplement en cliquant sur un lien qui apparaît dans un commentaire 
+        à chaque fois qu'ils créent une PR.
+    `,
+    "justwatch_pr_canaries_4": `
+        Pour ce projet, j'ai dû :
+    `,
+    "justwatch_pr_canaries_5_1": `
+        &ensp; &ensp; • Éditer/Créer des déploiements/services/configmaps Kubernetes ...
+    `,
+    "justwatch_pr_canaries_5_2": `
+        &ensp; &ensp; • Faire des modifications de code Backend et Frontend.
+    `,
+    "justwatch_pr_canaries_5_3": `
+        &ensp; &ensp; • Modifier le webrouter global du site pour 
+        créer des liens de déploiement canary.
+    `,
+    "justwatch_pr_canaries_6": `
+        &ensp; C'était un projet difficile car j'ai dû apprendre beaucoup de 
+        choses qui n'étaient pas documentées, mais après de nombreux tests, 
+        tout s'est bien passé.
+    `,
+
+
+
+
+
     // Minecraft DbD page
     "minecraft_plugin_title": "Plugin Minecraft",
     "introduction_minecraft_plugin": `
