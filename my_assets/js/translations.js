@@ -41,6 +41,8 @@ var french_translations = {
     "News_Description_2": "J'ai rejoint leur équipe backend en Septembre 2024.",
     "News_Title_3": "Gamer's Assembly 2024",
     "News_Description_3": "Un nouvel événement réussi auquel j'ai participé 🥳",
+    "News_Minecraft_DBD": "Dead By Daylight dans Minecraft !",
+    "News_Minecraft_DBD_description": "J'ai recréé DbD dans Minecraft en plugin (3 Mois)",
 
     //CV PAGE
     "Experience": "Expérience",
