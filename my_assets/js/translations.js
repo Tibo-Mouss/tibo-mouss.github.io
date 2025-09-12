@@ -41,6 +41,8 @@ var french_translations = {
     "News_Description_2": "J'ai rejoint leur équipe backend en Septembre 2024.",
     "News_Title_3": "Gamer's Assembly 2024",
     "News_Description_3": "Un nouvel événement réussi auquel j'ai participé 🥳",
+    "News_Minecraft_DBD": "Dead By Daylight dans Minecraft !",
+    "News_Minecraft_DBD_description": "J'ai recréé DbD dans Minecraft en plugin (3 Mois)",
 
     //CV PAGE
     "Experience": "Expérience",
@@ -124,7 +126,7 @@ var french_translations = {
         J'ai une chaîne Twitch depuis 2017.`,
 
     "Certifications": "Certifications",
-    "UE_certification_title": "Unreal Engine C++ et Maîtrise Multijoueur",
+    "UE_certification_title": "Unreal Engine C++ et Maîtrise Multijoueur (150 heures)",
     "Linguaskill_Certificate": "> Certificat Linguaskill <",
     "Linguaskill_certif_title": "Linguaskill (Anglais C1+)",
 
@@ -266,6 +268,257 @@ var french_translations = {
         sur la technologie
         et nous faisions de la <b style="color: #c112c1;">sensibilisation</b>
         sur l'intérêt de notre association sur ce stand.`,
+
+
+
+    // Justwatch page
+    "introduction_justwatch": `
+        &ensp; Je travaille actuellement chez <b>JustWatch</b> en tant qu'
+            Ingénieur Logiciel dans l'équipe <b>Backend</b>.
+    `,
+    "Backend_Developer": "Développeur Backend",
+    "justwatch_backend_dev_description_1": `
+        &ensp; J'ai travaillé sur le backend du site en Golang, utilisé par des millions 
+        d'utilisateurs chaque semaine.
+        Nous récupérons des données depuis nos propres bases de données, 
+        une API grpc interne de contenu, ainsi que d'autres APIs et services externes.
+    `,
+    "justwatch_backend_dev_description_2": `
+        &ensp; Ces données sont ensuite servies au frontend web/mobile/tv via une API graphQL.
+    `,
+    "Devops": "Devops",
+    "justwatch_devops_description_1": `
+        &ensp; Nous sommes responsables du déploiement de nos services, 
+        nous devons donc surveiller la santé de nos serveurs et 
+        services, et nous assurer qu'ils fonctionnent correctement.
+    `,
+    "justwatch_devops_description_2": `
+        &ensp; Pour cela, nous utilisons Grafana, Kubernetes, 
+        Google Cloud Monitoring et des outils faits maison.
+    `,
+    "Projects": "Projets",
+    "justwatch_projects_description": `
+        &ensp; Entre les différentes petites tâches quotidiennes, 
+        on m'a confié plusieurs projets plus importants :
+    `,
+    "Justwatch_Repair_TV_Project": "Réparation du contrôle de TV par téléphone",
+    "Justwatch_Repair_TV_Project_description_1": `
+        &ensp; Pendant un certain temps, la possibilité de lancer un film 
+        sur la TV depuis l'application Justwatch sur téléphone 
+        ne fonctionnait plus. J'ai été chargé de réparer cette fonctionnalité.
+    `,
+    "Justwatch_Repair_TV_Project_description_2": `
+        &ensp; J'ai eu quelques explications pour comprendre l'ancien code,
+        puis j'ai tout refactorisé, appris à utiliser des subscriptions 
+        GraphQL, mis en place une nouvelle instance Redis et remis la 
+        fonctionnalité en marche, avec un peu plus de logs pour 
+        mesurer à quel point elle était utilisée.
+    `,
+    "Replaces_all_caches": `
+        Remplacer tous les caches
+    `,
+    "Justwatch_Replaces_all_caches_description_1": `
+        &ensp; On m'a confié la mission de remplacer tous les systèmes de 
+        cache qui utilisaient ScyllaDB par Redis.
+    `,
+    "Justwatch_Replaces_all_caches_description_2": `
+        &ensp; La première étape a été d'identifier tous les dépôts qui 
+        utilisaient ce cache Scylla.
+        J'ai mis en place un dashboard Grafana pour surveiller les 
+        taux de hit/miss/set des caches, afin de voir comment ils 
+        étaient utilisés en production.
+    `,
+    "Justwatch_Replaces_all_caches_description_3": `
+        &ensp; J'ai ensuite commencé, repo par repo, à remplacer le 
+        client de cache, tout en gardant le reste intact. 
+        Ce n'était pas toujours simple car la logique pouvait 
+        parfois être imbriquée à l'intérieur du client.
+    `,
+    "Justwatch_Replaces_all_caches_description_4": `
+        &ensp; Je testais le repo sur l'environnement de préproduction dès 
+        que possible, puis je surveillais de très près lors du 
+        déploiement en production, en comparant les courbes 
+        Grafana de Scylla avec celles de Redis.
+    `,
+    "PR_Canaries" : "PR Canaries",
+    "justwatch_pr_canaries_1" : `
+        &ensp; L'équipe frontend chez Justwatch est en contact étroit avec 
+        l'équipe QA, donc ils effectuent beaucoup de tests.
+        Pour faciliter les tests, ils utilisent des canaries, 
+        qui sont des environnements de production utilisés pour les tests de :
+    `,
+    "justwatch_pr_canaries_2_1": `
+        &ensp; &ensp; • Fonctionnalités dans un environnement de production.
+    `,
+    "justwatch_pr_canaries_2_2": `
+        &ensp; &ensp; • Fonctionnalités sur un nombre contrôlé d'utilisateurs.
+    `,
+    "justwatch_pr_canaries_3": `
+        &ensp; Les PR Canaries sont conçus pour avoir un canary par Pull Request.
+        Désormais, les développeurs Frontend peuvent créer des Canaries 
+        simplement en cliquant sur un lien qui apparaît dans un commentaire 
+        à chaque fois qu'ils créent une PR.
+    `,
+    "justwatch_pr_canaries_4": `
+        Pour ce projet, j'ai dû :
+    `,
+    "justwatch_pr_canaries_5_1": `
+        &ensp; &ensp; • Éditer/Créer des déploiements/services/configmaps Kubernetes ...
+    `,
+    "justwatch_pr_canaries_5_2": `
+        &ensp; &ensp; • Faire des modifications de code Backend et Frontend.
+    `,
+    "justwatch_pr_canaries_5_3": `
+        &ensp; &ensp; • Modifier le webrouter global du site pour 
+        créer des liens de déploiement canary.
+    `,
+    "justwatch_pr_canaries_6": `
+        &ensp; C'était un projet difficile car j'ai dû apprendre beaucoup de 
+        choses qui n'étaient pas documentées, mais après de nombreux tests, 
+        tout s'est bien passé.
+    `,
+
+
+
+
+
+    // Minecraft DbD page
+    "minecraft_plugin_title": "Plugin Minecraft",
+    "introduction_minecraft_plugin": `
+        &ensp; Et si on recréait <b>Dead By Daylight</b> dans 
+        <b>Minecraft</b> sous forme de <b>plugin</b> ? Ça a l'air fun, let's go !
+    `,
+    "minecraft_plugin_duration": `
+        &ensp; Ce projet m'a pris 3 mois, en travaillant sur mon temps libre le soir et le week-end.
+    `,
+    "Game_Design": "Game Design",
+    "game_design_description_1": `
+        &ensp; Le premier défi a été d'adapter les mécaniques de jeu présentes dans Dead By Daylight
+        à Minecraft. Nous avons besoin de :
+    `,
+    "game_design_description_1_1": `
+        &ensp; &ensp; •  Nouvelles mécaniques intuitives.
+    `,
+    "game_design_description_1_2": `
+        &ensp; &ensp; •  Avoir un gameplay amusant et équilibré.
+    `,
+    "game_design_description_1_3": `
+        &ensp; &ensp; &ensp; &ensp; (Ça paraît simple mais ça demande pas mal de tests et de 
+        retours d'autres personnes)
+    `,
+    "game_design_description_1_4": `
+        &ensp; &ensp; •  Rendre le mini-jeu facile à installer.
+    `,
+    "game_design_description_1_5": `
+        &ensp; &ensp; &ensp; &ensp; (Dans mon cas, il n'y a pas d'installation car c'est un 
+        plugin côté serveur)
+    `,
+    "game_design_description_2": `
+        &ensp; Une règle que j'ai essayé de suivre était de créer de nouvelles mécaniques qui 
+        s'intègrent autant que possible au gameplay natif de Minecraft. C'est crucial pour :
+    `,
+    "game_design_description_2_1": `
+        &ensp; &ensp; •  Améliorer la réactivité
+    `,
+    "game_design_description_2_2": `
+        &ensp; &ensp; •  Rendre le jeu plus intuitif pour les joueurs réguliers de Minecraft
+    `,
+    "Example": "Exemple :",
+    "game_design_example_description": `
+        &ensp; J'ai remplacé les machines du jeu original par des Noteblocks. <i>Pourquoi ?</i>
+    `,
+    "game_design_example_description_1": `
+        &ensp; &ensp; ➔ Les Noteblocks permettent nativement à l'utilisateur de faire un clic
+        droit dessus sans ouvrir de menu.
+    `,
+    "game_design_example_description_2": `
+        &ensp; &ensp; ➔ Ils produisent un son lorsqu'on clique dessus avec le bouton droit, 
+        que l'on peut facilement modifier à l'aide d'un pack de ressources. 
+        Ce qui est côté client.
+    `,
+    "game_design_example_description_3": `
+        &ensp; Cela signifie que même avec de la latence,
+        l'intéraction avec le Noteblock restera fluide pour le joueur.
+    `,
+    "game_design_roadmap_description": `
+        J'ai ensuite commencé à écrire toutes mes idées sous forme de liste,
+        et les ai classées par ordre de priorité.
+    `,
+    "paper_api_description": `
+        &ensp; J'ai utilisé l'API Paper en <b>Java</b> pour créer le plugin, 
+        y'a pas mal de support, zépartii.
+    `,
+    "paper_api_description_2": `
+        &ensp; Comme toujours lorsque je commence un nouveau projet,
+        je réalise un projet test où j'essaie d'implémenter ce que je vois dans des tutoriels.
+        J'ai créé des commandes de test, des listeners... 
+        Et quand je me suis senti à l'aise avec l'API, j'ai commencé le vrai projet.",
+    `,
+    "paper_api_description_3": `
+        &ensp; L'architecture du projet est la suivante :
+    `,
+    "paper_api_architecture_1": `
+        &ensp; &ensp; • Une classe principale qui initialise le plugin et gère son cycle de vie.
+    `,
+    "paper_api_architecture_2": `
+        &ensp; &ensp; • Des classes statiques qui contiennent chacune une logique de jeu spécifique.
+    `,
+    "paper_api_architecture_3": `
+        &ensp; &ensp; &ensp; &ensp; Ex : Une classe TeamManager pour gérer toute la logique liée 
+        aux équipes. Une classe MachineManager pour gérer toute la logique liée aux machines, etc...
+    `,
+    "paper_api_architecture_4": `
+        &ensp; &ensp; • Des Listeners d'événements, qui écoutent les actions des joueurs et 
+        appellent la logique des managers en conséquence.
+    `,
+    "paper_api_architecture_5": `
+        &ensp; &ensp; • Des classes utils, qui fournissent des fonctions
+        utilitaires et simplifient les tâches courantes utilisées à plusieurs endroits.
+    `,
+    "Hosting": "L'Hébergement",
+    "hosting_description_1": `
+        &ensp; J'avais un vieil ordinateur portable inutilisé, que j'ai converti en serveur Ubuntu.
+        J'ai ouvert un de ses ports au monde entier avec le service
+    `,
+    "hosting_description_2": `
+        &ensp; De cette façon, je contrôle presque tout et c'est facilement accessible 😎
+    `,
+    "head_cosmetics": "Cosmétiques",
+    "hunter_appearance": "Apparence du Hunter",
+    "hunter_abilities": "Compétences du Hunter",
+    "survivor_abilities": "Abilités des Survivants",
+    "hat_on_player": "Cosmétique sur un joueur",
+    "Game_Art": "Game Art",
+    "game_art_description_1": `
+        &ensp; Je suis pas très bon en art, mais j'ai néanmoins créé un resource pack dédié
+        pour le plugin.
+    `,
+    "game_art_description_2": `
+        Un resource pack est un moyen de remplacer côté client, les textures par défaut du jeu.
+    `,
+    "game_art_description_3": `
+        J'ai juste récupéré et incorporé des textures d'autres resource packs trouvés en ligne
+        (légalement bien sûr) dans le mien.
+    `,
+    "game_art_description_4": `
+        Ce resource pack est assez important pour éloigner les joueurs de l'expérience
+        originale de Minecraft.
+    `,
+    "map_selection_description_1": `
+        &ensp; J'ai aussi fouillé sur internet pour trouver des maps qui conviendraient.
+    `,
+    "map_selection_description_2": `
+        &ensp; Je veux qu'elles ne soient pas trop grandes,
+        qu'elles aient des espaces fermés, une atmosphère effrayante 
+        et pas trop de verticalité.
+    `,
+    "map_selection_description_3": `
+        &ensp; Celle-ci faite par Nevas Buildings était parfaite pour mon projet.
+    `,
+    "Baroque_Cathedral": "Cathédrale Baroque",
+
+
+
 
     // Youtube Downloader page
     "youtube_downloader_title": "Downloader Youtube",

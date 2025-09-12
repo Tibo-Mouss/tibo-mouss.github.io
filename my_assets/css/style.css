@@ -2467,10 +2467,21 @@ News Section in About page
   margin-bottom: 2px;
 }
 
+.justwatch h3 {
+  color: var(--light-gray-70);
+  font-size: var(--fs-4);
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
 .justwatch p,
 .justwatch li {
   color: var(--white-2);
   font-size: var(--fs-7);
+}
+
+.justwatch b {
+  color: darkorange;
 }
 
 
@@ -2486,10 +2497,26 @@ News Section in About page
   margin-bottom: 2px;
 }
 
+.minecraft_plugin h3 {
+  color: var(--light-gray-70);
+  font-size: var(--fs-5);
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
 .minecraft_plugin p,
-.minecraft_plugin li {
+.minecraft_plugin li,
+.minecraft_plugin i {
   color: var(--white-2);
   font-size: var(--fs-7);
+}
+
+.minecraft_plugin b {
+  color: darkorange;
+}
+
+.minecraft_plugin a {
+  color: orangered;
 }
 
 

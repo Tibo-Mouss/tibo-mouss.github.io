@@ -238,6 +238,8 @@ var slideIndex_dict = {
   "SLIDER_asso_IA": 1,
   "slider_bot_gl1": 1,
   "slider_bot_gl2": 1,
+  "slider_minecraft_plugin": 1,
+  "slider_minecraft_plugin_2": 1,
 };
 
 for (let [key, value] of Object.entries(slideIndex_dict)) {
