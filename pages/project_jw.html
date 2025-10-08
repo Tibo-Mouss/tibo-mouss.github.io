@@ -1,0 +1,115 @@
+<article class="justwatch" data-page="justwatch">
+
+        <header>
+          <h2 class="h2 article-title" trad="justwatch_title">Justwatch Projects</h2>
+        </header>
+
+        <section class="justwatch_section">
+          <br>
+
+          <p trad="introduction_justwatch">
+            &ensp; I currently work at <b>JustWatch</b> as a 
+            Software Engineer in the <b>Backend Team</b>.
+          </p>
+
+          <br>
+
+          <h2 trad="Backend_Developer">Backend Developer</h2>
+          <p trad="justwatch_backend_dev_description_1">
+            &ensp; I worked on the Golang backend of the website, used by millions of users every week.
+            We fetch data from our own databases, a dedicated content internal grpc API, and other
+            external APIs and services.
+          </p>
+          <p trad="justwatch_backend_dev_description_2">
+            &ensp; This data is then served to the web/mobile/tv frontend via a graphQL API.
+          </p>
+
+          <br>
+          <hr>
+          <br>
+
+          <h2 trad="Devops">Devops</h2>
+          <p trad="justwatch_devops_description_1">
+            &ensp; We are responsible for the deployment of our services, thus having to monitor
+            the health of our servers and services, and to ensure that they are running smoothly.
+          </p>
+          <p trad="justwatch_devops_description_2">
+            &ensp; For that we use Grafana, Kubernetes, Google Cloud Monitoring and home made tools.
+          </p>
+
+          <br>
+          <hr>
+          <br>
+
+          <h2 trad="Projects"> Projects </h2>
+          <p trad="justwatch_projects_description">
+            &ensp; Between the different small daily tasks, I got assigned different bigger projects :
+          </p>
+          <br>
+
+          <h3 trad="Justwatch_Repair_TV_Project"> Repair the TV Control from Mobile </h3>
+          <p trad="Justwatch_Repair_TV_Project_description_1">
+            &ensp; For quite a while the ability to launch a movie on your TV from the Justwatch 
+            App on your phone was not working. I was tasked to fix it.
+          </p>
+          <p trad="Justwatch_Repair_TV_Project_description_2">
+            &ensp; I got some explanations to understand the old code, 
+            and in the end refactored everything, learned about graphql subscriptions,
+            sat up a new Redis Instance and
+            got it back to work again, with some more logging to measure how much the 
+            feature was being used.
+          </p>
+          <br>
+
+          <h3 trad="Replaces_all_caches"> Replace all the Caches </h3>
+          <p trad="Justwatch_Replaces_all_caches_description_1">
+            &ensp; I was tasked to change all cache systems that were relying on ScyllaDB,
+            to use Redis instead.
+          </p>
+          <p trad="Justwatch_Replaces_all_caches_description_2">
+            &ensp; The first step was to identify all the repos that were using this Scylla cache. 
+            I sat up a grafana dashboard to monitor the cache hit/miss/set rates of the caches, to see
+            how it was used in production.
+          </p>
+          <p trad="Justwatch_Replaces_all_caches_description_3">
+            &ensp; I then started, repo by repo, replacing the cache client, while keeping
+            everything else intact. This was sometimes tricky as logic could be
+            nested inside the client.
+          </p>
+          <p trad="Justwatch_Replaces_all_caches_description_4">
+            &ensp; I tested the repo on stage when possible, and then monitor extremely
+            closely when releasing on stage, comparing the scylla grafana Curves with the Redis ones.
+          </p>
+          <br>
+
+          <h3 trad="PR_Canaries"> PR Canaries </h3>
+          <p trad="justwatch_pr_canaries_1">
+            &ensp; Frontend at Justwatch is in tight contact with QA, so they do a lot of testing.
+            To facilitate testing, they use canaries, which are prod environments used for testing :
+          </p>
+          <ul>
+            <li trad="justwatch_pr_canaries_2_1">&ensp; &ensp; • A feature on a prod like-env. </li>
+            <li trad="justwatch_pr_canaries_2_2">&ensp; &ensp; • A feature on a small amount of users. </li>
+          </ul>
+          <p trad="justwatch_pr_canaries_3">
+            &ensp; PR Canaries are meant to have one canary for one Pull Request. 
+            Now, Frontend Devs can create Canaries by only clicking on a link that appears
+            on a comment everytime they create a PR.
+          </p>
+          <br>
+          <p trad="justwatch_pr_canaries_4">
+            &ensp; For this project I had to :
+          </p>
+          <ul>
+            <li trad="justwatch_pr_canaries_5_1">&ensp; &ensp; • Edit/Create Kuberneters deployments/services/configmaps ...</li>
+            <li trad="justwatch_pr_canaries_5_2">&ensp; &ensp; • Make Backend, Frontend code edits.</li>
+            <li trad="justwatch_pr_canaries_5_3">&ensp; &ensp; • Edit the global webrouter of the website to create canary deployment links.</li>
+          </ul>
+          <p trad="justwatch_pr_canaries_6">
+            &ensp; This was a challenging project as I had to learn a lot about things that were not
+            documented, but after a lot of testing it clicked.
+          </p>
+
+        </section>
+
+      </article>

@@ -1,0 +1,105 @@
+<article class="youtube_downloader" data-page="youtube_downloader">
+
+        <header>
+          <h2 class="h2 article-title" trad="youtube_downloader_title">Youtube Downloader</h2>
+        </header>
+
+        <section class="youtube_downloader_section">
+          <br>
+
+          <p trad="youtube_downloader_introduction">
+            &ensp; I was bored one weekend, and asked myself the question, <i>"How do Youtube/Twitch/Soundcloud downloaders work ?" </i><br>
+          </p>
+
+          <br>
+          <hr>
+          <br>
+
+          <h2 trad="how_to_download_a_video"> How to download a video ?</h2>
+
+          <p trad="how_to_download_a_video_part_1">
+            &ensp; First idea, let's investigate how our own browser reads youtube videos.
+            I quickly learned that the video is streamed in chunks, and that the video is not stored in a single file / api call.
+          </p>
+            <br> 
+          <p trad="how_to_download_a_video_part_2"> 
+            &ensp; So can we try to download the video chunks and reassemble them ? 🤔 <br>
+              → Seems kinda hard, so someone has probably done it before hahaha
+          </p>
+            <br>
+          <div style="text-align: center;">
+              <p style="display: inline;" trad="how_to_download_a_video_indeed_meet">Indeed! Meet : </p>
+              <a href="https://github.com/ytdl-org/youtube-dl" target="_blank" style="display: inline; color: darkorange;">
+                https://github.com/ytdl-org/youtube-dl
+              </a>
+          </div>
+            <br>
+          <p trad="how_to_download_a_video_part_3">
+            &ensp; This is a CLI tool that allows you to download videos from Youtube. 
+            We'll use it as base for our project.
+          </p>
+
+          <br>
+          <hr>
+          <br>
+
+          <h2 trad="how_will_user_interact_with_tool"> How will the user interact with the tool ? </h2>
+
+          <p trad="how_will_user_interact_with_tool_part_1">
+            &ensp; The easiest way is by creating a website, with an input field where the user can paste the link of the video he wants to download.
+          </p>
+
+          <div style="width: 100%; text-align: center;">
+            <img src="./my_assets/images/portfolio/youtube_downloader/site_flask.png" alt="Youtube Downloader website" style="width: 100%; max-width: 100%; height: auto; border-radius: 10px;">
+            <p style="text-align: center;" trad="how_will_user_interact_with_tool_part_2">
+              <i>(I'm not a frontend dev, two centered buttons for me is a masterpiece already)</i>
+            </p>
+          </div>
+
+            <br>
+
+          <p trad="how_will_user_interact_with_tool_part_3">
+            &ensp; I started working on a django project, but then realized I did not need all its complexity and that a simple Flask app would suffice,
+            as services that offer to download videos from youtube are not welcome by google, so hosting it on a server is not an option.
+          </p>
+
+            <br>
+
+          <p trad="how_will_user_interact_with_tool_part_4">
+            So the flow of the app is as follows :
+          </p>
+          <ul>
+            <li><i trad="youtube_downloader_code_flow_1"> &ensp; &ensp; 1) Ask user for url input (parse it and all, to make sure it's a url and not a weird string) </i></li>
+            <li><i trad="youtube_downloader_code_flow_2"> &ensp; &ensp; 2) Download the video via the youtube-dl CLI Tool into a folder.</i></li>
+            <li><i trad="youtube_downloader_code_flow_3"> &ensp; &ensp; 3) Create an entry in a simple database (shelve) to associate a uuid to the video file.</i></li>
+            <li><i trad="youtube_downloader_code_flow_4"> &ensp; &ensp; 4) Redirect the user to a download link once the video has finished downloading server side.</i></li>
+            <li><i trad="youtube_downloader_code_flow_5"> &ensp; &ensp; 5) Delete the video file after a certain amount of time (to avoid filling the disk with videos).</i></li>
+          </ul>
+
+          <br>
+          <hr>
+          <br>
+
+          <h2 trad="enhancement_with_google_api"> Quick enhancement with the google API </h2>
+
+          <p trad="enhancement_with_google_api_part_1">
+            &ensp; I wanted to add the ability to :
+          </p>
+            <ul>
+              <li trad="enhancement_with_google_api_part_1_1"> &ensp; &ensp; • Search for a video by its title, and not only by its URL. </li>
+              <li trad="enhancement_with_google_api_part_1_2"> &ensp; &ensp; • Give the name of the downloaded video to the user. </li>
+              <li trad="enhancement_with_google_api_part_1_3"> &ensp; &ensp; • Fill the metadata of the video file (title, artist, album, etc.) </li>
+            </ul>
+            <br> 
+          <p trad="enhancement_with_google_api_part_2" style="display: inline;"> &ensp; With the </p>
+            <a style="display: inline; color: darkorange;" href="https://developers.google.com/youtube/v3" target="_blank" trad="api_youtube">
+              Youtube API
+            </a>
+          <p style="display: inline;" trad="enhancement_with_google_api_part_3">
+            , this is all possible.
+            However, I stopped working on the project before implementing this fully.
+          </p>
+
+        </section>
+
+      </article>
