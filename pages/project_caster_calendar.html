@@ -1,0 +1,175 @@
+<article class="caster_calendar" data-page="caster_calendar">
+
+        <header>
+          <h2 class="h2 article-title" trad="caster_calendar_title">Discord Event Calendar</h2>
+        </header>
+
+        <section class="caster_calendar_section">
+          <br>
+
+          <p trad="introduction_caster_calendar">
+            &ensp; I developed a <b style="color: darkorange;">Discord-integrated event management system</b> in <b style="color: darkorange;">Python</b> that streamlines event organization and communication for Discord communities.
+          </p>
+
+          <br>
+
+          <table style="width: 100%;">
+
+            <tr>
+              <td class="custom-article-item active" style="width: 50%; margin: 20px;">
+                <div class="w3-content w3-display-container">
+                  <div class="w3-display-container mySlides slider_caster_calendar1">
+                    <img src="./my_assets/images/portfolio/caster_calendar/main_page.png" style="width:100%"
+                      loading="lazy" alt="Calendar main view">
+                    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black"
+                      trad="calendar_main_view">
+                      Calendar View
+                    </div>
+                  </div>
+
+                  <div class="w3-display-container mySlides slider_caster_calendar1">
+                    <img src="./my_assets/images/portfolio/caster_calendar/event_summary.png" style="width:100%" loading="lazy"
+                      alt="Discord event summary">
+                    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black"
+                      trad="discord_event_summary">
+                      Discord Event Summary
+                    </div>
+                  </div>
+
+                  <button class="w3-button w3-display-left w3-black"
+                    onclick="plusDivs(-1, 'slider_caster_calendar1', 2)">&#10094;</button>
+                  <button class="w3-button w3-display-right w3-black"
+                    onclick="plusDivs(1, 'slider_caster_calendar1', 2)">&#10095;</button>
+                </div>
+              </td>
+              <td style="width: 5%;"></td>
+              <td>
+                <h2 trad="event_management_title">Event Management & Discord Integration</h2>
+                <br>
+                <p trad="event_management_description">
+                  &ensp; Organizers can create, edit, and delete events through a web interface. The system automatically notifies relevant Discord users via pings when events are created, modified, or deleted.
+                  <br> <br>
+                  &ensp; A dedicated Discord channel displays an auto-generated image summarizing all upcoming events, keeping the community informed in one centralized location.
+                </p>
+              </td>
+            </tr>
+
+            <tr style="height: 50px;"></tr>
+
+
+            <tr>
+              <td>
+                <h2 trad="admin_panel_title">Administration Panel</h2>
+                <br>
+                <p trad="admin_panel_description">
+                  &ensp; The admin panel provides complete control over Discord server configuration, including guild management, user assignments, and team organization.
+                  <br>
+                  <br>
+                  &ensp; Administrators can configure event channels, image channels, and manage which Discord users receive event notifications.
+                </p>
+              </td>
+
+              <td style="width: 5%;"></td>
+
+              <td class="custom-article-item active" style="margin: 20px;">
+                <div class="w3-content w3-display-container">
+                  <div class="w3-display-container mySlides slider_caster_calendar2">
+                    <img src="./my_assets/images/portfolio/caster_calendar/admin.png" style="width:100%"
+                      loading="lazy" alt="Admin panel view">
+                    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black" trad="admin_panel_view">
+                      Admin Panel
+                    </div>
+                  </div>
+
+                  <div class="w3-display-container mySlides slider_caster_calendar2">
+                    <img src="./my_assets/images/portfolio/caster_calendar/sync_calendar.png" style="width:100%"
+                      loading="lazy" alt="Calendar sync feature">
+                    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black"
+                      trad="calendar_sync_feature">
+                      Calendar Sync
+                    </div>
+                  </div>
+
+                  <button class="w3-button w3-display-left w3-black"
+                    onclick="plusDivs(-1, 'slider_caster_calendar2', 2)">&#10094;</button>
+                  <button class="w3-button w3-display-right w3-black"
+                    onclick="plusDivs(1, 'slider_caster_calendar2', 2)">&#10095;</button>
+                </div>
+              </td>
+            </tr>
+          </table>
+
+          <br>
+
+          <h2 trad="calendar_integration_title">Google Calendar Integration</h2>
+
+          <p trad="calendar_integration_description">
+            &ensp; Users can sync events with their personal Google Calendar through a generated feed URL. This allows team members to view upcoming events in their preferred calendar application, ensuring they never miss an important event.
+          </p>
+
+          <br>
+          <hr>
+          <br>
+
+          <h2 trad="technical_implementation_title">Technical Implementation</h2>
+
+          <ul>
+            <li trad="technical_implementation_1"> &ensp; &ensp; • Built with <b>Python Flask</b> for the web backend </li>
+            <li trad="technical_implementation_2"> &ensp; &ensp; • <b>Discord.py</b> library for Discord bot integration </li>
+            <li trad="technical_implementation_3"> &ensp; &ensp; • Created a custom <b>Discord App</b> with proper OAuth2 permissions </li>
+            <li trad="technical_implementation_4"> &ensp; &ensp; • Automated <b>image generation</b> using Python PIL for event summaries </li>
+            <li trad="technical_implementation_5"> &ensp; &ensp; • Real-time Discord webhook integration for instant notifications </li>
+            <li trad="technical_implementation_6"> &ensp; &ensp; • <b>iCalendar feed generation</b> for Google Calendar synchronization </li>
+            <li trad="technical_implementation_7"> &ensp; &ensp; • SQLite database for event and user data persistence </li>
+            <li trad="technical_implementation_8"> &ensp; &ensp; • Self-hosted on a VPS for full control and privacy </li>
+          </ul>
+
+          <br>
+
+          <h2 trad="key_features_title">Key Features</h2>
+
+          <ul>
+            <li trad="key_features_1"> &ensp; &ensp; • Automatic Discord pings on event creation, updates, and deletions </li>
+            <li trad="key_features_2"> &ensp; &ensp; • Visual event summary images posted to Discord channels </li>
+            <li trad="key_features_3"> &ensp; &ensp; • Multi-guild support with separate configurations </li>
+            <li trad="key_features_4"> &ensp; &ensp; • Role-based access control (organizers vs. regular users) </li>
+            <li trad="key_features_5"> &ensp; &ensp; • Team management system for organizing participants </li>
+            <li trad="key_features_6"> &ensp; &ensp; • Calendar export for external calendar applications </li>
+          </ul>
+
+          <br>
+
+          <p trad="testing_process_description">
+            &ensp; The application was thoroughly tested on a personal Discord server to ensure reliability and proper permission handling before deployment.
+          </p>
+
+        </section>
+
+      </article>
+
+
+      <style>
+        .caster_calendar h2 {
+          color: var(--light-gray-70);
+          font-size: var(--fs-2);
+          text-transform: uppercase;
+          margin-bottom: 2px;
+        }
+
+        .caster_calendar h3 {
+          color: var(--light-gray-70);
+          font-size: var(--fs-4);
+          text-transform: uppercase;
+          margin-bottom: 2px;
+        }
+
+        .caster_calendar p,
+        .caster_calendar li {
+          color: var(--white-2);
+          font-size: var(--fs-7);
+        }
+
+        .caster_calendar b {
+          color: darkorange;
+        }
+      </style>

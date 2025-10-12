@@ -160,6 +160,10 @@ var french_translations = {
     "Team_Project": "Projet d'équipe",
     "Safety_analysis_AI": "Analyse de Sûreté en IA",
     "Sports_Coach_App": "App Windows de Coach Sportif",
+    "Personal_1_month": "Personnel (1 Mois)",
+    "Personal_3_months": "Personnel (3 Mois)",
+    "Personal_2_weeks": "Personnel (2 semaines)",
+    "Personal_5_months": "Personnel (5 Mois)",
 
 
 
@@ -272,6 +276,7 @@ var french_translations = {
 
 
     // Justwatch page
+    "Justwatch_Projects": "Projets Justwatch",
     "introduction_justwatch": `
         &ensp; Je travaille actuellement chez <b>JustWatch</b> en tant qu'
             Ingénieur Logiciel dans l'équipe <b>Backend</b>.
@@ -395,6 +400,7 @@ var french_translations = {
 
 
     // Minecraft DbD page
+    "minecraft_dbd_title": "Plugin Minecraft",
     "minecraft_plugin_title": "Plugin Minecraft",
     "introduction_minecraft_plugin": `
         &ensp; Et si on recréait <b>Dead By Daylight</b> dans 
@@ -818,6 +824,54 @@ var french_translations = {
         <span class="right_side">
             &ensp; Ne jamais faire confiance au client •
         </span>`,
+
+
+    // Caster Calendar page
+    "Casters_Calendar": "Calendrier des Casters",
+    "caster_calendar_title": "Calendrier d'Événements Discord",
+    "introduction_caster_calendar": `
+        &ensp; J'ai développé un <b style="color: darkorange;">système de gestion d'événements intégré à Discord</b> en <b style="color: darkorange;">Python</b> qui simplifie l'organisation d'événements et la communication pour les communautés Discord.
+    `,
+    "calendar_main_view": "Vue Calendrier",
+    "discord_event_summary": "Résumé Discord des Événements",
+    "event_management_title": "Gestion des Événements & Intégration Discord",
+    "event_management_description": `
+        &ensp; Les organisateurs peuvent créer, modifier et supprimer des événements via une interface web. Le système notifie automatiquement les utilisateurs Discord concernés via des pings lors de la création, modification ou suppression d'événements.
+        <br> <br>
+        &ensp; Un channel Discord dédié affiche une image auto-générée résumant tous les événements à venir, gardant la communauté informée en un seul endroit centralisé.
+    `,
+    "admin_panel_title": "Panneau d'Administration",
+    "admin_panel_description": `
+        &ensp; Le panneau d'administration offre un contrôle complet sur la configuration des serveurs Discord, incluant la gestion des guildes, l'attribution des utilisateurs et l'organisation des équipes.
+        <br>
+        <br>
+        &ensp; Les administrateurs peuvent configurer les channels d'événements, les channels d'images, et gérer quels utilisateurs Discord reçoivent les notifications d'événements.
+    `,
+    "admin_panel_view": "Panneau Admin",
+    "calendar_sync_feature": "Synchronisation Calendrier",
+    "calendar_integration_title": "Intégration Google Calendar",
+    "calendar_integration_description": `
+        &ensp; Les utilisateurs peuvent synchroniser les événements avec leur Google Calendar personnel via une URL de flux générée. Cela permet aux membres de l'équipe de voir les événements à venir dans leur application de calendrier préférée, s'assurant qu'ils ne ratent jamais un événement important.
+    `,
+    "technical_implementation_title": "Implémentation Technique",
+    "technical_implementation_1": "&ensp; &ensp; • Construit avec <b>Python Flask</b> pour le backend web",
+    "technical_implementation_2": "&ensp; &ensp; • Librairie <b>Discord.py</b> pour l'intégration du bot Discord",
+    "technical_implementation_3": "&ensp; &ensp; • Création d'une <b>Application Discord</b> personnalisée avec les permissions OAuth2 appropriées",
+    "technical_implementation_4": "&ensp; &ensp; • <b>Génération d'images</b> automatisée avec Python PIL pour les résumés d'événements",
+    "technical_implementation_5": "&ensp; &ensp; • Intégration de webhooks Discord en temps réel pour des notifications instantanées",
+    "technical_implementation_6": "&ensp; &ensp; • <b>Génération de flux iCalendar</b> pour la synchronisation avec Google Calendar",
+    "technical_implementation_7": "&ensp; &ensp; • Base de données SQLite pour la persistance des événements et données utilisateurs",
+    "technical_implementation_8": "&ensp; &ensp; • Auto-hébergé sur un VPS pour un contrôle total et la confidentialité",
+    "key_features_title": "Fonctionnalités Clés",
+    "key_features_1": "&ensp; &ensp; • Pings Discord automatiques lors de la création, modification et suppression d'événements",
+    "key_features_2": "&ensp; &ensp; • Images de résumé d'événements visuelles postées sur les channels Discord",
+    "key_features_3": "&ensp; &ensp; • Support multi-guildes avec configurations séparées",
+    "key_features_4": "&ensp; &ensp; • Contrôle d'accès basé sur les rôles (organisateurs vs. utilisateurs réguliers)",
+    "key_features_5": "&ensp; &ensp; • Système de gestion d'équipes pour organiser les participants",
+    "key_features_6": "&ensp; &ensp; • Export de calendrier pour applications de calendrier externes",
+    "testing_process_description": `
+        &ensp; L'application a été rigoureusement testée sur un serveur Discord personnel pour garantir la fiabilité et la bonne gestion des permissions avant le déploiement.
+    `,
 
 };
 
