@@ -164,6 +164,7 @@ var french_translations = {
     "Personal_3_months": "Personnel (3 Mois)",
     "Personal_2_weeks": "Personnel (2 semaines)",
     "Personal_5_months": "Personnel (5 Mois)",
+    "Personal_1_week": "Personnel (1 semaine)",
 
 
 
@@ -830,7 +831,7 @@ var french_translations = {
     "Casters_Calendar": "Calendrier des Casters",
     "caster_calendar_title": "Calendrier d'Événements Discord",
     "introduction_caster_calendar": `
-        &ensp; J'ai développé un <b style="color: darkorange;">système de gestion d'événements intégré à Discord</b> en <b style="color: darkorange;">Python</b> qui simplifie l'organisation d'événements et la communication pour les communautés Discord.
+        &ensp; J'ai développé un <b style="color: darkorange;">système de gestion d'événements intégré à Discord</b> en <b style="color: darkorange;">Python</b> qui simplifie l'organisation d'événements et la communication pour les communautés Discord. J'ai principalement utilisé <b style="color: darkorange;">Claude CLI</b>.
     `,
     "calendar_main_view": "Vue Calendrier",
     "discord_event_summary": "Résumé Discord des Événements",
