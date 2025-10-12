@@ -15,7 +15,8 @@ Everytime new text is created / edited, i want you to find/create the correspond
 
 # Project pages
 
-Each project file is a bit different. In order to add a  project, a new list item <li> needs to be added to pages/portfolio.html
+Each project file is a bit different. 
+In order to add a  project, you also need to add a new list item <li> to pages/portfolio.html
 
 # Image slider
 When adding an image slider, javascript needs to have its name registered in the list defined in script.js called : "slideIndex_dict"

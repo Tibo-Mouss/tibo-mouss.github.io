@@ -163,8 +163,10 @@ var french_translations = {
     "Personal_1_month": "Personnel (1 Mois)",
     "Personal_3_months": "Personnel (3 Mois)",
     "Personal_2_weeks": "Personnel (2 semaines)",
+    "Personal_2_months": "Personnel (2 Mois)",
     "Personal_5_months": "Personnel (5 Mois)",
     "Personal_1_week": "Personnel (1 semaine)",
+    "Antidiction": "Antidiction - App Android",
 
 
 
@@ -872,6 +874,74 @@ var french_translations = {
     "key_features_6": "&ensp; &ensp; • Export de calendrier pour applications de calendrier externes",
     "testing_process_description": `
         &ensp; L'application a été rigoureusement testée sur un serveur Discord personnel pour garantir la fiabilité et la bonne gestion des permissions avant le déploiement.
+    `,
+
+
+    // Antidiction page
+    "antidiction_title": "Antidiction",
+    "introduction_antidiction": `
+        &ensp; J'ai développé <b style="color: darkorange;">Antidiction</b>, une <b style="color: darkorange;">application Android</b> conçue pour aider les personnes luttant contre l'addiction en suivant leurs progrès quotidiens et leurs victoires. Construite avec <b style="color: darkorange;">Kotlin</b> dans <b style="color: darkorange;">Android Studio</b>, l'application fournit des outils complets pour la gestion et la motivation de la récupération.
+        <br>
+        &ensp; Je l'ai faite en utilisant principalement <b style="color: darkorange;">Claude CLI</b>.
+    `,
+    "antidiction_calendar_view": "Vue Calendrier",
+    "antidiction_day_entry": "Formulaire d'Entrée Journalière",
+    "antidiction_daily_tracking_title": "Suivi Quotidien & Système de Calendrier",
+    "antidiction_daily_tracking_description": `
+        &ensp; L'écran principal présente un calendrier interactif où les utilisateurs peuvent suivre leurs progrès quotidiens. Pour chaque jour, les utilisateurs peuvent enregistrer plusieurs métriques :
+        <br> <br>
+        &ensp; • <b>Niveau d'Envie</b> : Noter les envies d'addiction de 0 (aucune envie) à 5 (envies intenses)
+        <br>
+        &ensp; • <b>Évaluation de la Qualité de la Journée</b> : Évaluer la qualité globale de la journée sur une échelle de 0 (mauvaise journée) à 5 (excellente journée)
+        <br>
+        &ensp; • <b>État Succès/Échec</b> : Marquer s'ils ont réussi ou rencontré des difficultés (affiché en vert pour les jours positifs, violet pour les négatifs)
+        <br>
+        &ensp; • <b>Activité Sportive</b> : Suivre l'engagement dans l'exercice physique
+        <br> <br>
+        &ensp; Le calendrier affiche toutes les informations suivies d'un coup d'œil en utilisant des cellules colorées et des indicateurs emoji, fournissant un retour visuel immédiat sur les progrès et les schémas.
+    `,
+    "antidiction_statistics_title": "Statistiques de Progrès & Analyses",
+    "antidiction_statistics_description": `
+        &ensp; La page de statistiques fournit des aperçus détaillés sur les progrès de récupération à travers des graphiques interactifs et des métriques.
+        <br>
+        <br>
+        &ensp; Les utilisateurs peuvent sélectionner différentes périodes (semaine, mois, année) et comparer leur performance actuelle avec les périodes précédentes. L'application affiche les évaluations moyennes des journées, les niveaux d'envie, et des graphiques de tendance visuels qui aident à identifier les schémas et les progrès au fil du temps.
+    `,
+    "antidiction_statistics_view": "Statistiques & Graphiques",
+    "antidiction_progression_view": "Parcours de Récupération",
+    "antidiction_diary_page": "Entrées de Journal",
+    "antidiction_diary_form": "Entrée de Journal avec Voix-vers-Texte",
+    "antidiction_diary_title": "Journal Personnel avec Voix-vers-Texte",
+    "antidiction_diary_description": `
+        &ensp; La fonctionnalité de journal permet aux utilisateurs de documenter leurs pensées, sentiments et expériences tout au long de leur parcours de récupération.
+        <br> <br>
+        &ensp; Les utilisateurs peuvent écrire des entrées manuellement ou utiliser la fonctionnalité intégrée de voix-vers-texte pour un journal plus facile et rapide. Cette fonctionnalité aide les utilisateurs à réfléchir sur leurs progrès, identifier les déclencheurs, et maintenir un enregistrement personnel de leur processus de récupération.
+    `,
+    "antidiction_rewards_title": "Définition d'Objectifs & Système de Récompenses",
+    "antidiction_rewards_description": `
+        &ensp; L'écran de récompenses présente un parcours de récupération visuel où les utilisateurs peuvent définir des jalons hebdomadaires et associer des récompenses à chaque réalisation. Les utilisateurs définissent des objectifs et récompenses personnalisés (représentés par des emojis), créant un système de progression gamifié qui maintient la motivation tout au long du processus de récupération. Le parcours est affiché comme une feuille de route colorée avec des nœuds représentant le jalon de chaque semaine.
+    `,
+    "antidiction_technical_title": "Implémentation Technique",
+    "antidiction_technical_1": "&ensp; &ensp; • Construit avec <b>Kotlin</b> pour le développement Android natif",
+    "antidiction_technical_2": "&ensp; &ensp; • Développé dans <b>Android Studio</b> en suivant les meilleures pratiques Android modernes",
+    "antidiction_technical_3": "&ensp; &ensp; • Vue calendrier personnalisée avec cellules de jours interactives et indicateurs colorés",
+    "antidiction_technical_4": "&ensp; &ensp; • Intégration de <b>bibliothèque de graphiques</b> pour la visualisation des statistiques (évaluations de jours, tendances d'envies)",
+    "antidiction_technical_5": "&ensp; &ensp; • Intégration de l'<b>API voix-vers-texte</b> pour les entrées de journal vocal",
+    "antidiction_technical_6": "&ensp; &ensp; • Stockage en base de données locale pour la gestion persistante des données",
+    "antidiction_technical_7": "&ensp; &ensp; • Composants UI Material Design pour une expérience utilisateur cohérente",
+    "antidiction_technical_8": "&ensp; &ensp; • Système de visualisation de progression personnalisé avec suivi des jalons",
+    "antidiction_features_title": "Fonctionnalités Clés",
+    "antidiction_features_1": "&ensp; &ensp; • Suivi quotidien complet (envies, humeur, succès/échec, sports)",
+    "antidiction_features_2": "&ensp; &ensp; • Interface calendrier visuelle avec indicateurs de progrès colorés",
+    "antidiction_features_3": "&ensp; &ensp; • Statistiques détaillées avec comparaisons de périodes personnalisables",
+    "antidiction_features_4": "&ensp; &ensp; • Graphiques interactifs montrant les tendances et schémas",
+    "antidiction_features_5": "&ensp; &ensp; • Journal personnel avec support d'entrée texte et vocale",
+    "antidiction_features_6": "&ensp; &ensp; • Système de récompenses gamifié avec objectifs de jalons hebdomadaires",
+    "antidiction_features_7": "&ensp; &ensp; • Suivi de séries pour maintenir la motivation",
+    "antidiction_features_8": "&ensp; &ensp; • Interface claire et intuitive conçue pour une utilisation quotidienne",
+    "antidiction_status_title": "Statut de Sortie",
+    "antidiction_status_description": `
+        &ensp; L'application est actuellement en tests finaux et sera disponible sur le <b>Google Play Store</b> dans les prochains jours.
     `,
 
 };

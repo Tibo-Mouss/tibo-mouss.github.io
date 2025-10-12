@@ -242,6 +242,9 @@ var slideIndex_dict = {
   "slider_minecraft_plugin_2": 1,
   "slider_caster_calendar1": 1,
   "slider_caster_calendar2": 1,
+  "slider_antidiction1": 1,
+  "slider_antidiction2": 1,
+  "slider_antidiction3": 1,
 };
 
 for (let [key, value] of Object.entries(slideIndex_dict)) {
