@@ -373,10 +373,22 @@ var french_translations = {
         créer des liens de déploiement canary.
     `,
     "justwatch_pr_canaries_6": `
-        &ensp; C'était un projet difficile car j'ai dû apprendre beaucoup de 
-        choses qui n'étaient pas documentées, mais après de nombreux tests, 
+        &ensp; C'était un projet difficile car j'ai dû apprendre beaucoup de
+        choses qui n'étaient pas documentées, mais après de nombreux tests,
         tout s'est bien passé.
     `,
+    "CodeCinema_Presentations": "Présentations CodeCinema",
+    "justwatch_codecinema_description_1": `
+        &ensp; Chaque jeudi chez JustWatch, nous organisons des sessions <b>CodeCinema</b>,
+        où les employés font de courtes présentations sur des sujets liés au travail ou à la tech en général.
+    `,
+    "justwatch_codecinema_description_2": `
+        &ensp; J'ai eu l'opportunité de présenter plusieurs sessions CodeCinema sur divers sujets, notamment :
+    `,
+    "justwatch_codecinema_topics_1": "&ensp; &ensp; • IA & Écologie",
+    "justwatch_codecinema_topics_2": "&ensp; &ensp; • Écrans de Chargement",
+    "justwatch_codecinema_topics_3": "&ensp; &ensp; • Grafana",
+    "justwatch_codecinema_topics_4": "&ensp; &ensp; • ...",
 
 
 
