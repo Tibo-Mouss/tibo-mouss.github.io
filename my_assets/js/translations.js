@@ -943,6 +943,205 @@ var french_translations = {
     "antidiction_status_description": `
         &ensp; L'application est actuellement en tests finaux et sera disponible sur le <b>Google Play Store</b> dans les prochains jours.
     `,
+    "antidiction_terms_link": "Conditions Générales d'Utilisation",
+
+    // Antidiction Terms and Conditions page
+    "antidiction_terms_title": "Antidiction - Conditions Générales d'Utilisation",
+    "antidiction_terms_effective_date": "<b>Date d'Effet :</b> 13 Octobre 2025",
+    "antidiction_terms_intro": `
+        &ensp; Bienvenue sur Antidiction. Ces Conditions Générales d'Utilisation ("Conditions") régissent votre utilisation de l'application mobile Antidiction ("Application") pour les appareils Android. En téléchargeant, installant ou utilisant l'Application, vous acceptez d'être lié par ces Conditions. Si vous n'acceptez pas ces Conditions, veuillez ne pas utiliser l'Application.
+    `,
+    "antidiction_terms_acceptance_title": "1. Acceptation des Conditions",
+    "antidiction_terms_acceptance": `
+        &ensp; En accédant et en utilisant Antidiction, vous reconnaissez avoir lu, compris et accepté d'être lié par ces Conditions Générales d'Utilisation, ainsi que par toutes les lois et réglementations applicables. Ces Conditions constituent un accord juridiquement contraignant entre vous ("Utilisateur", "vous" ou "votre") et le développeur de l'Application.
+    `,
+    "antidiction_terms_app_description_title": "2. Description et Objectif de l'Application",
+    "antidiction_terms_app_description": `
+        &ensp; Antidiction est un outil d'auto-assistance conçu pour aider les personnes à suivre leur parcours de récupération d'une addiction. L'Application fournit des fonctionnalités incluant le suivi quotidien des progrès, le suivi du niveau d'envie, l'évaluation de l'humeur, les entrées de journal, la visualisation des statistiques et les mécanismes de définition d'objectifs. L'Application est destinée comme outil supplémentaire et n'est PAS un substitut aux conseils médicaux professionnels, au diagnostic ou au traitement.
+    `,
+    "antidiction_terms_medical_disclaimer_title": "3. Avertissement Médical",
+    "antidiction_terms_medical_disclaimer": `
+        &ensp; <b>IMPORTANT :</b> Antidiction n'est PAS un dispositif médical et ne fournit PAS de conseils médicaux, de diagnostic ou de traitement. L'Application est conçue uniquement comme outil d'auto-surveillance et de motivation. Tout le contenu, les fonctionnalités et la fonctionnalité sont fournis à des fins d'information et de suivi uniquement.
+        <br><br>
+        &ensp; Vous devez TOUJOURS demander l'avis de professionnels de santé qualifiés concernant toute condition médicale, traitement d'addiction, préoccupations de santé mentale ou questions que vous pourriez avoir concernant votre santé. Ne jamais ignorer les conseils médicaux professionnels ou retarder leur recherche en raison d'informations fournies par ou suivies dans cette Application.
+        <br><br>
+        &ensp; Si vous vivez une urgence médicale ou une crise, y compris des pensées d'auto-mutilation, veuillez immédiatement contacter les services d'urgence ou une ligne d'assistance en crise dans votre région.
+    `,
+    "antidiction_terms_eligibility_title": "4. Éligibilité des Utilisateurs",
+    "antidiction_terms_eligibility": `
+        &ensp; Vous devez avoir au moins 13 ans pour utiliser cette Application. Si vous avez moins de 18 ans, vous devez avoir la permission d'un parent ou d'un tuteur légal pour utiliser l'Application. En utilisant l'Application, vous déclarez et garantissez que vous remplissez ces conditions d'éligibilité.
+    `,
+    "antidiction_terms_license_title": "5. Licence d'Utilisation",
+    "antidiction_terms_license": `
+        &ensp; Sous réserve de votre conformité à ces Conditions, nous vous accordons une licence limitée, non exclusive, non transférable et révocable pour télécharger, installer et utiliser l'Application sur un appareil Android compatible que vous possédez ou contrôlez, uniquement pour votre usage personnel et non commercial.
+        <br><br>
+        &ensp; Vous ne pouvez PAS :
+        <br>
+        &ensp; • Copier, modifier ou créer des œuvres dérivées de l'Application
+        <br>
+        &ensp; • Décompiler, désassembler ou faire de l'ingénierie inverse de l'Application
+        <br>
+        &ensp; • Distribuer, sous-licencier, louer, prêter ou céder l'Application à des tiers
+        <br>
+        &ensp; • Utiliser l'Application à des fins illégales ou non autorisées
+        <br>
+        &ensp; • Supprimer ou modifier les avis propriétaires sur l'Application
+    `,
+    "antidiction_terms_data_privacy_title": "6. Collecte de Données et Confidentialité",
+    "antidiction_terms_data_privacy": `
+        &ensp; <b>Collecte de Données Personnelles :</b> Antidiction ne collecte, ne transmet ni ne stocke de données personnelles sur des serveurs externes. Toutes les données saisies dans l'Application, y compris les informations de suivi quotidien, les niveaux d'envie, les évaluations d'humeur, les entrées de journal, les objectifs et les récompenses, sont stockées LOCALEMENT sur votre appareil uniquement.
+        <br><br>
+        &ensp; <b>Données du Google Play Store :</b> Lorsque vous téléchargez Antidiction depuis le Google Play Store, Google peut collecter certaines informations conformément à ses propres politiques de confidentialité, y compris mais sans s'y limiter : informations sur l'appareil, données d'installation, rapports de crash et analyses d'utilisation. Cette collecte de données est régie par la Politique de Confidentialité et les Conditions d'Utilisation de Google, sur lesquelles nous n'avons aucun contrôle.
+        <br><br>
+        &ensp; <b>Responsabilité des Données :</b> Vous êtes seul responsable du maintien de la sécurité de votre appareil et de toute donnée stockée dans l'Application. Nous recommandons :
+        <br>
+        &ensp; • D'utiliser des écrans de verrouillage et des fonctionnalités de sécurité de l'appareil
+        <br>
+        &ensp; • De sauvegarder régulièrement votre appareil
+        <br>
+        &ensp; • De maintenir à jour le système d'exploitation de votre appareil
+        <br><br>
+        &ensp; <b>Perte de Données :</b> Nous ne sommes pas responsables de toute perte de données due à un dysfonctionnement de l'appareil, une perte, un vol, une réinitialisation d'usine, une désinstallation de l'application ou toute autre cause. Il est de votre responsabilité de maintenir des sauvegardes de toute information importante.
+    `,
+    "antidiction_terms_user_content_title": "7. Contenu Généré par l'Utilisateur",
+    "antidiction_terms_user_content": `
+        &ensp; Vous conservez tous les droits sur tout contenu que vous créez dans l'Application, y compris les entrées de journal, les objectifs, les récompenses et les données de suivi. Puisque toutes les données sont stockées localement sur votre appareil et ne sont pas transmises à nos serveurs, nous n'avons pas accès, de contrôle ou de propriété sur votre contenu.
+        <br><br>
+        &ensp; Vous êtes seul responsable du contenu que vous créez et de toutes les conséquences du stockage de ce contenu sur votre appareil.
+    `,
+    "antidiction_terms_prohibited_uses_title": "8. Utilisations Interdites",
+    "antidiction_terms_prohibited_uses": `
+        &ensp; Vous acceptez de NE PAS utiliser l'Application :
+        <br><br>
+        &ensp; • De manière à violer toute loi ou réglementation locale, nationale ou internationale applicable
+        <br>
+        &ensp; • Pour nuire, menacer ou harceler toute personne
+        <br>
+        &ensp; • Pour usurper l'identité ou tenter d'usurper l'identité de toute personne ou entité
+        <br>
+        &ensp; • De manière à porter atteinte aux droits d'autrui
+        <br>
+        &ensp; • Pour transmettre tout code malveillant, virus ou données nuisibles
+        <br>
+        &ensp; • Pour interférer ou perturber l'intégrité ou les performances de l'Application
+        <br>
+        &ensp; • Comme substitut au traitement médical professionnel ou à la thérapie
+    `,
+    "antidiction_terms_intellectual_property_title": "9. Droits de Propriété Intellectuelle",
+    "antidiction_terms_intellectual_property": `
+        &ensp; L'Application et tout son contenu original (à l'exclusion du contenu généré par l'utilisateur), ses fonctionnalités, sa fonctionnalité, sa conception, son code, ses graphiques, ses logos et ses marques sont et resteront la propriété exclusive du développeur de l'Application et de ses concédants de licence. Ces Conditions ne vous accordent aucun droit d'utiliser nos marques, logos ou éléments de marque sans notre permission écrite expresse.
+        <br><br>
+        &ensp; L'Application est protégée par les lois sur le droit d'auteur, les marques et autres lois sur la propriété intellectuelle des juridictions applicables.
+    `,
+    "antidiction_terms_third_party_title": "10. Services et Contenu de Tiers",
+    "antidiction_terms_third_party": `
+        &ensp; L'Application peut s'intégrer ou contenir des liens vers des services tiers, y compris mais sans s'y limiter :
+        <br>
+        &ensp; • Services Google Play Store
+        <br>
+        &ensp; • Services système Android (reconnaissance vocale, notifications, etc.)
+        <br>
+        &ensp; • Bibliothèques et composants tiers
+        <br><br>
+        &ensp; Nous ne contrôlons pas et ne sommes pas responsables des services tiers, de leur contenu, de leurs politiques de confidentialité ou de leurs pratiques. Votre utilisation des services tiers est à vos propres risques et sous réserve de leurs conditions générales respectives.
+    `,
+    "antidiction_terms_disclaimers_title": "11. Avertissements et Garanties",
+    "antidiction_terms_disclaimers": `
+        &ensp; L'APPLICATION EST FOURNIE "EN L'ÉTAT" ET "SELON DISPONIBILITÉ" SANS GARANTIES D'AUCUNE SORTE, EXPRESSES OU IMPLICITES, Y COMPRIS MAIS SANS S'Y LIMITER LES GARANTIES IMPLICITES DE QUALITÉ MARCHANDE, D'ADÉQUATION À UN USAGE PARTICULIER, DE NON-VIOLATION OU DE PERFORMANCE.
+        <br><br>
+        &ensp; Nous ne garantissons PAS que :
+        <br>
+        &ensp; • L'Application fonctionnera sans interruption, en temps opportun, de manière sécurisée ou sans erreur
+        <br>
+        &ensp; • Les résultats obtenus en utilisant l'Application seront précis ou fiables
+        <br>
+        &ensp; • La qualité de l'Application répondra à vos attentes
+        <br>
+        &ensp; • Toute erreur dans l'Application sera corrigée
+        <br>
+        &ensp; • L'Application vous aidera à surmonter l'addiction ou à atteindre un résultat de santé spécifique
+        <br><br>
+        &ensp; Votre utilisation de l'Application est à vos seuls risques. Tout matériel ou donnée téléchargé ou autrement obtenu via l'utilisation de l'Application est accédé à votre discrétion et risque.
+    `,
+    "antidiction_terms_limitation_liability_title": "12. Limitation de Responsabilité",
+    "antidiction_terms_limitation_liability": `
+        &ensp; DANS LA MESURE MAXIMALE PERMISE PAR LA LOI APPLICABLE, EN AUCUN CAS LE DÉVELOPPEUR DE L'APPLICATION, SES AFFILIÉS, CONCÉDANTS DE LICENCE, FOURNISSEURS DE SERVICES, EMPLOYÉS, AGENTS OU DIRIGEANTS NE SERONT RESPONSABLES DE TOUT DOMMAGE INDIRECT, ACCESSOIRE, SPÉCIAL, CONSÉCUTIF OU PUNITIF, Y COMPRIS MAIS SANS S'Y LIMITER :
+        <br><br>
+        &ensp; • Perte de profits, de données, d'utilisation, de fonds de commerce ou d'autres pertes intangibles
+        <br>
+        &ensp; • Blessure corporelle ou dommage matériel
+        <br>
+        &ensp; • Accès non autorisé ou utilisation de votre appareil ou de vos données
+        <br>
+        &ensp; • Tout résultat ou conséquence liée à la santé
+        <br>
+        &ensp; • Confiance dans les informations fournies par l'Application
+        <br>
+        &ensp; • Échec à atteindre des objectifs de récupération ou de traitement
+        <br><br>
+        &ensp; Cette limitation s'applique quelle que soit la théorie juridique sur laquelle la réclamation est fondée (contrat, délit, négligence, responsabilité stricte ou autre), même si nous avons été informés de la possibilité de tels dommages.
+        <br><br>
+        &ensp; Certaines juridictions n'autorisent pas l'exclusion ou la limitation des dommages accessoires ou consécutifs, donc les limitations ci-dessus peuvent ne pas s'appliquer à vous.
+    `,
+    "antidiction_terms_indemnification_title": "13. Indemnisation",
+    "antidiction_terms_indemnification": `
+        &ensp; Vous acceptez de défendre, d'indemniser et de dégager de toute responsabilité le développeur de l'Application et ses affiliés, concédants de licence et fournisseurs de services contre toutes réclamations, responsabilités, dommages, jugements, sentences, pertes, coûts, dépenses ou honoraires (y compris les honoraires d'avocat raisonnables) découlant de ou liés à :
+        <br><br>
+        &ensp; • Votre violation de ces Conditions
+        <br>
+        &ensp; • Votre utilisation ou mauvaise utilisation de l'Application
+        <br>
+        &ensp; • Votre violation de tout droit de tiers
+        <br>
+        &ensp; • Votre violation de toute loi ou réglementation applicable
+        <br>
+        &ensp; • Tout contenu que vous créez ou stockez dans l'Application
+    `,
+    "antidiction_terms_availability_title": "14. Disponibilité et Mises à Jour de l'Application",
+    "antidiction_terms_availability": `
+        &ensp; Nous nous réservons le droit de modifier, suspendre ou interrompre l'Application (ou toute partie de celle-ci) à tout moment, avec ou sans préavis, pour quelque raison que ce soit. Nous pouvons également publier des mises à jour, des correctifs ou de nouvelles versions de l'Application de temps à autre. Bien que nous nous efforcions de fournir des mises à jour qui améliorent la fonctionnalité et la sécurité, nous ne sommes pas obligés de fournir des mises à jour ou de continuer à prendre en charge une version particulière de l'Application.
+        <br><br>
+        &ensp; Vous reconnaissez que les futures mises à jour peuvent nécessiter l'acceptation de Conditions Générales d'Utilisation révisées.
+    `,
+    "antidiction_terms_termination_title": "15. Résiliation",
+    "antidiction_terms_termination": `
+        &ensp; Ces Conditions sont effectives jusqu'à leur résiliation par vous ou par nous. Vos droits en vertu de ces Conditions prendront fin automatiquement sans préavis si vous ne respectez pas l'une de ces Conditions.
+        <br><br>
+        &ensp; Vous pouvez résilier ces Conditions à tout moment en désinstallant l'Application et en cessant toute utilisation. Lors de la résiliation, toutes les licences qui vous sont accordées cesseront immédiatement, mais les dispositions qui par leur nature devraient survivre à la résiliation (y compris les avertissements, les limitations de responsabilité et l'indemnisation) continueront à s'appliquer.
+    `,
+    "antidiction_terms_modifications_title": "16. Modifications des Conditions",
+    "antidiction_terms_modifications": `
+        &ensp; Nous nous réservons le droit de modifier ou de remplacer ces Conditions à tout moment à notre seule discrétion. Si une révision est importante, nous ferons des efforts raisonnables pour fournir un préavis (tel qu'une notification dans l'application ou des notes de mise à jour). Les modifications importantes prendront effet lors de votre utilisation continue de l'Application après que ces modifications ont été publiées.
+        <br><br>
+        &ensp; Il est de votre responsabilité de réviser périodiquement ces Conditions. Votre utilisation continue de l'Application suite à la publication de Conditions révisées signifie que vous acceptez et êtes d'accord avec les modifications.
+    `,
+    "antidiction_terms_governing_law_title": "17. Droit Applicable et Juridiction",
+    "antidiction_terms_governing_law": `
+        &ensp; Ces Conditions seront régies et interprétées conformément aux lois de la juridiction dans laquelle le développeur de l'Application réside, sans égard à ses dispositions en matière de conflit de lois.
+        <br><br>
+        &ensp; Tout litige découlant de ou lié à ces Conditions ou à l'Application sera résolu devant les tribunaux compétents de ce lieu. Vous consentez à la juridiction personnelle de ces tribunaux et renoncez à toute objection concernant un forum incommode.
+    `,
+    "antidiction_terms_severability_title": "18. Divisibilité",
+    "antidiction_terms_severability": `
+        &ensp; Si une disposition de ces Conditions est jugée inexécutable ou invalide en vertu de toute loi applicable, cette inexécutabilité ou invalidité ne rendra pas ces Conditions inexécutables ou invalides dans leur ensemble. Ces dispositions seront supprimées sans affecter les dispositions restantes.
+    `,
+    "antidiction_terms_waiver_title": "19. Renonciation",
+    "antidiction_terms_waiver": `
+        &ensp; Aucune renonciation de notre part à toute condition ou clause énoncée dans ces Conditions ne sera considérée comme une renonciation supplémentaire ou continue à cette condition ou clause ou une renonciation à toute autre condition ou clause. Tout échec à faire valoir un droit ou une disposition en vertu de ces Conditions ne constituera pas une renonciation à ce droit ou à cette disposition.
+    `,
+    "antidiction_terms_entire_agreement_title": "20. Accord Intégral",
+    "antidiction_terms_entire_agreement": `
+        &ensp; Ces Conditions constituent l'accord intégral entre vous et le développeur de l'Application concernant votre utilisation de l'Application et remplacent tous les accords écrits ou oraux antérieurs et contemporains entre vous et nous.
+    `,
+    "antidiction_terms_contact_title": "21. Informations de Contact",
+    "antidiction_terms_contact": `
+        &ensp; Si vous avez des questions concernant ces Conditions Générales d'Utilisation, veuillez nous contacter via les informations de contact fournies sur la page de liste de l'Application sur le Google Play Store.
+    `,
+    "antidiction_terms_acknowledgment_title": "22. Reconnaissance",
+    "antidiction_terms_acknowledgment": `
+        &ensp; EN UTILISANT ANTIDICTION, VOUS RECONNAISSEZ AVOIR LU CES CONDITIONS GÉNÉRALES D'UTILISATION, LES COMPRENDRE ET ACCEPTER D'ÊTRE LIÉ PAR ELLES. VOUS RECONNAISSEZ EN OUTRE QUE L'APPLICATION N'EST PAS UN DISPOSITIF MÉDICAL OU UN SUBSTITUT AU TRAITEMENT PROFESSIONNEL.
+    `,
+    "antidiction_terms_last_updated": "<b>Dernière Mise à Jour :</b> 13 Octobre 2025",
 
 };
 
