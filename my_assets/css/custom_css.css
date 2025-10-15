@@ -1,0 +1,1223 @@
+
+
+/**   --------------------- SHITTY CSS HERE LOL  ----------------------------*/
+
+/*
+News Section in About page
+*/
+.news-section {
+  margin-top: 2rem;
+}
+
+.news-slider {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.news-slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.news-slide.active {
+  opacity: 1;
+}
+
+.news-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  animation: pan 10s linear infinite;
+  border-radius: 10px;
+}
+
+.news-caption {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+@keyframes pan {
+  0% {
+    object-position: top;
+  }
+  50% {
+    object-position: bottom;
+  }
+  100% {
+    object-position: top;
+  }
+}
+
+
+
+/* Language Icons */
+.language_icon {
+  width: 40px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  /* border: black solid 2px; */
+  box-shadow: 0 0 0.5em darkslategrey;
+  transition: all .2s ease-in-out; 
+}
+
+.td_language_icon {
+  text-align: center;
+  margin: auto;
+}
+
+.language_icon:hover {
+  transform: scale(1.08);
+}
+
+/**
+  * Resume custom css
+  */
+
+.code_language_img {
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+  -webkit-filter: drop-shadow(1px 1px 1.5px darkorange);
+  filter: drop-shadow(1px 1px 1.5px darkorange);
+
+  border-radius: 10px;
+}
+
+.code_language_table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+
+/**
+	 * All articles
+	 */
+
+
+.custom-article-item>a:hover .project-item-icon-box {
+  --scale: 1;
+  opacity: 1;
+}
+
+
+.custom-article-item>a:hover img {
+  transform: scale(1.1);
+}
+
+.custom-article-item>a:hover .project-img::before {
+  background: hsla(0, 0%, 0%, 0.5);
+}
+
+
+/**
+	 * Page Associations
+	 */
+
+
+.associations > section > table {
+  border: 2px solid var(--border_color);
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+  box-shadow: 0 0 0.5em var(--border_color);
+}
+
+.associations p {
+  color: var(--white-2);
+  font-size: var(--fs-7);
+}
+
+.associations h2 {
+  color: var(--light-gray-70);
+  font-size: var(--fs-1);
+  margin-bottom: 2px;
+}
+
+.association-logo {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.associations .scrollable-div {
+  height: 300px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+
+  
+.tournaments_logo_img { /* Display tournaments logos */
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto;
+
+  -webkit-filter: drop-shadow(1px 1px 1.5px darkorange);
+  filter: drop-shadow(1px 1px 1.5px darkorange);
+
+  border-radius: 10px;
+}
+
+.tournaments_logo_table {
+  width: 100%;
+  table-layout: auto;
+}
+
+.tournaments_logo_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.tournaments_logo_container img {
+  flex: 0 0 auto;
+}
+
+/**
+  * Article Justwatch
+*/
+
+
+.justwatch h2 {
+  color: var(--light-gray-70);
+  font-size: var(--fs-2);
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+.justwatch h3 {
+  color: var(--light-gray-70);
+  font-size: var(--fs-4);
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+.justwatch p,
+.justwatch li {
+  color: var(--white-2);
+  font-size: var(--fs-7);
+}
+
+.justwatch b {
+  color: darkorange;
+}
+
+
+/**
+  * Article Minecraft Plugin
+*/
+
+
+.minecraft_plugin h2 {
+  color: var(--light-gray-70);
+  font-size: var(--fs-2);
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+.minecraft_plugin h3 {
+  color: var(--light-gray-70);
+  font-size: var(--fs-5);
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+.minecraft_plugin p,
+.minecraft_plugin li,
+.minecraft_plugin i {
+  color: var(--white-2);
+  font-size: var(--fs-7);
+}
+
+.minecraft_plugin b {
+  color: darkorange;
+}
+
+.minecraft_plugin a {
+  color: orangered;
+}
+
+
+/**
+  * Article Youtube Downloader
+*/
+
+.youtube_downloader h2 {
+  color: var(--light-gray-70);
+  font-size: var(--fs-2);
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+.youtube_downloader p,
+.youtube_downloader li {
+  color: var(--white-2);
+  font-size: var(--fs-7);
+}
+
+
+
+/**
+  * Article Bot discord
+*/
+
+
+.discord_gl_bot h2 {
+  color: var(--light-gray-70);
+  font-size: var(--fs-2);
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+.discord_gl_bot p,
+.discord_gl_bot li {
+  color: var(--white-2);
+  font-size: var(--fs-7);
+}
+
+.discord_gl_bot td {
+  padding-bottom: 50px;
+}
+
+.discord_gl_bot img {
+  object-fit: cover;
+  width: 100%;
+  height: 250px;
+}
+
+
+/**
+  * Article Valorant Overlay
+*/
+
+
+#image_slider {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 470px;
+  border: 4px solid black;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+#image_slider img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  transition: all 0.6s ease; /* Add transition for clip-path */
+}
+
+#image_slider::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: var(--slider-position, 50%); /* Use CSS variable */
+  width: 2px; /* Adjust the width of the line as needed */
+  height: 100%;
+  background-color: black; /* Adjust the color of the line as needed */
+  z-index: 2; /* Make sure the line is above the images */
+  transition: all 0.6s ease; /* Add transition for left position */
+}
+
+#image_slider p {
+  text-align: center;
+  z-index: 3;
+  position: absolute;
+  color: aqua;
+  font-size: xx-large;
+  top: 110px;
+  font-weight: 900;
+
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+
+  transition: all 0.6s ease;
+}
+
+#image_slider #left_slider_image_text {
+  margin-right: 80%;
+  margin-left: 20%;
+}
+
+#image_slider #right_slider_image_text {
+  margin-right: 35%;
+  margin-left: 65%;
+}
+
+
+#slider_left_image_real_image, #slider_left_image_transparent {
+  left: 0;
+  clip-path: inset(0 50% 0 0);
+}
+
+#slider_right_image_real_image, #slider_right_image_transparent {
+  right: 0;
+  clip-path: inset(0 0 0 50%);
+}
+
+#slider_left_image_transparent {
+  z-index: 5;
+}
+
+#slider_right_image_transparent {
+  z-index: 5;
+}
+
+.valorant_overlay h2 {
+  color: var(--light-gray-70);
+  font-size: var(--fs-2);
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+.valorant_overlay p,
+.valorant_overlay ul {
+  color: var(--white-2);
+  font-size: var(--fs-7);
+}
+
+
+/**
+	 * Article Sopra Steria
+	 */
+
+.sopra_projects h2 {
+  color: var(--light-gray-70);
+  font-size: var(--fs-2);
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+.sopra_projects p,
+.sopra_projects li {
+  color: var(--white-2);
+  font-size: var(--fs-7);
+}
+
+.sopra_projects td {
+  padding-bottom: 50px;
+}
+
+.sopra_projects img {
+  object-fit: cover;
+  width: 100%;
+  height: 250px;
+}
+
+/** 
+  Article Multiplayer Game
+*/
+
+.multiplayer_game p {
+  color: var(--white-2);
+  font-size: var(--fs-7);
+}
+
+.multiplayer_game h2 {
+  color: var(--light-gray-70);
+  font-size: var(--fs-2);
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+.multiplayer_game .subtitle_image {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: var(--light-gray);
+}
+
+.multiplayer_game .sum_up_learnings {
+  color: var(--white-2);
+  line-height: 60px;
+  font-size: 1.08em;
+}
+
+.multiplayer_game .right_side {
+  text-align: right;
+}
+
+.multiplayer_game .underline {
+  font-weight: 500;
+  text-decoration-color: red;
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+}
+
+hr {
+  width: 60%;
+  border: 3px solid rgb(45, 45, 45);
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/** 
+  Article PDMO
+*/
+
+.pdmo p {
+  color: var(--white-2);
+  font-size: var(--fs-7);
+}
+
+.pdmo_banner {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+
+  transition: all .2s ease-in-out;
+}
+
+.pdmo_banner:hover {
+  transform: scale(1.05);
+}
+
+.pdmo_section h2 {
+  color: var(--light-gray-70);
+  font-size: var(--fs-2);
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+
+
+/** 
+  Article Game Dev TV
+*/
+
+.gamedev_tv p {
+  color: var(--white-2);
+  font-size: var(--fs-7);
+}
+
+
+/** 
+  Article Linguaskill
+*/
+
+.linguaskill p {
+  color: var(--white-2);
+  font-size: var(--fs-7);
+}
+
+
+
+/* SLIDER */
+
+.mySlides {
+  display: none;
+}
+
+.w3-tooltip,
+.w3-display-container {
+  position: relative
+}
+
+.w3-tooltip .w3-text {
+  display: none
+}
+
+.w3-tooltip:hover .w3-text {
+  display: inline-block
+}
+
+.w3-display-container:hover .w3-display-hover {
+  display: block
+}
+
+.w3-display-container:hover span.w3-display-hover {
+  display: inline-block
+}
+
+.w3-display-hover {
+  display: none
+}
+
+.w3-btn,
+.w3-button {
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap
+}
+
+.w3-btn,
+.w3-button {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none
+}
+
+.w3-disabled,
+.w3-btn:disabled,
+.w3-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.3
+}
+
+.w3-disabled *,
+:disabled * {
+  pointer-events: none
+}
+
+.w3-dropdown-hover:hover>.w3-button:first-child,
+.w3-dropdown-click:hover>.w3-button:first-child {
+  background-color: #ccc;
+  color: #000
+}
+
+.w3-bar-block .w3-dropdown-hover .w3-button,
+.w3-bar-block .w3-dropdown-click .w3-button {
+  width: 100%;
+  text-align: left;
+  padding: 8px 16px
+}
+
+.w3-bar .w3-button {
+  white-space: normal
+}
+
+.w3-dropdown-hover.w3-mobile,
+.w3-dropdown-hover.w3-mobile .w3-btn,
+.w3-dropdown-hover.w3-mobile .w3-button,
+.w3-dropdown-click.w3-mobile,
+.w3-dropdown-click.w3-mobile .w3-btn,
+.w3-dropdown-click.w3-mobile .w3-button {
+  width: 100%
+}
+
+.w3-button:hover {
+  color: #000 !important;
+  background-color: #ccc !important
+}
+
+
+.w3-display-left {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(0%, -50%);
+  -ms-transform: translate(-0%, -50%)
+}
+
+.w3-display-right {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%)
+}
+
+.w3-black,
+.w3-hover-black:hover {
+  color: #fff !important;
+  background-color: #000 !important
+}
+
+.w3-display-middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.w3-tiny {
+  font-size: 10px !important
+}
+
+.w3-small {
+  font-size: 12px !important
+}
+
+.w3-medium {
+  font-size: 15px !important
+}
+
+.w3-large {
+  font-size: 18px !important
+}
+
+.w3-container:after,
+.w3-container:before,
+.w3-panel:after,
+.w3-panel:before,
+.w3-row:after,
+.w3-row:before,
+.w3-row-padding:after,
+.w3-row-padding:before,
+.w3-cell-row:before,
+.w3-cell-row:after,
+.w3-clear:after,
+.w3-clear:before,
+.w3-bar:before,
+.w3-bar:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+.w3-container,
+.w3-panel {
+  padding: 0.01em 16px
+}
+
+.w3-panel {
+  margin-top: 16px;
+  margin-bottom: 16px
+}
+
+.w3-padding-16 {
+  padding-top: 16px !important;
+  padding-bottom: 16px !important
+}
+
+.w3-padding-24 {
+  padding-top: 24px !important;
+  padding-bottom: 24px !important
+}
+
+
+.w3-animate-fading {
+  animation: fading 10s infinite
+}
+
+@keyframes fading {
+  0% {
+    opacity: 0
+  }
+
+  50% {
+    opacity: 1
+  }
+
+  100% {
+    opacity: 0
+  }
+}
+
+
+
+/* Buttons variables */
+
+
+/* CSS */
+.button_style_1 {
+  align-items: center;
+  appearance: none;
+  background-clip: padding-box;
+  background-color: initial;
+  background-image: none;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-size: 12px;
+  font-weight: 800;
+  justify-content: center;
+  line-height: 24px;
+  margin: 0;
+  min-height: 64px;
+  outline: none;
+  overflow: visible;
+  padding: 19px 20px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: auto;
+  word-break: keep-all;
+  z-index: 0;
+}
+
+@media (min-width: 768px) {
+  .button_style_1 {
+    padding: 5px 16px;
+  }
+}
+
+.button_style_1:before,
+.button_style_1:after {
+  border-radius: 20px;
+}
+
+.button_style_1:before {
+  background-color: rgba(249, 58, 19, .32);
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -2;
+}
+
+.button_style_1:after {
+  background-color: initial;
+  background-image: linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
+  bottom: 4px;
+  content: "";
+  display: block;
+  left: 4px;
+  overflow: hidden;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  transition: all 100ms ease-out;
+  z-index: -1;
+}
+
+.button_style_1:hover:not(:disabled):after {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  transition-timing-function: ease-in;
+}
+
+.button_style_1:active:not(:disabled) {
+  color: #ccc;
+}
+
+.button_style_1:active:not(:disabled):after {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
+  bottom: 4px;
+  left: 4px;
+  right: 4px;
+  top: 4px;
+}
+
+.button_style_1:disabled {
+  cursor: default;
+  opacity: .24;
+}
+
+
+#mobile_only_text {
+  text-align: center;
+  margin-top: 50%;
+  color: aqua;
+}
+
+
+/*-----------------------------------*\
+  #MOBILE RESPONSIVE STYLES
+\*-----------------------------------*/
+
+/* Mobile devices (up to 580px) */
+@media (max-width: 580px) {
+
+  /* Image slider adjustments */
+  #image_slider {
+    width: 95%;
+    height: 280px;
+    margin-bottom: 20px;
+  }
+
+  #image_slider p {
+    font-size: large;
+    top: 80px;
+    -webkit-text-stroke-width: 0.5px;
+  }
+
+  #image_slider #left_slider_image_text {
+    margin-right: 70%;
+    margin-left: 10%;
+  }
+
+  #image_slider #right_slider_image_text {
+    margin-right: 20%;
+    margin-left: 80%;
+  }
+
+  /* News slider adjustments */
+  .news-slider {
+    height: 200px;
+  }
+
+  .news-caption {
+    bottom: 5%;
+    left: 3%;
+    padding: 0.5rem;
+    font-size: 0.85rem;
+  }
+
+  /* Language icons */
+  .language_icon {
+    width: 32px;
+  }
+
+  .code_language_img {
+    height: 40px;
+  }
+
+  /* Tournaments logos */
+  .tournaments_logo_img {
+    height: 50px;
+  }
+
+  .tournaments_logo_container {
+    gap: 10px;
+    padding: 5px 0;
+  }
+
+  /* Association logo */
+  .association-logo {
+    width: 60%;
+  }
+
+  .associations .scrollable-div {
+    height: 200px;
+  }
+
+  /* Discord bot images */
+  .discord_gl_bot img {
+    height: 180px;
+  }
+
+  .discord_gl_bot td {
+    padding-bottom: 25px;
+  }
+
+  /* Sopra projects images */
+  .sopra_projects img {
+    height: 180px;
+  }
+
+  .sopra_projects td {
+    padding-bottom: 25px;
+  }
+
+  /* PDMO banner */
+  .pdmo_banner {
+    width: 90%;
+  }
+
+  /* Horizontal rule */
+  hr {
+    width: 80%;
+  }
+
+  /* Button style adjustments */
+  .button_style_1 {
+    min-height: 48px;
+    padding: 12px 16px;
+    font-size: 11px;
+  }
+
+  /* Mobile only text */
+  #mobile_only_text {
+    margin-top: 30%;
+    font-size: 0.9rem;
+  }
+
+  /* Article headings */
+  .justwatch h2,
+  .minecraft_plugin h2,
+  .youtube_downloader h2,
+  .discord_gl_bot h2,
+  .valorant_overlay h2,
+  .sopra_projects h2,
+  .multiplayer_game h2,
+  .pdmo_section h2,
+  .gamedev_tv h2,
+  .linguaskill h2 {
+    font-size: var(--fs-3);
+  }
+
+  .justwatch h3,
+  .minecraft_plugin h3 {
+    font-size: var(--fs-5);
+  }
+
+  /* Text content */
+  .justwatch p,
+  .justwatch li,
+  .minecraft_plugin p,
+  .minecraft_plugin li,
+  .youtube_downloader p,
+  .youtube_downloader li,
+  .discord_gl_bot p,
+  .discord_gl_bot li,
+  .valorant_overlay p,
+  .valorant_overlay ul,
+  .sopra_projects p,
+  .sopra_projects li,
+  .multiplayer_game p,
+  .pdmo p,
+  .gamedev_tv p,
+  .linguaskill p {
+    font-size: var(--fs-7);
+  }
+
+  /* Multiplayer game specific */
+  .multiplayer_game .sum_up_learnings {
+    line-height: 40px;
+    font-size: 1em;
+  }
+
+  /* Slider controls */
+  .w3-button {
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+
+  .w3-display-left,
+  .w3-display-right {
+    font-size: 14px;
+  }
+}
+
+/* Small mobile devices (up to 450px) */
+@media (max-width: 450px) {
+
+  /* Image slider - smaller screens */
+  #image_slider {
+    width: 100%;
+    height: 220px;
+    border-width: 2px;
+  }
+
+  #image_slider p {
+    font-size: medium;
+    top: 60px;
+  }
+
+  /* News slider */
+  .news-slider {
+    height: 150px;
+  }
+
+  .news-caption {
+    padding: 0.4rem;
+    font-size: 0.75rem;
+  }
+
+  /* Language and code icons */
+  .language_icon {
+    width: 28px;
+  }
+
+  .code_language_img {
+    height: 35px;
+  }
+
+  /* Tournaments logos */
+  .tournaments_logo_img {
+    height: 40px;
+  }
+
+  .tournaments_logo_container {
+    gap: 8px;
+    padding: 5px 0;
+  }
+
+  /* Association logo */
+  .association-logo {
+    width: 70%;
+  }
+
+  /* Images in projects */
+  .discord_gl_bot img,
+  .sopra_projects img {
+    height: 150px;
+  }
+
+  /* PDMO banner */
+  .pdmo_banner {
+    width: 95%;
+  }
+
+  /* Button adjustments */
+  .button_style_1 {
+    min-height: 40px;
+    padding: 10px 12px;
+    font-size: 10px;
+  }
+
+  /* Mobile only text */
+  #mobile_only_text {
+    margin-top: 20%;
+    font-size: 0.8rem;
+  }
+}
+
+/* Landscape mobile adjustments */
+@media (max-width: 768px) and (orientation: landscape) {
+
+  #image_slider {
+    height: 200px;
+  }
+
+  .news-slider {
+    height: 180px;
+  }
+
+  .discord_gl_bot img,
+  .sopra_projects img {
+    height: 160px;
+  }
+}
+
+/* Additional mobile fixes for tables and overflow */
+@media (max-width: 768px) {
+
+  /* Make tables responsive with horizontal scroll if needed */
+  .code_language_table,
+  .tournaments_logo_table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .associations > section > table {
+    width: 100%;
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Ensure images don't overflow */
+  .code_language_img,
+  .tournaments_logo_img,
+  .language_icon {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Fix news section for mobile */
+  .news-section {
+    margin-top: 1rem;
+  }
+
+  /* Prevent text overflow */
+  .associations h2,
+  .associations p {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  /* Adjust padding for mobile */
+  .associations > section > table {
+    padding: 5px;
+    margin-top: 15px;
+  }
+
+  /* Better spacing for multiplayer game content */
+  .multiplayer_game .subtitle_image {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  /* SGN Association specific fixes for mobile */
+  .sgn_section iframe {
+    width: 100% !important;
+    height: 200px !important;
+    max-width: 100%;
+  }
+
+  .sgn_section .scrollable-div {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .sgn_section .twitter-tweet {
+    max-width: 100% !important;
+  }
+
+  /* Make tournament logos wrap properly */
+  .tournaments_logo_table {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .tournaments_logo_table tr {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .tournaments_logo_table td {
+    display: inline-block;
+    padding: 5px;
+  }
+
+  /* Fix nested tables in associations */
+  .sgn_section table table {
+    display: block;
+    width: 100%;
+  }
+
+  .sgn_section table table tr {
+    display: block;
+    width: 100%;
+  }
+
+  .sgn_section table table td {
+    display: block;
+    width: 100% !important;
+    margin: 10px 0;
+  }
+
+  /* Ensure images in SGN section don't overflow */
+  .sgn_section img {
+    max-width: 100%;
+    height: auto !important;
+  }
+
+  /* Fix the casting/observing section layout */
+  .sgn_section .custom-article-item {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+}
