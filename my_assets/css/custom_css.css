@@ -954,6 +954,113 @@ hr {
     font-size: 0.9rem;
   }
 
+  /* Fix profile/avatar image size on mobile */
+  .sidebar .avatar-box {
+    max-width: 120px;
+    margin: 0 auto;
+  }
+
+  .sidebar .my_avatar_img,
+  .sidebar .my_avatar_gif {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Avatar tap/touch animation for mobile - show PNG by default */
+  .my_avatar_img {
+    width: 120px !important;
+  }
+
+  .my_avatar_gif {
+    width: 0px !important;
+  }
+
+  /* On tap/touch, show the GIF */
+  .avatar-box:active > .my_avatar_img {
+    width: 0px !important;
+  }
+
+  .avatar-box:active > .my_avatar_gif {
+    width: 120px !important;
+  }
+
+  /* Also support hover for touch devices that support it */
+  .avatar-box:hover > .my_avatar_img {
+    width: 0px !important;
+  }
+
+  .avatar-box:hover > .my_avatar_gif {
+    width: 120px !important;
+  }
+
+  /* Make tournament logos smaller to fit 3 per row on mobile */
+  .tournaments_logo_container {
+    gap: 8px;
+    padding: 5px 0;
+  }
+
+  .tournaments_logo_img {
+    height: 45px !important;
+    max-width: 90px !important;
+    width: auto;
+    object-fit: contain;
+  }
+
+  /* TVn7 section mobile fixes */
+  .TVn7 iframe {
+    width: 100% !important;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+
+  .TVn7 table table {
+    display: block;
+    width: 100%;
+  }
+
+  .TVn7 table table tr {
+    display: block;
+    width: 100%;
+  }
+
+  .TVn7 table table td {
+    display: block;
+    width: 100% !important;
+    margin: 10px 0;
+  }
+
+  .TVn7 .custom-article-item {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+
+  .TVn7 img {
+    max-width: 100%;
+    height: auto !important;
+  }
+
+  /* Ensure navbar stays fixed on all pages including resume */
+  .navbar {
+    position: fixed !important;
+    bottom: 0 !important;
+    transform: translateZ(0) !important;
+    -webkit-transform: translateZ(0) !important;
+    will-change: transform !important;
+    backface-visibility: hidden !important;
+    -webkit-backface-visibility: hidden !important;
+  }
+
+  /* Expand sidebar dropdown to show more content including social links */
+  .sidebar.active {
+    max-height: none !important;
+  }
+
+  .sidebar-info_more {
+    max-height: none !important;
+    padding-bottom: 20px;
+  }
+
   /* Article headings */
   .justwatch h2,
   .minecraft_plugin h2,
@@ -1047,17 +1154,25 @@ hr {
 
   /* Tournaments logos */
   .tournaments_logo_img {
-    height: 40px;
+    height: 35px !important;
+    max-width: 75px !important;
+    width: auto;
+    object-fit: contain;
   }
 
   .tournaments_logo_container {
-    gap: 8px;
+    gap: 6px;
     padding: 5px 0;
   }
 
   /* Association logo */
   .association-logo {
     width: 70%;
+  }
+
+  /* Avatar even smaller on tiny screens */
+  .sidebar .avatar-box {
+    max-width: 100px;
   }
 
   /* Images in projects */
