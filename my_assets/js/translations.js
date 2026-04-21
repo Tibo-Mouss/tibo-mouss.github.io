@@ -43,6 +43,8 @@ var french_translations = {
     "News_Description_3": "Un nouvel événement réussi auquel j'ai participé 🥳",
     "News_Minecraft_DBD": "Dead By Daylight dans Minecraft !",
     "News_Minecraft_DBD_description": "J'ai recréé DbD dans Minecraft en plugin (3 Mois)",
+    "News_fosdem_title": "FOSDEM 2026 - Conférence",
+    "News_fosdem_description": "J'ai participé à un salon international sur l'Open Source",
 
     //CV PAGE
     "Experience": "Expérience",
