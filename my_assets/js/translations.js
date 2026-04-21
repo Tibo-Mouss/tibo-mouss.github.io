@@ -167,6 +167,7 @@ var french_translations = {
     "Personal_5_months": "Personnel (5 Mois)",
     "Personal_1_week": "Personnel (1 semaine)",
     "Antidiction": "Antidiction - App Android",
+    "International_Open_Source_Conference": "Conférence internationale de L'open Source",
 
 
 
@@ -875,6 +876,24 @@ var french_translations = {
     "testing_process_description": `
         &ensp; L'application a été rigoureusement testée sur un serveur Discord personnel pour garantir la fiabilité et la bonne gestion des permissions avant le déploiement.
     `,
+
+
+    //Fosdem page
+    "introduction_fosdem": `
+        &ensp; Le FOSDEM est un événement à but non lucratif où les participants se réunissent pour échanger et présenter des outils et des idées liés aux technologies <b style="color: darkorange;">Open Source</b>.
+        <br>
+        &ensp; J'étais présent à l'édition 2026 à Bruxelles, où j'ai pu échanger avec des professionnels du secteur et assister à des conférences très intéressantes.
+    `,
+    "fosdem_best_talks_title": `
+        Les meilleures conférences auxquelles j'ai assisté
+    `,
+    "fosdem_3rd_title": "🥉Un workflow Git efficace pour les projets à enjeux élevés",
+    "fosdem_3rd_description": `&ensp; Une approche très intéressante et astucieuse de l'utilisation de Git. Vladislav Shpilevoy nous montre les petits détails que l'on peut intégrer à nos routines de travail quotidiennes pour améliorer considérablement l'efficacité du travail en équipe.`,
+    "fosdem_2nd_title": "🥈How to Make Package Managers Scream",
+    "fosdem_2nd_description": "&ensp; Kenneth Hoste nous montre ici, avec beaucoup d'humour et de sarcasme, toutes les erreurs que l'on peut commettre (ou éviter de commettre !) lorsqu'on lance un projet open source.",
+    "fosdem_1st_title": "🥇Comment instrumenter Go sans modifier une seule ligne de code",
+    "fosdem_1st_description": "&ensp; Kemal Akkoyun et Hannah Kim présentent des solutions permettant d'ajouter des indicateurs de performance à un projet sans modifier le code source, par exemple en injectant le code lors de la compilation.",
+
 
 
     // Antidiction page
