@@ -24,7 +24,7 @@ var french_translations = {
         <br>
         Cela me permet d'acquérir de l'expérience dans de nombreux domaines différents.`,
     "Software_development": "Développement Logiciel",
-    "Software_development_description": `C#, C++, python ... Je maîtrise plus de 20 language de programmation.
+    "Software_development_description": `Golang, C#, java, python ... Je maîtrise plus de 20 language de programmation.
         <br> <br>
         Je peux facilement m'adapter à de nouveaux environnements de projet.`,
     "game_development": "Développement de jeux",
@@ -119,10 +119,10 @@ var french_translations = {
     "Programming": "Programmation",
     "Programming_description": `
         &ensp; J'ai utilisé une vingtaine de langages de programmation
-        (Python, C#, C++, Java, HTML, TypeScript, ...)
+        (Golang, Python, C#, C++, Java, HTML, TypeScript, ...)
         au cours de mes études et projets personnels.
         <br>
-        Ma préférence revient au C#`,
+        C'est en <b>Golang<b> que je suis le plus à l'aise. Un bon équilibre entre simplicité, lisibilité et rapidité 😊`,
     "Game_Engines": "Moteurs de Jeux",
     "Game_Engines_description": `&ensp; Apprentissage en autodidacte et
         préférence pour Unity. <br>
