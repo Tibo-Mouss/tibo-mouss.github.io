@@ -48,10 +48,10 @@ var french_translations = {
 
     //CV PAGE
     "Experience": "Expérience",
-    "Software_developer_Sopra_Steria": "Développeur logiciel chez Sopra Steria",
+    "Software_developer_Sopra_Steria": "Ingénieur logiciel Backend chez Sopra Steria",
     "Permanent_Contract": "CDI",
     "Internship": "Stage",
-    "Software_developer_justwatch": "Développeur logiciel chez Justwatch",
+    "Software_developer_justwatch": "Ingénieur Backend & Devops chez Justwatch (1 million d'utilisateurs /mois)",
     "dates_justwatch_work": "Auj. - Sept. 2024",
     "justwatch_work_description_backend": "Développeur Backend",
     "justwatch_work_description_db": "Gestion/Migrations de bases de données",
