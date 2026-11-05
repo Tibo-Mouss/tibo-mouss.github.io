@@ -35,8 +35,8 @@ var french_translations = {
         des choses qui me plaisent et que j'espère plairont à d'autres.`,
 
     "Latest_News": "Dernières News",
-    "News_Title_1": "Le tournoi Valorose c'est fini !",
-    "News_Description_1": "On a aidé à rassembler 5200€ pour la recherche contre le cancer !",
+    "News_Title_1": "Le Rose Experience c'est fini !",
+    "News_Description_1": "On a aidé à rassembler 58 100€ pour la recherche contre le cancer !",
     "News_Title_2": "Nouvelle aventure chez Justwatch 😊",
     "News_Description_2": "J'ai rejoint leur équipe backend en Septembre 2024.",
     "News_Title_3": "Gamer's Assembly 2024",
