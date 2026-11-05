@@ -233,10 +233,19 @@ var french_translations = {
     "Oserv_asso_description": `<b style="color: red;">Oserv</b>
         est une <b style="color: red;">structure Esport associative </b>
         basée à Toulouse, créée en 2015.
-        <br> <br>
-        Je fais parti de leur <b style="color: red;">WebTV</b>,
-        en étant commentateur / Obs des compétitions auxquelles
-        leurs joueurs participent.
+    `,
+    "Octobre_Rose_description": `
+        &ensp; Octobre Rose c'est le mois des évènements pour <b style="color: darkorange;">récolter des fonds</b>
+        pour la lutte contre le cancer du sein. Chaque année, Oserv y organise des évènements.
+        `,
+    "Octobre_Rose_funds": `
+        &ensp; Fonds collectés chaque année :
+    `,
+    "Octobre_Rose_participation": `
+        &ensp; En tant que membre, j'aide en faisant un peu de tout à chaque évènement.
+    `,
+    "Oserv_asso_casting_desc": `Je fais aussi parti de leur <b style="color: red;">WebTV</b>,
+        en étant commentateur / Obs de leurs compétitions/évènements.
     `,
     "TVn7_asso_description": `
         <b style="color: darkorange;">TVn7</b> est l'association

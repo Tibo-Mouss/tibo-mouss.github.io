@@ -139,7 +139,7 @@ News Section in About page
   box-shadow: 0 0 0.5em var(--border_color);
 }
 
-.associations p {
+.associations p, li {
   color: var(--white-2);
   font-size: var(--fs-7);
 }
